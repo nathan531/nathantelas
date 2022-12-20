@@ -1,0 +1,66 @@
+/* ================================================================================================== */
+/* tooltip */
+/* ================================================================================================== */
+
+#oneClickNewAddressPanel div.buttons .RaTooltip{right:auto; left:55px;}
+#oneClickNewAddressPanel ul.buttons .RaTooltip .arrowBottom{left:104px;}
+#buttonsNewAddress .RaTooltip .arrowBottom{left:108px;}
+
+/* master buttons */
+
+.buttons{
+	position:relative;
+	overflow: visible!important;
+}
+
+
+.buttons:after {
+	font-size:0;
+	line-height:0;
+	content:".";
+	display:block;
+	clear:both;
+}
+
+
+/* button */
+.tooltip{
+	cursor:not-allowed;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity:0.3;
+}
+
+
+/* element */
+.RaTooltip{
+	width:150px;
+	text-align:center;
+	border:1px solid #00ADEF;
+	padding:8px 10px;
+	position:absolute;
+	top:-65px; right:0;
+	background:#fff;
+	display:none;
+	border-radius: 1em
+}
+	.RaTooltip > p{margin:0; padding:0;}
+	.RaTooltip .RaMessage .destTooltip {color:#ff0000;}
+
+/* control */
+
+.RaTooltip .ctrl{
+	width:24px;
+	height:7px;
+	background:url(../img/alert-box-arrow.png) no-repeat 0 0 transparent;
+	position:absolute;
+	display:none;
+	
+}		
+	.RaTooltip .ctrl.arrowBottom{
+		bottom:-7px; left:72px;
+		background-position:-40px 0;
+		display:block;
+	}

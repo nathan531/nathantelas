@@ -1,0 +1,2257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0057)https://carrinho.submarino.com.br/CustomerWeb/pages/Login -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" hola_ext_inject="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+				<!-- VERSION - 4.77.0.807 -->
+		<!-- Managed Server: SUBACktCls1_07_21104 -->
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/event"></script><script type="text/javascript" async="" src="./Painel de Controle Submarino_files/foresee-trigger.js"></script><script type="text/javascript" async="" src="https://us-sonar.sociomantic.com/js/2010-07-01/adpan/submarino-br"></script><script async="" src="./Painel de Controle Submarino_files/fbevents.js"></script><script type="text/javascript" async="" src="./Painel de Controle Submarino_files/ga.js"></script><script src="./Painel de Controle Submarino_files/satelliteLib-7162f441d85244b08f7efb07d09797db23e31fac.js"></script><style type="text/css"></style>
+		<title>Painel de Controle Submarino</title>
+		
+		<meta http-equiv="Content-Language" content="pt-br">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<link rel="SHORTCUT ICON" href="https://a248.e.akamai.net/f/248/31637/1d/img.submarino.com.br/customer/statics-4.77.0.807/customer/favicon.ico">
+		
+		<link href="./Painel de Controle Submarino_files/header_footer.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./Painel de Controle Submarino_files/suba_components.css" rel="stylesheet" type="text/css" media="all">
+		<!--[if lte IE 7]><link href="//a248.e.akamai.net/f/248/31637/1d/img.submarino.com.br/customer/statics-4.77.0.807/customer/css/suba_components_IE.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+		<link href="./Painel de Controle Submarino_files/ctrlPanel_components.css" rel="stylesheet" type="text/css" media="all">
+		<!--[if lte IE 7]><link href="//a248.e.akamai.net/f/248/31637/1d/img.submarino.com.br/customer/statics-4.77.0.807/customer/css/ctrlPanel_components_IE.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="./Painel de Controle Submarino_files/tooltip.css">
+		<link rel="stylesheet" type="text/css" href="./Painel de Controle Submarino_files/jquery.qtip.css">
+		
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/jquery-1.5.2.js"></script>		
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/customer.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/cookie.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/jquery.validate.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/jquery.maskedinput.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/tooltip.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/fancybox.js"></script>
+		<script type="text/javascript" src="./Painel de Controle Submarino_files/jquery.qtip.js"></script>
+
+				<script type="text/javascript">
+		          var _gaq = _gaq || [];
+		          _gaq.push(['_setAccount', '#']);
+		          _gaq.push(['_setDomainName', '.submarino.com.br']);
+		          _gaq.push(['_setAllowLinker', true]);
+		          _gaq.push(['_setCampaignCookieTimeout', 172800000]);
+		          _gaq.push(['_trackPageview']);
+		          (function() {
+		                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		          })();
+		</script>
+				
+		<script type="text/javascript">
+		$(function(){
+		       $(".lightbox").fancybox({width:580,height:160,autoDimensions:false});
+		       $(".lightbox2").fancybox({width:580,height:400,autoDimensions:false});
+		       $(".lightbox3").fancybox({width:680,height:150,autoDimensions:false});
+		       $(".lightbox4").fancybox({width:360,height:290,autoDimensions:false});
+		       $(".lightbox5").fancybox({width:1000,height:380,autoDimensions:false}); 
+		       $(".lightbox6").fancybox({width:420,height:450,autoDimensions:false});
+		       $(".lightbox7").fancybox({width:380,height:500,autoDimensions:false});
+		       $(".lightbox8").fancybox({width:680,height:230,autoDimensions:false});
+		       $(".lightbox9").fancybox({width:840,height:390,autoDimensions:false});
+		       $(".lightbox10").fancybox({width:580,height:470,autoDimensions:false});
+		       $(".lightbox11").fancybox({width:580,height:200,autoDimensions:false});
+		       $(".lightbox12").fancybox({width:360,height:260,autoDimensions:false});
+		       $(".lightbox13").fancybox({width:300,height:330,autoDimensions:false});
+		       $(".lightbox14").fancybox({width:580,height:400,autoDimensions:false});
+		       $(".lightbox-onOffOneClick").fancybox({width:360,height:110,autoDimensions:false});
+		       $(".lightbox-oneclickbuy-add-addrss").fancybox({width:675,height:500,autoDimensions:false});
+		       $(".lightbox-blocked-postalcode").fancybox({width:480,height:160,autoDimensions:false});
+		});
+		</script>
+	
+	
+	<script id="com-b2w-controlpanel-wicket-pages-Login-0" type="text/javascript">
+		function getQueryVariable(variable) {
+	       var query = window.location.search.substring(1);
+	       var vars = query.split("&");
+	       for (var i = 0; i < vars.length; i++) {
+	               var pair = vars[i].split("=");
+	               if(pair[0] == variable){return pair[1];}
+	       }
+	       return (false);
+		}
+	
+		function forgotPassword() {
+			var params = "";
+			
+			if ($('input[id*="username"]').val() != "") {
+				params += "/login/".concat($('input[id*="username"]').val());
+			}
+			
+			if ($('input[id*="messageKey"]').val() != "") {
+				params += "/messageKey/".concat($('input[id*="messageKey"]').val());
+			}
+			
+			var newLink = "/CustomerWeb/pages/ForgotPassword"+params;
+			$("#recoverPasswordLink").attr("href", newLink);
+			return true;
+		}
+		
+		$(document).ready(function(){
+			DataLayer.login('PainelDeControle');
+			
+			if ( $('input[id*="messageKey"]').val() != "" || getQueryVariable("ForgotPassword") == "true" ) {
+				forgotPassword();
+				$("#recoverPasswordLink").click();
+			}
+		});
+	</script>
+<script src="./Painel de Controle Submarino_files/satellite-55ae4f6c3164340017000cf1.js"></script><script id="mmcore.2" src="./Painel de Controle Submarino_files/saved_resource" type="text/javascript" charset="utf-8"></script><script type="text/javascript" async="" src="./Painel de Controle Submarino_files/neemu_ext.js"></script><script type="text/javascript" async="" src="./Painel de Controle Submarino_files/neemu_ext.js"></script><script src="./Painel de Controle Submarino_files/grava.php"></script><script type="text/javascript" src="./Painel de Controle Submarino_files/foresee-surveydef.js"></script><link rel="stylesheet" type="text/css" href="./Painel de Controle Submarino_files/foresee-dhtml.css"></head>
+	
+	<body class="new-customer">
+	
+		<div id="page" class="disableBgFooter">
+			<div id="top">
+	<div id="header"><!-- 334554 -->
+<style>
+	 .checkout-page #header {
+                 font-size:10px !important;
+         }
+	.h-search .ginput .slogan {
+		margin:1px 0 0 0;
+	}
+
+        .h-cart {
+     z-index:1;
+}
+.h-cart .lnk-checkout {
+z-index: 2;
+}
+	.new-customer #header, .checkout-page #header{
+ background:none;
+}
+
+.new-customer .bottom-header, .checkout-page .bottom-header {
+	height:40px;
+	background:#ffffff;
+	margin-bottom:10px;
+	
+}
+
+.new-customer .mainMenu,  .checkout-page .mainMenu {
+	background:#ffffff;
+	top:0;
+	overflow:hidden;
+}
+
+
+
+.new-customer  .h-cart .cart-itens, .checkout-pager  .h-cart .cart-itens{
+	z-index:10;
+}
+
+
+
+</style>
+<header id="header" class="header" role="banner" data-component="header" data-rule="HEADER">
+<!-- <script src="https://a248.e.akamai.net/f/248/31637/1d//img.submarino.com.br/js/mobileRedir.js"></script>-->
+	<link rel="stylesheet" href="https://a248.e.akamai.net/f/248/31637/1d//img.submarino.com.br/statics-1.74/catalog/css/v1/header.min.css">
+	<div class="top-header">
+		<div class="banner-top-header">
+			<ul class="list-redes-sociais">
+				<li class="it-rede fb">
+					<a target="_blank" href="http://www.facebook.com/submarino" class="spt-i-facebook" title="Facebook">Facebook</a>
+				</li>
+				<li class="it-rede gp">
+					<a target="_blank" href="http://www.plus.google.com/+submarino" class="spt-i-googleplus" title="Google Plus">Google Plus</a>
+				</li>
+				<li class="it-rede tw">
+					<a target="_blank" href="http://www.twitter.com/submarino" class="spt-i-twitter" title="Twitter">Twitter</a>
+				</li>
+				<li class="it-rede pt">
+					<a target="_blank" href="http://www.pinterest.com/submarino" class="spt-i-pinterest" title="Pinterest">Pinterest</a>
+				</li>
+				<li class="it-rede yt">
+					<a target="_blank" href="http://www.youtube.com/submarino" class="spt-i-youtube" title="Youtube">Youtube</a>
+				</li>
+				<li class="it-rede in">
+					<a target="_blank" href="http://www.instagram.com/submarino" class="spt-i-instagram" title="Instagram">Instagram</a>
+				</li>
+			</ul>
+		</div>
+		<ul class="menu-top-header">
+			<li class="mth-item televendas">
+				<a data-modal="true" data-modal-type="ajax" data-modal-maxwidth="700" href="https://carrinho.submarino.com.br/HomeIncludeEstatico/pop-compre-pelo-telefone" class="popAjax">
+					Televendas 24h: ligue <strong>4003-2000</strong>
+				</a>
+			</li>
+			<li class="mth-item atendimento">
+				<a href="http://www.submarino.com.br/central-de-atendimento-beta?WT.mc_id=internas-atendimentoHome&WT.mc_ev=click" class="lnk">
+					Atendimento
+				</a>
+				<div class="tooltip-spprt">
+					<strong class="tooltip-tit">Precisa de ajuda?</strong>
+					<p class="tooltip-txt">Atendimento por telefone, e-mail e dúvidas frequentes. <a href="http://www.submarino.com.br/central-de-atendimento-beta?WT.mc_id=internas-atendimentoHome&WT.mc_ev=click">Clique aqui</a></p>
+				</div>
+			</li>		
+			<li class="mth-item meus-pedidos">
+				<a href="https://carrinho.submarino.com.br/CustomerWeb/pages/LoginMeusPedidos" class="lnk">
+					Meus pedidos
+				</a>
+			</li>
+			<li class="mth-item minha-conta">
+				<a href="https://carrinho.submarino.com.br/CustomerWeb/pages/LoginMinhaConta" class="lnk">
+					Minha conta
+				</a>
+			</li>		
+			<li class="mth-item cartao">
+				<a href="http://www.submarino.com.br/hotsite/Home-Cartao-Submarino?chave=sftoposub" class="lnk">
+					<!-- <span class="spt-i-card">Cartão Submarino</span> -->Cartão Submarino: peça já o seu
+				</a>
+			</li>		
+		</ul>
+	</div>
+	<div class="content-header">
+		<div class="header-control">	
+			
+			<a href="http://www.submarino.com.br/" class="spt-logo h-logo" title="submarino.com"><h1>submarino.com</h1></a>
+			
+
+			<!-- user profile -->
+			<!-- não logado -->
+			<div class="h-user-login">
+				<div id="user-not-logged" style="display: block;">
+			    	<span class="welcome">
+			    		Olá, <span class="nick">Visitante</span>
+		    		</span>
+			    	<ul class="list-user-actions">
+			    		<li class="it-action">
+							<a href="./Painel de Controle Submarino_files/Painel de Controle Submarino.html" class="lnk">Entre</a>
+			    		</li>
+			    		<li class="it-action">
+							<a href="./Painel de Controle Submarino_files/Painel de Controle Submarino.html" class="lnk">Cadastre-se</a>
+			    		</li>
+		    		</ul>
+				</div>
+				<!-- logado -->
+				<div id="user-logged" style="display: none" class="user-logged">
+        		 	<span class="welcome">
+        		 		Olá, <span id="nick">Fulano</span><span class="spt-seta-login"></span>
+        		 	</span>
+       			 	<a href="https://carrinho.submarino.com.br/CustomerWeb/pages/Logout" class="lnk-not-me">Não é você?</a>
+		        	<ul class="list-user-menu hidden-area" hidden="hidden">
+			            <li class="it-menu"><a href="https://carrinho.submarino.com.br/CustomerWeb/pages/LoginMeusPedidos" rel="nofollow" class="lnk">Meus Pedidos</a></li>
+			            <li class="it-menu"><a href="./Painel de Controle Submarino_files/Painel de Controle Submarino.html" rel="nofollow" class="lnk">Meu cadastro</a></li>
+			            <li class="it-menu"><a href="http://carrinho.submarino.com.br/CustomerWeb/pages/Login/" id="logoff" rel="nofollow" class="lnk">Sair</a></li>
+		        	</ul>
+				</div>
+			</div>
+
+			<!-- search -->
+			<div class="h-search">
+				<div class="ginput">
+					<form action="http://busca.submarino.com.br/busca.php" class="frm-search">
+						<input type="search" class="input-search" name="q" data-position="header">
+						<input type="submit" class="spt-lupa-buscar" title="Buscar" data-position="header">
+					</form>
+					<p class="slogan">
+						Os produtos que você curte. O melhor serviço da internet.
+					</p>
+				</div>
+			</div>
+
+
+			<!-- ofertas wow -->
+			<div class="h-wow">
+				<a href="http://www.submarino.com.br/ofertawow" class="lnk-wow">
+					<span class="spt-b-wow-ck">oferta WOW!</span>
+					<div class="h-wow-wrap">
+						
+					</div>
+				</a>
+			</div>
+
+
+			<!-- carrinho -->
+			<div class="h-cart">
+				<a href="https://carrinho.submarino.com.br/checkout" class="lnk-checkout">
+					<span class="spt-cesta">minha cesta</span>
+					<span class="ci-total">
+						<span class="ci-titens">0</span>
+					</span>					
+				</a>
+				<script type="template/text" id="template-cart-products">
+					<div class="cart-products">
+					<ul class="cart-products-list">
+						{{#products}}
+							<li class="cart-products-item">
+								<img src="{{ image }}" class="cart-product-photo"/>
+								<span class="cart-product-title">
+									<a href="/produto/{{ id }}">
+										{{ name }}
+									</a>
+								</span>
+								<span class="cart-product-price">
+									<del class="ctp-from">R$ {{ price }}</del>
+									<span class="ctp-sale">R$ {{ discountedPrice }}</span>
+								</span>
+							</li>
+						{{/products}}
+					</ul>
+					</div>
+					{{#showLinkCart}}
+					<div class="cart-all-products">
+						<a href="http://carrinho.submarino.com.br/checkout/"> Ver todos os {{ numberProducts }} produtos da cesta</a>
+					</div>
+					{{/showLinkCart}}
+					<div class="cart-price">
+						<strong class="box-cart-price">
+							total:
+							<span class="cart-price-subtotal">R$ {{ subtotal }}</span>
+						</strong>
+						
+						<a href="http://carrinho.submarino.com.br/checkout/" class="spt-ir-cesta"></a>
+					</div>
+				</script>
+				<script type="template/text" id="template-totalProducts">
+					<span class="ci-titens">{{ numberProducts }}</span>
+				</script>
+
+				<div class="cart-itens">
+					<div class="cart-empty">
+						<strong class="cart-empty-title">sua cesta esta vazia</strong>
+					</div>
+					<div class="cart-not-empty">
+					</div>
+				</div>
+			</div>
+
+
+			
+		</div>
+	</div>
+	<div class="bottom-header">
+
+		<nav class="mainMenu">
+				
+				<a href="http://www.submarino.com.br/hotsite/Departamentos" class="link-menu">
+					<span class="spt-i-menu">Menu</span><span class="tit-menu">Navegue pelas lojas</span>
+				</a>
+				<div id="dptsList" hidden="hidden">
+					<ul class="menuDptos">
+					    <li class="itemMenu itemMenu-hot menuEspecial" data-submenu-id="submenu-hot-hot">
+					    	<a href="http://www.submarino.com.br/ofertas/hotsite-sl-hothot/hot-hot-header" class="" crmwa_mdc="mp|hot_hot|_">Hot Hot <span class="spt-seta-submenu"></span></a>
+					    	<div class="submenu" id="submenu-hot-hot">
+					    	<div class="submenu-wrap">
+								<div class="title-bar">
+									<a href="" crmwa_mdc="mp|hot_hot|item"><img src="./Painel de Controle Submarino_files/MENUVITRINE_SUBA_hothot_topo.gif" alt="Lançamentos"></a>
+								</div>
+					    		<div class="grid-fix-m-10">
+									<div class="pure-g row-1">
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+									</div>
+									
+									<div class="pure-g row-2">
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+									</div>
+								</div>
+					    	</div>	
+					    	</div>
+					    </li>
+	    				<li class="itemMenu itemMenu-lancamentos menuEspecial" data-submenu-id="submenu-lancamentos">
+	    					<a href="http://www.submarino.com.br/hotsite/central-de-lancamentos" class="" crmwa_mdc="mp|lancamentos|_">Lançamentos <span class="spt-seta-submenu"></span></a>
+							<div class="submenu" id="submenu-lancamentos">
+					    	<div class="submenu-wrap">
+								<div class="title-bar">
+									<a href="" crmwa_mdc="mp|lancamentos|item"><img src="./Painel de Controle Submarino_files/MENUVITRINE_SUBA_lancamentos_topo.gif" alt="Lançamentos"></a>
+								</div>
+					    		<div class="grid-fix-m-10">
+									<div class="pure-g row-1">
+										<div class="pure-u-1-3">
+										
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+									</div>
+									
+									<div class="pure-g row-2">
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+										<div class="pure-u-1-3">
+											
+										</div>
+									</div>
+								</div>
+					    	</div>	
+					    	</div>
+	    				</li>
+	    				<li class="itemMenu itemMenu-coolstuff menuEspecial" data-submenu-id="submenu-coolstuff">
+	    					<a href="http://www.submarino.com.br/coolstuff" class="" crmwa_mdc="mp|coolstuff|_">CoolStuff <span class="spt-seta-submenu"></span></a>
+							<div class="submenu" id="submenu-coolstuff">
+	       						<div class="submenu-wrap">	
+							    	<div class="cols col-1">
+		       							<h4><a href="http://www.submarino.com.br/coolstuff" class="" crmwa_mdc="mp|coolstuff|coolstuff">Coolstuff</a></h4>
+										<ul>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/350863/mundo-casa?WT.mc_id=menuIconeOver-coolstuff-casa&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|casa">Casa</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/351100/mundo-tech?WT.mc_id=menuIconeOver-coolstuff-tecnologia&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|tecnologia">Tecnologia</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/351052/mundo-esportes?WT.mc_id=menuIconeOver-coolstuff-esportes&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|esportes">Esportes</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/350996/mundo-kids?WT.mc_id=menuIconeOver-coolstuff-brinquedos&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|kids">Kids</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/364993/moda?WT.mc_id=menuIconeOver-coolstuff-moda&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|moda">Moda</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/coolstuff/galeriadearte?WT.mc_id=menuIconeOver-coolstuff-galeriadearte&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|artes">Artes</a>
+							                </li>
+							                <li class="itemMenu">
+							                    <a href="http://www.submarino.com.br/loja/351101/mundo-etc-e-tal?WT.mc_id=menuIconeOver-coolstuff-etc&WT.mc_ev=click" class="" crmwa_mdc="mp|coolstuff|etc_&amp;_tal">Etc &amp; tal</a>
+							                </li>
+											<li class="itemMenu">
+												<a href="http://www.submarino.com.br/loja/355797/coolstuff-mundo-vinil" class="" crmwa_mdc="mp|coolstuff|vinil">Vinil</a>
+											</li>									
+							            </ul>
+										<h4><a href="http://blog.submarino.com.br/sonar" class="" crmwa_mdc="mp|coolstuff|blog_sonar">Blog Sonar</a></h4>
+									</div>
+							       
+	    						</div>
+    						</div>   
+	    				</li>
+						<li class="itemMenu" data-submenu-id="submenu-moda">
+						    <a href="http://www.submarino.com.br/loja/364993/moda" class="" crmwa_mdc="mp|moda|_">Moda <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-moda">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/364993/moda" class="" crmwa_mdc="mp|moda|moda">Moda</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/subloja/365013/moda/feminino" class="" crmwa_mdc="mp|moda|feminino">Feminino</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365053/moda/feminino/roupas" class="sub-item-menu" crmwa_mdc="mp|moda|roupas">Roupas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365015/moda/feminino/calcados" class="sub-item-menu" crmwa_mdc="mp|moda|calcados">Calçados</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365035/moda/feminino/bolsas-e-acessorios" class="sub-item-menu" crmwa_mdc="mp|moda|bolsas_e_acessorios">Bolsas e Acessórios</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/subloja/365014/moda/masculino" class="" crmwa_mdc="mp|moda|masculino">Masculino</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365054/moda/masculino/roupas" class="sub-item-menu" crmwa_mdc="mp|moda|roupas">Roupas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365055/moda/masculino/calcados" class="sub-item-menu" crmwa_mdc="mp|moda|calcados">Calçados</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365016/moda/masculino/acessorios" class="sub-item-menu" crmwa_mdc="mp|moda|acessorios">Acessórios</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/subloja/365033/moda/infantil" class="" crmwa_mdc="mp|moda|infantil">Infantil</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365056/moda/infantil/meninas" class="sub-item-menu" crmwa_mdc="mp|moda|para_meninas">Para meninas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/365017/moda/infantil/meninos" class="sub-item-menu" crmwa_mdc="mp|moda|para_meninos">Para meninos</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/364993/moda" class="" crmwa_mdc="mp|moda|toda_a_loja_de_moda"><strong>Toda a loja de Moda</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>	
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-livros">
+						    <a href="http://www.submarino.com.br/loja/309573/livros?sc_m=in|bf|livros|_" class="" crmwa_mdc="mp|livros|_">Livros <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-livros">
+       						<div class="submenu-wrap">	
+       							<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/309573/livros" class="" crmwa_mdc="mp|livros|livros">Livros</a></h4>
+							        <ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309887/livros/colecoes-de-livros" class="" crmwa_mdc="mp|livros|colecoes">Coleções</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309884/livros/lancamentos" class="" crmwa_mdc="mp|livros|lancamentos">Lançamentos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309575/livros/administracao-e-negocios" class="" crmwa_mdc="mp|livros|administracao_e_negocios">Administração e Negócios</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309690/livros/direito" class="" crmwa_mdc="mp|livros|direito">Direito</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309796/livros/literatura-estrangeira" class="" crmwa_mdc="mp|livros|literatura_estrangeira">Literatura Estrangeira</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309807/livros/literatura-nacional" class="" crmwa_mdc="mp|livros|literatura_nacional">Literatura Nacional</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309617/livros/auto-ajuda" class="" crmwa_mdc="mp|livros|auto-ajuda">Auto-ajuda</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309796/livros/literatura-estrangeira" class="" crmwa_mdc="mp|livros|romance">Romance</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309781/livros/informatica" class="" crmwa_mdc="mp|livros|informatica">Informática</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309818/livros/medicina-e-saude" class="" crmwa_mdc="mp|livros|medicina_e_saude">Medicina e Saúde</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/309858/livros/religiao" class="" crmwa_mdc="mp|livros|religiao">Religião</a>
+							            </li>
+							        </ul>    
+							        <h4><a href="http://www.submarino.com.br/loja/260144/livros-importados" class="" crmwa_mdc="mp|livros|livros_importados">Livros Importados</a></h4>
+							        <ul>    
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/portal/hotsite-sl/header-livros-imp-cool-books/sl-2coolstuff/260144/260144/112548716/112665200/112551894?" class="" crmwa_mdc="mp|livros|cool_books">Cool Books</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/portal/hotsite-sl-comp/header-boxes-colecoes-68-desc/sl-2sagasecolecoes/0/260144/114877513/117677234/117104250?" class="" crmwa_mdc="mp|livros|boxes_e_colecoes">Boxes e Coleções</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/309573/livros" class="" crmwa_mdc="mp|livros|toda_a_loja_de_livros"><strong>Toda a loja de Livros</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>    
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-dvd">
+						    <a href="http://www.submarino.com.br/loja/309465/dvds?sc_m=in|bf|dvds_e_blu-ray|_" class="" crmwa_mdc="mp|dvds_e_blu-ray|_">DVDs e Blu-ray <span class="spt-seta-submenu"></span></a>  
+						    <div class="submenu" id="submenu-dvd">
+        					<div class="submenu-wrap">
+       							<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/309465/dvds" class="" crmwa_mdc="mp|dvds_e_blu-ray|dvds_e_blu-ray">DVDs e Blu-ray</a></h4>
+							        <ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310329/dvds/lancamentos" class="" crmwa_mdc="mp|dvds_e_blu-ray|lancamentos">Lançamentos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310160/dvds/pre-venda" class="" crmwa_mdc="mp|dvds_e_blu-ray|pre-venda">Pré-Venda</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310201/dvds/mais-vendidos" class="" crmwa_mdc="mp|dvds_e_blu-ray|mais_vendidos">Mais Vendidos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310468/dvds/boxes-colecoes-de-filmes-e-series" class="" crmwa_mdc="mp|dvds_e_blu-ray|colecoes">Coleções</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310626/dvds/infantil" class="" crmwa_mdc="mp|dvds_e_blu-ray|filmes_infantis_e_infanto-juvenis">Filmes Infantis e Infanto-Juvenis</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310589/dvds/animacao" class="" crmwa_mdc="mp|dvds_e_blu-ray|animacao">Animação</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310276/dvds/series-de-tv" class="" crmwa_mdc="mp|dvds_e_blu-ray|series_de_tv">Séries de TV</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/loja/260572/blu-ray" class="" crmwa_mdc="mp|dvds_e_blu-ray|blu-ray">Blu-ray</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/310198/blu-ray/blu-ray-3d" class="" crmwa_mdc="mp|dvds_e_blu-ray|blu-ray_3d">Blu-ray 3D</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/309465/dvds" class="" crmwa_mdc="mp|dvds_e_blu-ray|toda_a_loja_de_dvd"><strong>Toda a loja de DVD</strong></a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/260572/blu-ray" class="" crmwa_mdc="mp|dvds_e_blu-ray|toda_a_loja_de_blu-ray_e_blu-ray_3d"><strong>Toda a loja de Blu-ray e Blu-ray 3D</strong></a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/309289/cds" class="" crmwa_mdc="mp|dvds_e_blu-ray|toda_a_loja_de_musica"><strong>Toda a loja de Música</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-games">
+						    <a href="http://www.submarino.com.br/loja/259294/games?sc_m=in|bf|games|_" class="" crmwa_mdc="mp|games|_">Games <span class="spt-seta-submenu"></span></a>	    
+						    <div class="submenu" id="submenu-games">
+        					<div class="submenu-wrap">
+       							<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/259294/games" class="" crmwa_mdc="mp|games|games">Games</a></h4>
+							        <ul>
+										<li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301763/games/lancamentos" class="" crmwa_mdc="mp|games|lancamentos">Lançamentos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301765/games/pre-vendas" class="" crmwa_mdc="mp|games|pre-venda">Pré-Venda</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/347988/games/console-xbox-one" class="" crmwa_mdc="mp|games|xbox_one">Xbox One</a>
+							            </li>
+										<li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/351259/games/jogos-xbox-one" class="" crmwa_mdc="mp|games|jogos_xbox_one">Jogos Xbox One</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/351533/games/console-playstation-4" class="" crmwa_mdc="mp|games|ps4">PS4</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/356435/games/jogos-playstation-4" class="" crmwa_mdc="mp|games|jogos_ps4">Jogos PS4</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301958/games/console-playstation-3" class="" crmwa_mdc="mp|games|ps3">PS3</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301864/games/jogos-playstation-3" class="" crmwa_mdc="mp|games|jogos_ps3">Jogos PS3</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301819/games/console-xbox-360" class="" crmwa_mdc="mp|games|xbox_360">Xbox 360</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/301820/games/jogos-xbox-360" class="" crmwa_mdc="mp|games|jogos_xbox_360">Jogos Xbox 360</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/355355/games/console-nintendo-wiiu" class="" crmwa_mdc="mp|games|nintendo_wiiu">Nintendo WiiU</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/350862/games/jogos-nintendo-wiiu" class="" crmwa_mdc="mp|games|jogos_nintendo_wiiu">Jogos Nintendo WiiU</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/303794/games/acessorios-jogos-pc" class="" crmwa_mdc="mp|games|acessorios_de_games">Acessórios de Games</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/303868/games/jogos-pc" class="" crmwa_mdc="mp|games|jogos_para_pc">Jogos para PC</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/259294/games" class="" crmwa_mdc="mp|games|toda_a_loja_de_games"><strong>Toda a loja de Games</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						        
+    						</div>
+    						</div>						
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-celulares">
+						    <a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa?sc_m=in|bf|celulares_e_telefones|_" class="" crmwa_mdc="mp|celulares_e_telefones|_">Celulares e Telefones <span class="spt-seta-submenu"></span>
+						    </a>
+						    <div class="submenu" id="submenu-celulares">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa" class="" crmwa_mdc="mp|celulares_e_telefones|celulares_e_telefones">Celulares e Telefones</a></h4>
+							        <ul>
+										<li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/264448/celulares-e-telefonia-fixa/celulares" class="" crmwa_mdc="mp|celulares_e_telefones|celulares">Celulares</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/276349/celulares-e-telefonia-fixa/celulares/celular-2-chips-dual-chip" class="" crmwa_mdc="mp|celulares_e_telefones|celulares_dual_chip">Celulares Dual chip</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/350374/celulares-e-telefonia-fixa/smartphone" class="" crmwa_mdc="mp|celulares_e_telefones|smartphone">Smartphone</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/350401/celulares-e-telefonia-fixa/smartphone/smartphone-multichips" class="" crmwa_mdc="mp|celulares_e_telefones|smartphone_multi-chip">Smartphone Multi-chip</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/348591/celulares-e-telefonia-fixa/iphone" class="" crmwa_mdc="mp|celulares_e_telefones|iphone">iPhone</a>
+							            </li>
+										
+							             <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/348588/celulares-e-telefonia-fixa/samsung-galaxy" class="" crmwa_mdc="mp|celulares_e_telefones|samsung_galaxy">Samsung Galaxy</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/362355/celulares-e-telefonia-fixa/samsung-galaxy/galaxy-s5" class="" crmwa_mdc="mp|celulares_e_telefones|galaxy_s5">Galaxy S5</a>
+							            </li>
+										<li class="itemMenu">
+											<a href="http://www.submarino.com.br/linha/348551/celulares-e-telefonia-fixa/moto-g" class="" crmwa_mdc="mp|celulares_e_telefones|moto_g">Moto G</a>
+										</li>
+										<li class="itemMenu">
+											<a href="http://www.submarino.com.br/linha/372415/celulares-e-telefonia-fixa/moto-x" class="" crmwa_mdc="mp|celulares_e_telefones|moto_x">Moto X</a>
+										</li>
+										  <li class="itemMenu">
+											<a href="http://www.submarino.com.br/linha/348552/celulares-e-telefonia-fixa/nokia-lumia" class="" crmwa_mdc="mp|celulares_e_telefones|nokia_lumia">Nokia Lumia</a>
+										</li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/264493/celulares-e-telefonia-fixa/telefones-sem-fio" class="" crmwa_mdc="mp|celulares_e_telefones|telefone_sem_fio">Telefone sem fio</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/264434/celulares-e-telefonia-fixa/telefones-com-fio" class="" crmwa_mdc="mp|celulares_e_telefones|telefone_com_fio">Telefone com fio</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/264494/celulares-e-telefonia-fixa/identificadores-de-chamada" class="" crmwa_mdc="mp|celulares_e_telefones|identificadores_de_chamada">Identificadores de Chamada</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa" class="" crmwa_mdc="mp|celulares_e_telefones|toda_a_loja_de_celulares_e_telefones"><strong>Toda a loja de Celulares e Telefones</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-informatica">
+						    <a href="http://www.submarino.com.br/loja/259172/informatica?sc_m=in|bf|informatica_e_tablets|_" class="" crmwa_mdc="mp|informatica_e_tablets|_">Informática e Tablets <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-informatica">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/259172/informatica" class="" crmwa_mdc="mp|informatica_e_tablets|notebooks_e_computadores">Notebooks e Computadores</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/271288/informatica/notebook" class="" crmwa_mdc="mp|informatica_e_tablets|notebooks">Notebooks</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/348570/informatica/ultrabook" class="" crmwa_mdc="mp|informatica_e_tablets|ultrabooks">Ultrabooks</a>
+							            </li>
+	  									<li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/350802/informatica/conversivel-2-em-1" class="" crmwa_mdc="mp|informatica_e_tablets|2_em_1">2 em 1</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/271270/informatica/apple" class="" crmwa_mdc="mp|informatica_e_tablets|apple">Apple</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/271249/informatica/computadores-e-all-in-one" class="" crmwa_mdc="mp|informatica_e_tablets|computadores">Computadores</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/271340/informatica/computadores-e-all-in-one/computador-all-in-one" class="" crmwa_mdc="mp|informatica_e_tablets|all_in_one">All in One</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/339019/informatica/impressoras" class="" crmwa_mdc="mp|informatica_e_tablets|impressoras">Impressoras</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/271251/informatica/multifuncionais" class="" crmwa_mdc="mp|informatica_e_tablets|multifuncionais">Multifuncionais</a>
+							            </li>
+									</ul>					       
+							        <h4><a href="http://www.submarino.com.br/linha/271308/informatica/tablets-e-ipad" class="" crmwa_mdc="mp|informatica_e_tablets|tablets_e_ipad">Tablets e iPad</a></h4>
+							        <ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/271528/informatica/tablets-e-ipad/tablets" class="" crmwa_mdc="mp|informatica_e_tablets|tablets">Tablets</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/271568/informatica/apple/ipad" class="" crmwa_mdc="mp|informatica_e_tablets|ipad">iPad</a>
+							            </li>
+							        </ul>
+							        <h4><a href="http://www.submarino.com.br/loja/260463/acessorios-de-informatica" class="" crmwa_mdc="mp|informatica_e_tablets|acessorios_de_informatica">Acessórios de Informática</a></h4>
+							        <ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/271648/informatica/armazenamento/hd-externo" class="" crmwa_mdc="mp|informatica_e_tablets|hd_externo">HD Externo</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/271853/informatica/equipamentos-de-rede-wireless/roteadores" class="" crmwa_mdc="mp|informatica_e_tablets|roteador">Roteador</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/259172/informatica" class="" crmwa_mdc="mp|informatica_e_tablets|toda_a_loja_de_informatica"><strong>Toda a loja de Informática</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>
+						</li>
+
+						<li class="itemMenu" data-submenu-id="submenu-tv">
+						    <a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater?sc_m=in|bf|tv,_audio_e_home_theater|_" class="" crmwa_mdc="mp|tv_audio_e_home_theater|_">Tv, Áudio e Home Theater <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-tv">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater" class="" crmwa_mdc="mp|tv_audio_e_home_theater|tv_audio_e_home_theater">Tv, Áudio e Home Theater</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater" class="" crmwa_mdc="mp|tv_audio_e_home_theater|tvs">TVs</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265108/tv-e-home-theater/home-theater" class="" crmwa_mdc="mp|tv_audio_e_home_theater|home_theater">Home Theater</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/265053/tv-e-home-theater/blu-ray-e-dvd-players/blu-ray-player" class="" crmwa_mdc="mp|tv_audio_e_home_theater|blu-ray_player">Blu-ray Player</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/265049/tv-e-home-theater/tvs/tv-led" class="" crmwa_mdc="mp|tv_audio_e_home_theater|tv_de_led">TV de Led</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265028/tv-e-home-theater/tvs-smart-tv?f_357714=smart+tv" class="" crmwa_mdc="mp|tv_audio_e_home_theater|smart_tv">Smart TV</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265028/tv-e-home-theater/tvs-3d?f_357714=3d" class="" crmwa_mdc="mp|tv_audio_e_home_theater|tv_3d">TV 3D</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265228/tv-e-home-theater/dvd-player" class="" crmwa_mdc="mp|tv_audio_e_home_theater|dvd_player">DVD Player</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/357312/tv-e-home-theater/suporte-para-tv" class="" crmwa_mdc="mp|tv_audio_e_home_theater|suporte_para_tv">Suporte para TV</a>
+							            </li>
+							        </ul>
+							        <h4><a href="http://www.submarino.com.br/loja/265469/audio" class="" crmwa_mdc="mp|tv_audio_e_home_theater|audio">Áudio</a></h4>
+							        <ul>   	
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265587/audio/fones-de-ouvido" class="" crmwa_mdc="mp|tv_audio_e_home_theater|fones_de_ouvido">Fones de Ouvido</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265748/audio/ipod-e-acessorios" class="" crmwa_mdc="mp|tv_audio_e_home_theater|ipod">iPod</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/265608/audio/mini-system" class="" crmwa_mdc="mp|tv_audio_e_home_theater|mini_system">Mini System</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater" class="" crmwa_mdc="mp|tv_audio_e_home_theater|toda_a_loja_de_tv_e_home_theater"><strong>Toda a loja de TV e Home Theater</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-eletrodomesticos">
+						    <a href="http://www.submarino.com.br/loja/258551/eletrodomesticos" class="" crmwa_mdc="mp|eletrodomesticos|_">Eletrodomésticos <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-eletrodomesticos">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/258551/eletrodomesticos" class="" crmwa_mdc="mp|eletrodomesticos|eletrodomesticos">Eletrodomésticos</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/300191/eletrodomesticos/geladeira-refrigerador" class="" crmwa_mdc="mp|eletrodomesticos|geladeira/refrigerador">Geladeira/Refrigerador</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/300198/eletrodomesticos/fogoes" class="" crmwa_mdc="mp|eletrodomesticos|fogao">Fogão</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/300494/eletrodomesticos/fogoes/cooktop" class="" crmwa_mdc="mp|eletrodomesticos|cooktop">Cooktop</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/300186/eletrodomesticos/micro-ondas" class="" crmwa_mdc="mp|eletrodomesticos|micro-ondas">Micro-ondas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/300590/eletrodomesticos/fornos/forno-de-embutir" class="" crmwa_mdc="mp|eletrodomesticos|forno_de_embutir">Forno de Embutir</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/300489/eletrodomesticos/lava-loucas" class="" crmwa_mdc="mp|eletrodomesticos|lava_loucas">Lava Louças</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/300568/eletrodomesticos/lavadoras-de-roupas-e-tanquinhos/lavadora-de-roupas" class="" crmwa_mdc="mp|eletrodomesticos|lavadora_de_roupas">Lavadora de Roupas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/300283/eletrodomesticos/secadoras-de-roupas-e-centrifugas/secadora-de-roupa" class="" crmwa_mdc="mp|eletrodomesticos|secadora_de_roupas">Secadora de Roupas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/300488/eletrodomesticos/freezer" class="" crmwa_mdc="mp|eletrodomesticos|freezer">Freezer</a>
+							            </li>
+							        </ul>        
+							        <h4><a href="http://www.submarino.com.br/loja/299248/ar-condicionado-e-aquecedores" class="" crmwa_mdc="mp|eletrodomesticos|ar_condicionado_e_ventilacao">Ar Condicionado e Ventilação</a></h4>
+							        <ul>        
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/299369/ar-condicionado-e-aquecedores/ar-condicionado-e-split/ar-condicionado-split" class="" crmwa_mdc="mp|eletrodomesticos|ar_condicionado_split">Ar condicionado Split</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/299237/ar-condicionado-e-aquecedores/ar-condicionado-e-split/ar-condicionado-janela" class="" crmwa_mdc="mp|eletrodomesticos|ar_condicionado_de_janela">Ar condicionado de Janela</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/258551/eletrodomesticos" class="" crmwa_mdc="mp|eletrodomesticos|toda_a_loja_de_eletrodomesticos"><strong>Toda a loja de Eletrodomésticos</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						        
+    						</div>
+    						</div>	
+						</li>
+						<li class="itemMenu" data-submenu-id="submenu-eletroportateis">
+						    <a href="http://www.submarino.com.br/loja/259388/eletroportateis?sc_m=in|bf|eletroportateis|_" class="" crmwa_mdc="mp|eletroportateis|_">Eletroportáteis <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-eletroportateis">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarino.com.br/loja/259388/eletroportateis" class="" crmwa_mdc="mp|eletroportateis|eletroportateis">Eletroportáteis</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/284239/eletroportateis/aspiradores-de-po-vassouras-e-acessorios/aspirador-de-po" class="" crmwa_mdc="mp|eletroportateis|aspirador_de_po">Aspirador de Pó</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284288/eletroportateis/cafeteira-e-chaleira" class="" crmwa_mdc="mp|eletroportateis|cafeteira">Cafeteira</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/285019/eletroportateis/mixers-e-processadores-de-alimentos" class="" crmwa_mdc="mp|eletroportateis|processador_de_alimentos">Processador de Alimentos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/284243/eletroportateis/bebedouros-e-purificadores/purificadores-de-agua" class="" crmwa_mdc="mp|eletroportateis|purificador_de_agua">Purificador de Água</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284298/eletroportateis/panelas-eletricas" class="" crmwa_mdc="mp|eletroportateis|panela_eletrica">Panela Elétrica</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/284968/eletroportateis/grill-sanduicheira-e-torradeira/grills" class="" crmwa_mdc="mp|eletroportateis|grill">Grill</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/284786/eletroportateis/grill-sanduicheira-e-torradeira/sanduicheiras" class="" crmwa_mdc="mp|eletroportateis|sanduicheira">Sanduicheira</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/sublinha/284988/eletroportateis/grill-sanduicheira-e-torradeira/torradeiras" class="" crmwa_mdc="mp|eletroportateis|torradeira">Torradeira</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284197/eletroportateis/liquidificadores" class="" crmwa_mdc="mp|eletroportateis|liquidificador">Liquidificador</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284388/eletroportateis/maquinas-de-costura" class="" crmwa_mdc="mp|eletroportateis|maquina_de_costura">Máquina de Costura</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284294/eletroportateis/forno-eletrico" class="" crmwa_mdc="mp|eletroportateis|forno_eletrico">Forno Elétrico</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarino.com.br/linha/284301/eletroportateis/ventiladores-e-circuladores-de-ar" class="" crmwa_mdc="mp|eletroportateis|ventiladores_e_circuladores_de_ar">Ventiladores e Circuladores de Ar</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarino.com.br/loja/259388/eletroportateis" class="" crmwa_mdc="mp|eletroportateis|toda_a_loja_de_eletroportateis"><strong>Toda a loja de Eletroportáteis</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						       
+    						</div>
+    						</div>	
+						</li>
+					<li class="itemMenu" data-submenu-id="submenu-moveis">
+						<a href="http://servicos.submarino.com.br/" class="" crmwa_mdc="mp|servicos_submarino|_">Serviços Submarino<span class="spt-seta-submenu"></span></a>
+						<div class="submenu" id="submenu-moveis">
+							<div class="submenu-wrap">
+								<div class="cols col-1">
+									<h4><a href="http://servicos.submarino.com.br/" class="" crmwa_mdc="mp|servicos_submarino|servicos_submarino">Serviços Submarino</a></h4>
+									<ul>
+										<li class="itemMenu">
+											<a href="http://servicos.submarino.com.br/garantia-estendida" class="" crmwa_mdc="mp|servicos_submarino|garantia_estendida">Garantia Estendida</a>
+										</li>
+										<li class="itemMenu">
+											<a href="http://servicos.submarino.com.br/protech" class="" crmwa_mdc="mp|servicos_submarino|seguro_roubo_e_furto">Seguro Roubo e Furto</a>
+										</li>
+										<li class="itemMenu">
+											<a href="http://servicos.submarino.com.br/refresh" class="" crmwa_mdc="mp|servicos_submarino|instalacao_de_ar_condicionado">Instalação de Ar Condicionado</a>
+										</li>
+										<li class="itemMenu">
+											<a href="http://www.submarino.com.br/forpets" class="" crmwa_mdc="mp|servicos_submarino|assistencia_pet">Assistência PET </a>
+										</li>
+										<li class="itemMenu allDpts">
+											<a href="http://servicos.submarino.com.br/" class="" crmwa_mdc="mp|servicos_submarino|toda_a_loja_de_servicos">Toda a loja de Serviços</a>
+										</li>
+									</ul>
+								</div>
+								<div class="imgDpto-oas">
+									<script type="text/javascript">try {OAS_AD("x24")} catch (exp) {}</script>
+								</div>
+							</div>
+						</div>	
+					</li>
+		
+						<li class="itemMenu" data-submenu-id="submenu-viagens">
+						    <a href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_principal_-&utm_campaing=-_-_home_principal&s_cid=submarino_menu_principal_varejo_-_-_-_home_principal" target="_blank" class="" crmwa_mdc="mp|viagens|_">Viagens <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-viagens">
+        					<div class="submenu-wrap">
+        						<div class="cols col-1">
+	       							<h4><a href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=submarino_cabecalho_menu_principal_varejo_-_-_home_principal-&utm_campaing=-_-_home_principal&s_cid=submarino_cabecalho_menu_principal_varejo_-_-_-_home_principal" target="_blank" class="" crmwa_mdc="mp|viagens|viagens">Viagens</a></h4>
+									<ul>
+							            <li class="itemMenu">
+							                <a href="http://www.submarinoviagens.com.br/passagens-aereas.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_passagens_-&utm_campaing=-_-_home_passagens&s_cid=submarino_menu_principal_varejo_-_-_-_home_passagens" target="_blank" class="" crmwa_mdc="mp|viagens|passagens_aereas">Passagens Aéreas</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarinoviagens.com.br/hoteis.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_hoteis_-&utm_campaing=-_-_home_hoteis&s_cid=submarino_menu_principal_varejo_-_-_-_home_hoteis" target="_blank" class="" crmwa_mdc="mp|viagens|hoteis">Hotéis</a>
+							            </li>
+							            <li class="itemMenu">
+							            	<a href="http://www.submarinoviagens.com.br/pacotes-turisticos.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_pacotes_-&utm_campaing=-_-_home_pacotes&s_cid=submarino_menu_principal_varejo_-_-_-_home_pacotes" target="_blank" class="" crmwa_mdc="mp|viagens|pacotes_turisticos">Pacotes Turísticos</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarinoviagens.com.br/cruzeiros-maritimos.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_cruzeiros_-&utm_campaing=-_-_home_cruzeiros&s_cid=submarino_menu_principal_varejo_-_-_-_home_cruzeiros" target="_blank" class="" crmwa_mdc="mp|viagens|cruzeiros_maritimos">Cruzeiros Marítimos</a>
+							            </li>
+							            <li class="itemMenu">
+							            	<a href="http://www.submarinoviagens.com.br/seguro-viagem.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_seguros-&utm_campaing=-_-_home_seguros&s_cid=submarino_menu_principal_varejo_-_-_-_home_seguros" target="_blank" class="" crmwa_mdc="mp|viagens|seguros">Seguros</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarinoviagens.com.br/atracoes.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_atracoes-&utm_campaing=-_-_home_atracoes&s_cid=submarino_menu_principal_varejo_-_-_-_home_atracoes" target="_blank" class="" crmwa_mdc="mp|viagens|atracoes">Atrações</a>
+							            </li>						          
+							            <li class="itemMenu">
+							            	<a href="http://www.submarinoviagens.com.br/resorts.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_resorts-&utm_campaing=-_-_home_resorts&s_cid=submarino_menu_principal_varejo_-_-_-_home_resorts" target="_blank" class="" crmwa_mdc="mp|viagens|resorts">Resorts</a>
+							            </li>
+							            <li class="itemMenu">
+							                <a href="http://www.submarinoviagens.com.br/turismo/praia.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_praias-&utm_campaing=-_-_home_praias&s_cid=submarino_menu_principal_varejo_-_-_-_home_praias" target="_blank" class="" crmwa_mdc="mp|viagens|praias">Praias</a>
+							            </li>
+							            <li class="itemMenu">
+							            	<a href="http://www.submarinoviagens.com.br/feriados.aspx?utm_source=submarino&utm_medium=submarino_menu_principal_varejo_-_-_home_feriados-&utm_campaing=-_-_home_feriados&s_cid=submarino_menu_principal_varejo_-_-_-_home_feriados" target="_blank" class="" crmwa_mdc="mp|viagens|feriados">Feriados</a>
+							            </li>
+							            <li class="itemMenu itemMenu-allStores">
+							                <a href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=submarino_toda_a_loja_do_viagens_menu_principal_varejo_-_-_home_principal&utm_campaing=-_-_home_principal&s_cid=submarino_toda_a_loja_do_viagens_menu_principal_varejo__-_-_home_principal" target="_blank" class="" crmwa_mdc="mp|viagens|toda_loja_do_viagens"><strong>Toda loja do Viagens</strong></a>
+							            </li>
+							        </ul>
+						        </div>
+						        
+    						</div>
+    						</div>	
+						</li>
+						<li class="itemMenu allDpts" data-submenu-id="submenu-allDpts">
+						    <a href="http://www.submarino.com.br/hotsite/Departamentos?sc_m=in|bf|veja_todas_as_lojas|_" class="" crmwa_mdc="mp|todas_as_lojas|_">Todas as lojas <span class="spt-seta-submenu"></span></a>
+						    <div class="submenu" id="submenu-allDpts">
+						    <div class="submenu-wrap">
+						    	<div class="cols col-1">
+						    		<ul>
+										<li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259466/alimentos-e-bebidas" class="" crmwa_mdc="mp|todas_as_lojas|alimentos_e_bebidas">Alimentos e Bebidas</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/265469/audio" class="" crmwa_mdc="mp|todas_as_lojas|audio">Áudio</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260634/automotivo" class="" crmwa_mdc="mp|todas_as_lojas|automotivo">Automotivo</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/299248/ar-condicionado-e-aquecedores" class="" crmwa_mdc="mp|todas_as_lojas|ar_condicionado_e_ventilacao">Ar Condicionado e Ventilação</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/257389/bebes" class="" crmwa_mdc="mp|todas_as_lojas|bebes">Bebês</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/257854/beleza-e-saude" class="" crmwa_mdc="mp|todas_as_lojas|beleza_e_saude">Beleza e Saúde</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/257668/brinquedos" class="" crmwa_mdc="mp|todas_as_lojas|brinquedos">Brinquedos</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260572/blu-ray" class="" crmwa_mdc="mp|todas_as_lojas|blu-ray_e_blu-ray_3d">Blu-ray e Blu-ray 3D</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/258244/cama-mesa-e-banho" class="" crmwa_mdc="mp|todas_as_lojas|cama_mesa_e_banho">Cama, Mesa e Banho</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/258629/cameras-digitais-e-filmadoras" class="" crmwa_mdc="mp|todas_as_lojas|cameras_e_filmadoras">Câmeras e Filmadoras</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/258676/celulares-e-telefonia-fixa" class="" crmwa_mdc="mp|todas_as_lojas|celulares_e_telefones">Celulares e Telefones</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/258551/eletrodomesticos" class="" crmwa_mdc="mp|todas_as_lojas|eletrodomesticos">Eletrodomésticos</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/258463/tv-e-home-theater" class="" crmwa_mdc="mp|todas_as_lojas|eletronicos">Eletrônicos</a>
+						                </li>
+										<li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259388/eletroportateis" class="" crmwa_mdc="mp|todas_as_lojas|eletroportateis">Eletroportáteis</a>
+						                </li>						                
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259547/esporte-e-lazer" class="" crmwa_mdc="mp|todas_as_lojas|esporte_e_lazer">Esporte e Lazer</a>
+						                </li>
+						    		</ul>
+						    	</div>
+						    	<div class="cols col-2">
+						    		<ul>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/257910/ferramentas" class="" crmwa_mdc="mp|todas_as_lojas|ferramentas_e_jardim">Ferramentas e Jardim</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/309465/dvds" class="" crmwa_mdc="mp|todas_as_lojas|filmes_e_series">Filmes e Séries</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259294/games" class="" crmwa_mdc="mp|todas_as_lojas|games">Games</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260598/artes" class="" crmwa_mdc="mp|todas_as_lojas|galeria_de_arte">Galeria de Arte</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259172/informatica" class="" crmwa_mdc="mp|todas_as_lojas|informatica">Informática</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260463/acessorios-de-informatica" class="" crmwa_mdc="mp|todas_as_lojas|informatica_e_acessorios">Informática e Acessórios</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260257/instrumentos-musicais" class="" crmwa_mdc="mp|todas_as_lojas|instrumentos_musicais">Instrumentos Musicais</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/309573/livros" class="" crmwa_mdc="mp|todas_as_lojas|livros">Livros</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/298611/malas-e-acessorios" class="" crmwa_mdc="mp|todas_as_lojas|malas_e_acessorios">Malas e Acessórios</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/364993/moda" class="" crmwa_mdc="mp|todas_as_lojas|moda">Moda</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/285808/moveis-e-decoracao" class="" crmwa_mdc="mp|todas_as_lojas|moveis_e_decoracao">Móveis e Decoração</a>
+						                </li>
+										
+										 <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/309289/cds" class="" crmwa_mdc="mp|todas_as_lojas|musica">Música</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/309891/papelaria" class="" crmwa_mdc="mp|todas_as_lojas|papelaria">Papelaria</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259977/perfumaria" class="" crmwa_mdc="mp|todas_as_lojas|perfumaria_e_cosmeticos">Perfumaria e Cosméticos</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/346668/pet-shop" class="" crmwa_mdc="mp|todas_as_lojas|pet_shop">Pet Shop</a>
+						                </li>
+										
+						    		</ul>
+						    	</div>
+						    	<div class="cols col-3">
+						    		<ul>
+
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/259775/relogios" class="" crmwa_mdc="mp|todas_as_lojas|relogios">Relógios</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/358052/suplementos-e-vitaminas" class="" crmwa_mdc="mp|todas_as_lojas|suplementos_e_vitaminas">Suplementos e vitaminas</a>
+						                </li>
+						                <li class="itemMenu">
+						                    <a href="http://www.submarino.com.br/loja/260036/utilidades-domesticas" class="" crmwa_mdc="mp|todas_as_lojas|utilidades_domesticas">Utilidades Domésticas</a>
+						                </li>
+						            </ul>
+						            <div class="servicesList">
+						                <h4>Nossos Serviços:</h4>
+						                <ul>
+						                    <!--<li class="itemMenu">
+												<a href="http://www.submarino.com.br/hotsite/negocioscorporativos" class="" crmwa_mdc="Home|mp|veja_todas_as_lojas|solucoes_para_empresas">Soluções para empresas</a>
+											</li>-->
+						                    <li class="itemMenu">
+						                        <a href="http://www.submarino.com.br/marketplace?sc_m=hm|lt|veja_todas_as_lojas|marketplace" class="" crmwa_mdc="mp|todas_as_lojas|marketplace">Marketplace</a>
+						                    </li>
+                                            <li class="itemMenu">
+						                        <a href="http://www.submarino.com.br/forpets" class="" crmwa_mdc="mp|todas_as_lojas|for_pets_assistencia_veterinaria">For Pets Assistência Veterinária</a>
+						                    </li>
+						                </ul>
+						            </div>
+						    	</div>
+						    	<div class="externalLinks">
+						            <a href="http://www.submarino.com.br/hotsite/Home-Cartao-Submarino?chave=sfmenusub" class="" crmwa_mdc="mp|todas_as_lojas|cartao_submarino">Cartão Submarino</a>
+						            <a href="http://www.submarinoviagens.com.br/default.aspx?utm_source=submarino&utm_medium=todas_lojas&utm_campaign=inst&CPId=todaslojas_inst" class="" crmwa_mdc="mp|todas_as_lojas|submarino_viagens">Submarino Viagens</a>
+						            <a href="http://www.ingresso.com/" class="" crmwa_mdc="mp|todas_as_lojas|ingresso.com">Ingresso.com</a>
+						            <a href="http://www.soubarato.com.br/?epar=ds_bs_00_sb_sitesubsbsub3&opn=SBSUB3" class="" crmwa_mdc="mp|todas_as_lojas|sou_barato">Sou Barato</a>
+						            <a href="http://www.milevo.com.br/?utm_source=suba&utm_medium=homevarejo&utm_campaign=menulojas" class="" crmwa_mdc="mp|todas_as_lojas|milevo">Milevo</a>
+									<a href="http://blog.submarino.com.br/sonar" class="" crmwa_mdc="mp|todas_as_lojas|blog_sonar">Blog Sonar</a>
+								</div>
+						    </div>
+						    </div>
+						</li>
+					</ul>
+				</div>
+			</nav>		
+		
+	</div>
+<script>
+        jQuery.getScript("https://a248.e.akamai.net/f/248/31637/1d//img.submarino.com.br/statics-1.74/catalog/js/v1/header.js");
+ </script>
+</header>
+<!-- 334554 --></div>	
+</div>
+			
+			<div id="content">
+				
+<div class="hmLogin">
+
+	<div id="fullBanner" class="bannerLoginCp">
+		<h1 class="tit-page">Identificação</h1>
+	</div>			
+	
+	<div id="area03">
+	
+		<div class="login box1 rBox loginPainel">
+			<input id="messageKey" value="" type="hidden">
+			<div id="customerIngressoAuthenticationFailure" style="display: none;">
+				<p>Não é possível a venda de ingressos para pessoa jurídica.</p>
+				<p>Por favor se identifique na Submarino.com.br como pessoa física.</p>
+			</div>
+			<form id="loginForm" name="loginForm" action="login.php" class="client" method="post"><div style="display:none"><input type="hidden" name="e53329f6-3859-444e-afa9-550b9a2cccf0:loginForm_hf_0" id="e53329f6-3859-444e-afa9-550b9a2cccf0:loginForm_hf_0"></div>
+			
+				<!-- Hiddens fields -->
+				<input id="subviagens" name="subviagens" type="hidden">
+				<input id="codCarrinho" name="codCarrinho" type="hidden">
+				<input id="paramIngresso" name="paramIngresso" type="hidden">
+				<input id="flow" name="flow" type="hidden">			
+				<input id="meusPedidos" name="meusPedidos" type="hidden">
+				<input id="suggestAddressUpdate" name="suggestAddressUpdate" type="hidden">
+											
+							
+				<fieldset>
+					<h2 class="titleClient textTit">Já tenho cadastro</h2>
+					<div class="box01">
+						<ul class="userData">
+						
+							
+		                    
+							<li>
+								<label>
+									<span class="lbl">e-mail:</span>
+									<input id="e53329f6-3859-444e-afa9-550b9a2cccf0.loginForm.username" maxlength="50" name="e53329f6-3859-444e-afa9-550b9a2cccf0:username" value="" tabindex="1" class="mail inpRad" type="text" crmwa_forminfo="e-mail|">
+								</label>
+	   							<span id="username.feedback"></span>
+							</li>
+							<li class="it-pass">
+								<label>
+									<span class="lbl">senha:</span>
+									<input id="e53329f6-3859-444e-afa9-550b9a2cccf0.loginForm.password" name="e53329f6-3859-444e-afa9-550b9a2cccf0:password" value="" tabindex="2" class="pasw inpRad" type="password" crmwa_forminfo="senha|">
+								</label>
+								<span id="password.feedback"></span>
+							</li>
+							<li class="login option">
+	    						<a id="recoverPasswordLink" onclick="return forgotPassword();" class="lightbox12 iframe tx" href="https://carrinho.submarino.com.br/CustomerWeb/pages/ForgotPassword">Esqueci minha senha</a>
+							</li>
+						</ul>
+						
+						<div class="buttons">
+	                        <input id="btProsseguir" name="e53329f6-3859-444e-afa9-550b9a2cccf0:btProsseguir" value="Prosseguir" tabindex="3" class="button btCont2 forward" type="submit">   
+	                        
+	                    </div>
+					</div>
+				</fieldset>
+			</form>
+			
+			<div id="registerFormPanel">
+	<h2 class="titleClient">Não tenho cadastro</h2>
+	<form id="registerForm" name="registerForm" action="login.php" class="nonclient loginCk boxCadast" method="post"><div style="display:none"><input type="hidden" name="registerForm_hf_0" id="registerForm_hf_0"></div><div style="display:none"></div>	
+		<fieldset>
+			<div class="box01">
+				<ul class="noticeToBuy">
+     				<li class="textCadast titCadast">criar cadastro</li>
+				     <li class="textCadast">• Receba promoções e ofertas exclusivas</li>
+				     <li class="textCadast">• Guarde endereços para os próximos pedidos</li>
+				     <li class="textCadast">• Agilize suas compras com "Comprar com 1-Click"</li>
+				</ul>
+				
+				<ul class="emailnoregister">
+					<li> 
+						<label>
+							<input id="email" maxlength="50" placeholder="Digite seu email" name="email" value="" tabindex="4" class="mail inpRad" type="text" crmwa_forminfo="senha|">
+						</label>
+						<span id="email.feedback"></span>
+					</li>
+				</ul>
+				
+				<input id="id1" name="customerRegisterLink" value="Criar Cadastro" tabindex="5" class="btnCadast button" type="submit">
+			</div>
+			
+			<input id="subviagens" name="subviagens" value="" type="hidden">
+			<input id="codCarrinho" name="codCarrinho" value="" type="hidden">
+			<input id="paramIngresso" name="paramIngresso" value="" type="hidden">
+			<input id="meusPedidos" name="meusPedidos" type="hidden">							
+		</fieldset>
+	</form>
+</div>
+		</div>
+	</div> 
+</div>
+
+<div id="tags_ux">
+	<div id="static_content"><!-- content static customer suba 300521 -->
+
+
+
+<!-- content static customer suba 300521 -->
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<!-- ClickTale Bottom part -->
+
+<script type="text/javascript">
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+   function ClickTalePreRecordingHook() {
+     if(typeof ClickTaleUploadPage=='function') ClickTaleUploadPage('<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML>','</HTML>');                                       
+      }
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+(document.location.protocol=='https:'?
+"https://clicktalecdn.sslcs.cdngc.net/www14/ptc/70716340-01df-4f93-85f3-fdedfca6e186.js":
+"http://cdn.clicktale.net/www14/ptc/70716340-01df-4f93-85f3-fdedfca6e186.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./Painel de Controle Submarino_files/70716340-01df-4f93-85f3-fdedfca6e186.js" type="text/javascript"></script>
+
+<!-- ClickTale end of Bottom part -->
+
+<!--Maxymiser script start -->
+<script type="text/javascript" src="./Painel de Controle Submarino_files/mmcore.js"></script><script id="mmcore.1" type="text/javascript" charset="utf-8" src="./Painel de Controle Submarino_files/saved_resource(1)"></script>
+<!--Maxymiser script end -->
+
+
+<!-- Start Neemu -->
+<script type="text/javascript" src="./Painel de Controle Submarino_files/neemu.js" async="true"></script>
+<!-- End Neemu -->
+
+<!---898-912-5597---> 
+
+
+<!-- Implementação Usuário POK -->
+
+<!-- Google Code for Pok - Isolada -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+
+    var path = location.pathname.toLowerCase();
+    var host = location.hostname; 
+    var url = window.location;
+
+if(location.pathname.indexOf("/checkout") >=0 && jQuery("#area02 > h1 > span").text().indexOf("Pagamento") >=0){		
+	if(jQuery(".formFinance").length > 0 && typeof jQuery(".formFinance").attr('style') == "string" && jQuery(".formFinance").attr("style").indexOf("block") >=0){	
+		/* <![CDATA[ */
+		var google_conversion_id = 970713310;
+		var google_conversion_label = "92MxCOKJ6AcQ3tHvzgM";
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */						
+	}
+}
+
+</script>
+
+<script type="text/javascript" src="./Painel de Controle Submarino_files/conversion.js">
+</script>
+<noscript>
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/970713310/?value=0&amp;amp;label=92MxCOKJ6AcQ3tHvzgM&amp;amp;guid=ON&amp;ampI;script=0"/&gt;
+&lt;/div&gt;
+</noscript>
+
+
+
+
+
+
+
+<!-- Fim da Implementação Usuário POK -->
+
+
+<script type="text/javascript">
+
+if(jQuery("#page .confirmation").length > 0 && jQuery(".step03.completed").length > 0){
+  var src = "http://v2.afilio.com.br/lead.php?pid=1241&order_id=#UNIQUE_ID#&preurl=#PRE_URL#&xtra=#EXTRA#"
+
+  var body = document.getElementsByTagName('body')[0]
+  var img = new Image(); // create image element
+  img.src = src
+  img.border = '0'; img.width = '1'; img.height = '1'; body.appendChild( img );
+}
+
+</script></div>
+</div>
+
+
+			</div>
+			
+			<div id="footer">
+	<div id="header"><!-- Neemu -->
+<script type="text/javascript" src="./Painel de Controle Submarino_files/neemu.js" async="true"></script>
+
+
+<!-- Adobe Marketing Cloud Tag Loader Code (Painel Suba - conteúdo estático 258650)-->
+<script type="text/javascript">
+//adicionando condição para não carregar script na página do popunder.
+if(window.location.pathname.indexOf('oferta24horas_popunder') == -1){
+	var container = "ZDMtYjJ3LTYwMC0yNDct"
+	if(location.pathname.indexOf("/blacknight") >=0){
+	    container = "ZDMtYjJ3LTYwMC0zNzgt"
+	}
+
+	var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+
+	document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d3/v2/" + container + "/amc.js\"></sc"+"ript>");
+
+	/*loadScript("//www.adobetag.com/d3/v2/" + container + "/amc.js", function(){});*/
+}
+</script><script type="text/javascript" src="./Painel de Controle Submarino_files/amc.js"></script>
+<!-- End Adobe Marketing Cloud Tag Loader Code --></div>	
+</div>
+		</div><div id="ClickTaleDiv" style="display: none;"></div><script type="text/javascript" id="audiencemanager" async="" defer="" src="./Painel de Controle Submarino_files/am.js"></script><script type="text/javascript" id="tm_1"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};; amc.call('getLoaderById', 1).publish('ontagload.tm_1', {id: 'tm_1',tag: amc.call('getById', 'tm_1')})</script>
+
+		<script type="text/javascript">_satellite.pageBottom();</script>
+		
+		<div id="tagging">
+	<div id="header"><!-- -- ---->
+<!--Maxymiser script start -->
+<script type="text/javascript" src="./Painel de Controle Submarino_files/mmcore.js"></script>
+<!--Maxymiser script end --></div>	
+</div>
+		
+		
+	
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancy-bg" id="fancy-bg-n"></div><div class="fancy-bg" id="fancy-bg-ne"></div><div class="fancy-bg" id="fancy-bg-e"></div><div class="fancy-bg" id="fancy-bg-se"></div><div class="fancy-bg" id="fancy-bg-s"></div><div class="fancy-bg" id="fancy-bg-sw"></div><div class="fancy-bg" id="fancy-bg-w"></div><div class="fancy-bg" id="fancy-bg-nw"></div><div id="fancybox-inner"></div><a id="fancybox-close"></a><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><script type="text/javascript" id="tm_3" async="" defer="" src="./Painel de Controle Submarino_files/mstag.js"></script><script type="text/javascript" id="tm_5"> mstag.loadTag("analytics", {dedup:"1",domainId:"2401601",type:"1",revenue:"",actionid:"181260"}); amc.call('getLoaderById', 1).publish('ontagload.tm_5', {id: 'tm_5',tag: amc.call('getById', 'tm_5')})</script><noscript> &amp;lt;iframe src="//flex.msn.com/mstag/tag/e22d2340-0ef9-4780-8fa3-e9fe67b94933/analytics.html?dedup=1&amp;amp;domainId=2401601&amp;amp;type=1&amp;amp;revenue=&amp;amp;actionid=181260" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"&amp;gt; &amp;lt;/iframe&amp;gt; </noscript>
+
+<!-- Advertiser 'Submarino - 00.776.574/0001-56 - B2W Companhia Global de Varejo',  Conversion tracking 'Adv_Conv_Submarino' - DO NOT MODIFY THIS PIXEL IN ANY WAY -->
+<img src="https://ad.yieldmanager.com/pixel?id=2411239&t=2" width="0" height="0" style="display: none !important; visibility: hidden !important; opacity: 0 !important; background-position: 1px 1px;">
+<!-- End of conversion tag --><script type="text/javascript">amc.call('getLoaderById', 1).publish('ontagload.tm_6', {id: 'tm_6',tag: amc.call('getById', 'tm_6')})</script><script type="text/javascript" id="datalayer">
+//Função para recebimento dos valores do objeto crmWA_dataLayer: departamento, linha e sublinha
+	function crmWA_dataLayerDepLinhaSub() { 		
+		try {
+			if (typeof crmWA_dataLayer == "object") {  //Verifica a existência do objeto crmWAdataLayer
+				var quantItensObj = crmWA_dataLayer.length;				
+				for(var i = 0; i < quantItensObj; i++){ //Loop para recebimento dos objetos criados na página					
+					var variaveisGlobais = {
+						departamento: crmWA_dataLayer[i].objDepartamento || '',
+						linha: crmWA_dataLayer[i].objLinha || '',
+						familia: crmWA_dataLayer[i].objFamilia || '',
+						sublinha: crmWA_dataLayer[i].objSublinha || ''
+						//disponibilidade: crmWA_dataLayer[i].objDiponibilidade
+					};													
+				}
+			}
+//			ver_crmWA_dataLayerDepLinhaSub(variaveisGlobais);
+			return variaveisGlobais;
+		}
+		catch(e){
+
+		}
+	};
+	
+	
+//Fim departamento, linha e sublinha
+
+//Função para recebimento dos valores do objeto crmWA_dataLayer das páginas de produtos
+	function crmWA_dataLayerProdutos() { 
+		try {		
+			if (typeof crmWA_dataLayer == "object") {  //Verifica a existência do objeto crmWAdataLayer				
+				var quantItensObj = crmWA_dataLayer.length;				
+				for(var i = 0; i < quantItensObj; i++){ //Loop para recebimento dos objetos criados na página					
+					var variaveisGlobais = {
+						disponibilidade: crmWA_dataLayer[i].objDiponibilidadeProd || '',
+						departamento: crmWA_dataLayer[i].objDepartamento || '',
+						linha: crmWA_dataLayer[i].objLinha || '',
+						familia: crmWA_dataLayer[i].objFamilia || '',
+						sublinha: crmWA_dataLayer[i].objSublinha || '',
+						nome: crmWA_dataLayer[i].objNomeProd || '',
+						id: crmWA_dataLayer[i].objIdProd || '',
+						preco: crmWA_dataLayer[i].objPrecoProd || ''						
+					};													
+				}
+			}
+			//ver_crmWA_dataLayerPagProdutos(variaveisGlobais);
+			return variaveisGlobais;
+		}
+		catch(e){
+
+		}
+	};
+	
+//Fim Produtos
+
+//Função para recebimento dos valores do objeto crmWA_dataLayer das páginas de busca
+	function crmWA_dataLayerBusca() { 
+		try {		
+			if (typeof crmWA_dataLayer == "object") {  //Verifica a existência do objeto crmWAdataLayer				
+				var quantItensObj = crmWA_dataLayer.length;				
+				for(var i = 0; i < quantItensObj; i++){ //Loop para recebimento dos objetos criados na página					
+					var variaveisGlobais = {
+						busca: crmWA_dataLayer[i].objTextoBusca,
+						resultado: crmWA_dataLayer[i].objQuantResults
+					};													
+				}
+			}
+//			ver_crmWA_dataLayerBusca(variaveisGlobais);
+			return variaveisGlobais;
+		}
+		catch(e){
+
+		}
+	};
+	
+//Fim Busca
+
+//Função para recebimento dos valores do objeto crmWA_dataLayer das páginas de garantia
+	function crmWA_dataLayerGarantia() { 
+		try {		
+			if (typeof crmWA_dataLayer == "object") {  //Verifica a existência do objeto crmWAdataLayer				
+				var quantItensObj = crmWA_dataLayer.length;				
+				for(var i = 0; i < quantItensObj; i++){ //Loop para recebimento dos objetos criados na página					
+					var variaveisGlobais = {
+						id: crmWA_dataLayer[i].objIdProd || ''
+					};													
+				}
+			}
+			ver_crmWA_dataLayerPagGarantia(variaveisGlobais);
+		}
+		catch(e){
+
+		}
+	};
+	
+	//Essa função utilizará os dados do DataLayer criado para fazer o disparo para o SiteCatalyst
+		//Essa função utilizará os dados do DataLayer criado para fazer o disparo para o SiteCatalyst
+		function ver_crmWA_dataLayerPagGarantia(variaveisGlobais){				
+			var id_prod = variaveisGlobais.id;
+			
+		}
+//Fim Garantia
+; amc.call('getLoaderById', 0).publish('ontagload.datalayer', {id: 'datalayer',tag: amc.call('getById', 'datalayer')})</script><script type="text/javascript" id="Tagueamento">function document_readyState(){try{if("complete"!=document.readyState||"function"!=typeof clickCatalyst||"object"!=typeof s||"function"!=typeof s.t)setTimeout(document_readyState,1E3);else{var U=function(b,c,e){if(C(b)){var g="";"function"==typeof crmWA_encriptID&&(g=crmWA_encriptID(b.toLowerCase()));var h=k="";if("string"==typeof c){h="";try{h=crmWA_dataLayer[0].objNomeProd}catch(l){}h=";"+c+";;;;eVar17="+e+"|eVar25="+h;k="event11"}d={pageName:"cancelar",link_o:a+":msg-SucessoCadastroEmail",eVar13:g,
+eVar39:b,prop47:O,eVar18:""!=f?f+"Cadastro":s.channel+"Cadastro",products:h,events:k};clickCatalystLinkP(jQuery.extend(d,u))}},C=function(a){return/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(a)},b=location.pathname.toLowerCase(),x=document.referrer.toLowerCase(),r=location.hostname,K=location.search.toLocaleLowerCase(),a="",f="",k="",n="",d="",y="",m="",u="",V="",D=!0,g="nao_disparar",
+e="",G="";s.list1=s.list2="";var c={setCookie:function(a,b,c,d,e){var f=new Date;f.setHours(f.getHours()+c);b=escape(b)+(null==c?"":"; expires="+f.toUTCString());document.cookie=a+"="+b+";domain="+d+";path="+e},getCookie:function(a){var b=document.cookie,c=b.indexOf(" "+a+"=");-1==c&&(c=b.indexOf(a+"="));-1==c?b=null:(c=b.indexOf("=",c)+1,a=b.indexOf(";",c),-1==a&&(a=b.length),b=unescape(b.substring(c,a)));return b},sanitize:function(a,b){a=jQuery.trim(a).toLowerCase().replace(/\s+/g,"_").replace(/[\u00e1\u00e0\u00e2\u00e3\u00e5\u00e4\u00e6\u00aa]/g,
+"a").replace(/[\u00e9\u00e8\u00ea\u00eb\u0404\u20ac]/g,"e").replace(/[\u00ed\u00ec\u00ee\u00ef]/g,"i").replace(/[\u00f3\u00f2\u00f4\u00f5\u00f6\u00f8\u00ba]/g,"o").replace(/[\u00fa\u00f9\u00fb\u00fc]/g,"u").replace(/[\u00e7\u00a2\u00a9]/g,"c").replace(",","");!0===b&&(a=a.replace(/[^a-z0-9\-]/g,"_").replace(/_+/g,"_"));return a},getParam:function(a){var b=location.href,b=b.split("#")[0],b=b.split("?");if(1!=b.length){b=decodeURI(b[1]);a+="=";for(var b=b.split("&"),c=0,d;d=b[c];++c)if(0===d.indexOf(a))return unescape(d.split("=")[1])}},
+isInt:function(b){return"number"===typeof b&&parseFloat(b)==parseInt(b,10)&&!isNaN(b)},pos_resultado:function(b,a,d,e,f){var g=1,h=1,k=1,l="",m="";jQuery(b).each(function(b){jQuery(this).is(".CLASS")||(h=c.isInt(g/a)?g/a:Math.floor(g/a)+1,k=0==g%a?a:g%a,m=""!=c.sanitize(jQuery(".pagBox .pag .on").text())?"_pag"+c.sanitize(jQuery(".pagBox .pag .on").text()):"_pag1",jQuery(this).attr("crmwa_pos",d+":"+c.sanitize(e)+m+"_pos#"+h+"."+k),l+=d+":"+c.sanitize(e)+m+"_pos#"+h+"."+k+",",g++)});if(0<=location.hostname.indexOf("busca.submarino")&&
+0<=jQuery.fn.jquery.indexOf("1.9")||0<=jQuery.fn.jquery.indexOf("1.10"))jQuery(b).on("mousedown",function(){c.setCookie("crmWA_posResultado",jQuery(this).attr("crmWA_Pos"),1,f,"/")});else jQuery(b).live("mousedown",function(){c.setCookie("crmWA_posResultado",jQuery(this).attr("crmWA_Pos"),1,f,"/")});""!=l&&(s.list2=l.substring(0,l.length-1))},formularios:function(b,a){var d=erro=lista=posicao=nome_e_erro="";jQuery(b).each(function(){if(!jQuery(this).attr("style")||0<jQuery(this).attr("style").length&&
+-1==jQuery(this).attr("style").indexOf("hidden")){erro="";a&&""!=a&&(erro=c.sanitize(jQuery(this).next(a).text())?c.sanitize(jQuery(this).next(a).text()):"_",""==erro||"_"==erro)&&(""!=jQuery(this).parent().nextAll(a).text()?erro=c.sanitize(jQuery(this).parent().nextAll(a).text()):""!=jQuery(this).parent().prev().find(a).text()&&(erro=c.sanitize(jQuery(this).parent().prev().find(a).text())));jQuery(this).attr("type")&&"radio"==jQuery(this).attr("type")?(d=c.sanitize(jQuery(this).next("span").text()),
+""==d&&jQuery(this).next()&&""!=jQuery(this).next().text()&&(d=c.sanitize(jQuery(this).next().text()))):0<jQuery(this).prev().length&&""!=jQuery(this).prev().text()?d=c.sanitize(jQuery(this).prev().text()):1==jQuery(this).closest("span").length&&1==jQuery(this).closest("span").prevAll("span").length?d=c.sanitize(jQuery(this).closest("span").prevAll("span").text()):1==jQuery(this).closest("span").length&&1==jQuery(this).closest("span").prev("label").find("span").length?d=c.sanitize(jQuery(this).closest("span").prev("label").find("span").text()):
+0<jQuery(this).next().length&&""!=jQuery(this).next().text()&&(d=c.sanitize(jQuery(this).next().text()));""!=d&&0<=d.indexOf("*")&&(d=d.replace("*",""));if(""!=d&&"_"==d.slice(-1)||":"==d.slice(-1))d=d.substring(0,d.length-1);if(jQuery(this).attr("title")&&0<=jQuery(this).attr("title").indexOf("ddd")||jQuery(this).attr("class")&&0<=jQuery(this).attr("class").indexOf("cep01"))d=0<=jQuery(this).attr("title").indexOf("ddd")?d+"-ddd":"cep-digitos";0<=d.indexOf("como_gostaria_de_ser_chamado")&&(d="apelido");
+0<=d.indexOf("deseja_receber")&&-1==d.indexOf("parceiros")&&(d="optIn");0<=d.indexOf("deseja_receber")&&0<=d.indexOf("parceiros")&&(d="optIn_parceiros");nome_e_erro=d+"|"+erro;jQuery(this).attr("crmWA_forminfo",nome_e_erro);lista+=nome_e_erro+","}});""!=lista&&","==lista.slice(-1)&&(lista=lista.substring(0,lista.length-1));return lista},checkAndAddCookie:function(a,b){jQuery(a).attr("crmWA_mdc",b);if("function"==typeof jQuery().live)jQuery(a).live("mousedown",function(){c.setCookie("crmWA_mdc",jQuery(a).attr("crmWA_mdc"),
+1,".submarino.com.br","/")});else if("function"==typeof jQuery().on)jQuery(a).on("mousedown",function(){c.setCookie("crmWA_mdc",jQuery(a).attr("crmWA_mdc"),1,".submarino.com.br","/")})}},H="NaoLogado";c.getCookie("subaNick")&&""!=c.getCookie("subaNick")&&(H="Logado");if("string"==typeof c.getParam("DCSext.recom")){var A="",x=document.referrer.toLocaleLowerCase(),A="undefined"!=typeof x.split("/")[3]&&""==x.split("/")[3]?"Home":0<=x.indexOf("busca")?"Busca":0<=x.indexOf("/loja/")?"Departamento":0<=
+x.indexOf("/subloja/")?"Subloja":0<=x.indexOf("/linha/")?"Linha":0<=x.indexOf("/sublinha/")?"Sublinha":0<=x.indexOf("/produto/")?"Produto":0<=x.indexOf("/checkout")?"Carrinho":"Outros",A="Recomendacao|"+A+"|";"string"==typeof c.getParam("nm_origem")&&"string"==typeof c.getParam("nm_ranking_rec")?(A+=c.getParam("nm_origem").split("_")[2]+"|"+c.getParam("nm_ranking_rec"),A=A.replace("rec_carrinho_","")):A="";s.eVar74=A;G+=",event73"}"string"==typeof c.getCookie("crmWA_mdc")&&""!=c.getCookie("crmWA_mdc")&&
+(s.eVar45=AUNICA_getCookie("crmWA_mdc"),c.setCookie("crmWA_mdc","",-10,".submarino.com.br","/"));if("busca.submarino.com.br"!=location.hostname&&b.match(/\/loja\/+[0-9]+/gi)||b.match(/\/linha\/+[0-9]+/gi)||b.match(/\/sublinha\/+[0-9]+/gi)||b.match(/\/subloja\/+[0-9]+/gi)||b.match(/\/produto\/+[0-9]+/gi)&&-1==b.indexOf("garantia"))if(n=b.match(/\/produto\/+[0-9]+/gi)||b.match(/\/HomeProdutoV+[0-9]+/gi)?crmWA_dataLayerProdutos():crmWA_dataLayerDepLinhaSub(),void 0==n&&(n={id:"NoDataLayer",departamento:"NoDataLayer",
+linha:"NoDataLayer",familia:"NoDataLayer"}),u={channel:"",eVar41:H,prop41:H},b.match(/\/produto\/+[0-9]+/gi)||b.match(/\/HomeProdutoV+[0-9]+/gi)){g="Produto|";a=c.sanitize(crmWA_dataLayer[0].objBreadCrumb.replace(" > ",":").replace(" > ",":").replace(" > ",":").replace(" > ",":"))+":"+crmWA_dataLayer[0].objIdProd;u.channel=0<=a.indexOf(":")?a.split(":")[0]:a;var B="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objDepartamento):b.split("/")[2],L="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objLinha):
+b.split("/")[2],Q="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objSubLinha):b.split("/")[2],v=prop57="";"object"==typeof crmWA_dataLayer&&("nao"==crmWA_dataLayer[0].objMktPlace?(v+="Exclusivo B2C|",prop57="Nao Marketplace"):"sim"==crmWA_dataLayer[0].objMktPlace&&0<=jQuery(".mp-delivered-by").text().indexOf("Submarino")?(v+="Misto|",prop57="Marketplace: Produto Misto"):"sim"==crmWA_dataLayer[0].objMktPlace&&-1==jQuery(".mp-delivered-by").text().indexOf("Submarino")&&(v+="Exclusivo Marketplace|",
+prop57="Marketplace: Produto Exclusivo"),v=0<=v.indexOf("B2C")?v+"Submarino|":v+(jQuery(".mp-delivered-by a").text()+"|"),v="sim"==crmWA_dataLayer[0].objMktPlace&&0<=crmWA_dataLayer[0].objIDMktPlace.indexOf(",")?v+crmWA_dataLayer[0].objIDMktPlace.split(",").length:v+"0");if(c.getCookie("crmWA_posResultado")){var R=c.getCookie("crmWA_posResultado");R.match(/vitrine/gi)||R.match(/home/gi)?k="event26,":R.match(/buscainterna/gi)&&(k="event10,");c.setCookie("crmWA_posResultado","",-10,".submarino.com.br",
+"/")}d={pageName:a,events:k+"prodView,event55,event67",products:";"+n.id+";;;;eVar25="+crmWA_dataLayer[0].objNomeProd,prop25:crmWA_dataLayer[0].objNomeProd,prop35:"Produto",eVar35:"Produto",eVar42:v,eVar49:B+"|"+L+"|"+Q,prop57:prop57,prop60:"Produto",list1:y};"object"==typeof crmWA_dataLayer&&"false"==crmWA_dataLayer[0].objDiponibilidadeProd&&(d.events+=",event31");jQuery(".storeNav li a").each(function(){var a="";0<=jQuery(this).attr("href").indexOf("/loja/")?a="Departamento":0<=jQuery(this).attr("href").indexOf("/linha/")?
+a="Linha":0<=jQuery(this).attr("href").indexOf("/sublinha/")&&(a="Sublinha");var b="Item";""!=jQuery(this).text()&&(b=c.sanitize(jQuery(this).text()));e=g+"Menu de Recomendacoes|"+a+"|"+b;c.checkAndAddCookie(jQuery(this),e)});jQuery("#tudo a").mousedown(function(){mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Banner 1||"};clickCatalystLinkP(mdc_disparo)});jQuery(".breadcrumb a").each(function(){e=g+"BreadCrumb||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".safeShop").mousedown(function(){mdc_disparo=
+{pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Compra Segura Submarino||"};clickCatalystLinkP(mdc_disparo)});jQuery(".buy-box .spt-b-main-buy, .buy-box .btn-one-click").each(function(){var a="",a=0<=jQuery(this).attr("class").indexOf("main-buy")?"Comprar":"Compra com 1-click";e=g+a+"||";c.checkAndAddCookie(jQuery(this),e)});var W=1;jQuery(".box-partners .spt-format.b-buy-partner.moda-control").each(function(){e=g+"BuyBox|"+W+"|";c.checkAndAddCookie(jQuery(this),e);W++});jQuery(".cartaoSubmarino a").each(function(){e=
+g+"Cartao Submarino||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".social-area a, .social-area .share-email").mousedown(function(){var a=c.sanitize(jQuery(this).text());0<=a.indexOf("email")&&(a="email");mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Redes Sociais|"+a+"|"};clickCatalystLinkP(mdc_disparo)});jQuery(".menuCaracteristicaProduto.menu-info a").mousedown(function(){var a=c.sanitize(jQuery(this).text());mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+
+"Caracteristicas do Produto|"+a+"|"};clickCatalystLinkP(mdc_disparo)});jQuery(".crossSelling .btn.btBuy2").each(function(){e=g+"Compre junto|Comprar os 2 juntos|";c.checkAndAddCookie(jQuery(this),e)});jQuery(document).ajaxComplete(function(){jQuery("#neemu-viu-comprou .neemu-carousel-item").each(function(){var a=jQuery("#neemu-viu-comprou .neemu-carousel-item").index(jQuery(this))+1,b=jQuery("#neemu-viu-comprou, #viu-viu_divall, #similares-categoria_divall").index(jQuery("#neemu-viu-comprou"))+1;
+e=g+"Vitrine"+b+"|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#viu-viu_divall .neemu-carousel-item").each(function(){var a=jQuery("#viu-viu_divall .neemu-carousel-item").index(jQuery(this))+1,b=jQuery("#neemu-viu-comprou, #viu-viu_divall, #similares-categoria_divall").index(jQuery("#viu-viu_divall"))+1;e=g+"Vitrine"+b+"|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#similares-categoria_divall .neemu-carousel-item").each(function(){var a=jQuery("#similares-categoria_divall .neemu-carousel-item").index(jQuery(this))+
+1,b=jQuery("#neemu-viu-comprou, #viu-viu_divall, #similares-categoria_divall").index(jQuery("#similares-categoria_divall"))+1;e=g+"Vitrine"+b+"|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#historico-usuario_ul li").each(function(){var a=jQuery("#historico-usuario_ul li").index(jQuery(this))+1;e=g+"Historico de navegacao|Vitrine|"+a;c.checkAndAddCookie(jQuery(this),e)});jQuery("#historico-usuario_divmainproduct a").each(function(){var a=c.sanitize(jQuery(this).closest("ul").prev("span").text()),
+b=c.sanitize(jQuery(this).text());e=g+"Historico de navegacao|"+a+"|"+b;c.checkAndAddCookie(jQuery(this),e)})});jQuery(document).ajaxComplete(function(a,b,c){if(0<=c.url.indexOf("checkout/freightService")&&jQuery(".resultCep")&&""==jQuery(".resultCep").attr("style")&&""!=jQuery("#postalCodeID1").val()){a=d;a.pageName="";b=jQuery(".shpTime .txShp").text().match(/\d+/)?+jQuery(".shpTime .txShp").text().match(/\d+/):"";c="";var e=jQuery("#postalCodeID1").val()+"-"+jQuery("#postalCodeID2").val();jQuery(".shpTime2 .txShp").text().match(/[0-9]*\,?[0-9]+/)?
+c=jQuery(".shpTime2 .txShp").text().match(/[0-9]*\,?[0-9]+/).toString().replace(",","."):jQuery(".shpTime2 .txShp").text().match(/[A-Za-z]+/gi)&&(c="0.00");var f=parseFloat(c)/parseFloat(crmWA_dataLayer[0].objPrecoProd)*100,f=f.toFixed(2),h=a.products.match(/[0-9]*\,?[0-9]+/),h=";"+h+";;;event29="+b+"|event30="+c+"|event32="+f,k="consulta_com_sucesso";jQuery(".serviceUnavaible").attr("style")&&-1==jQuery(".serviceUnavaible").attr("style").indexOf("none")?k="servico_indisponivel":1==jQuery("#fancybox-frame").is(":visible")&&
+(k="cep_invalido");cep_disparo={pageName:"cancelar",link_o:"Produto:ConsultaCEP",events:"event9,event29,event30,event32",products:h,eVar26:e+"|"+b+"|"+c+"|"+f+"|"+k,eVar45:g+"Calculo de Frete||"};clickCatalystLinkP(jQuery.extend(a,cep_disparo))}})}else if(b.match(/\/loja\/+[0-9]+/gi)||b.match(/\/HomeDepartamentoV+[0-9]+/gi)){f="Departamento";a=c.sanitize(jQuery(".menu > .main-heading").text());""==a&&(a=c.sanitize(jQuery(".menu-top-moda .page-title.spt-i-menu-top-moda").text()));u.channel=0<=a.indexOf(":")?
+a.split(":")[0]:a;var B="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objDepartamento):b.split("/")[2],d={pageName:a,products:";Pagina:"+f+";;;;",events:k,prop35:f,eVar35:f,eVar49:B+"||",list1:y}}else if(b.match(/\/subloja\//gi)){var f="Subloja",w=".breadcrumb .link";if(0<jQuery(w).length)for(var l=0;l<jQuery(w).length;l++)a+=c.sanitize(jQuery(w).eq(l).text()),jQuery(w).length!=l+1&&(a+=":");u.channel=0<=a.indexOf(":")?a.split(":")[0]:a;B="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objDepartamento):
+b.split("/")[2];d={pageName:a,products:";Pagina:"+f+";;;;",events:k,prop35:f,eVar35:f,eVar49:B+"||",list1:y}}else if(b.match(/\/linha\//gi)){f="Linha";w=".breadcrumb .link";if(0<jQuery(w).length)for(l=0;l<jQuery(w).length;l++)a+=c.sanitize(jQuery(w).eq(l).text()),jQuery(w).length!=l+1&&(a+=":");u.channel=0<=a.indexOf(":")?a.split(":")[0]:a;var B="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objDepartamento):b.split("/")[2],L="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objLinha):
+b.split("/")[2],d={pageName:a,products:";Pagina:"+f+";;;;",events:k,prop35:f,eVar35:f,eVar49:B+"|"+L+"|",list1:y}}else if(b.match(/\/sublinha\//gi)){f="Sublinha";w=".breadcrumb .link";if(0<jQuery(w).length)for(l=0;l<jQuery(w).length;l++)a+=c.sanitize(jQuery(w).eq(l).text()),jQuery(w).length!=l+1&&(a+=":");u.channel=0<=a.indexOf(":")?a.split(":")[0]:a;var B="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objDepartamento):b.split("/")[2],L="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objLinha):
+b.split("/")[2],Q="object"==typeof crmWA_dataLayer?c.sanitize(crmWA_dataLayer[0].objSubLinha):b.split("/")[2],d={pageName:a,products:";Pagina:"+f+";;;;",events:k,prop35:f,eVar35:f,eVar49:B+"|"+L+"|"+Q,list1:y}}else 0<=b.indexOf("/marca/")?(f="Marca",u.channel="Marca",marca=b.split("marca/")[1]?"Marca:"+b.split("marca/")[1]:"Marca:"+b,d={pageName:marca,products:";Pagina:"+f+";;;;",prop35:f,eVar35:f}):(V=c.sanitize(jQuery("#area2-1 .bCrumb a").text())+":"+c.sanitize(jQuery("#area2-1 .bCrumb .category.last").text()),
+f=c.sanitize(jQuery("#area2-1 .bCrumb a:eq(0)").text()),u.channel="Marca",marca=b.split("marca/")[1]?"Marca:"+b.split("marca/")[1]:"Marca:"+b,d={pageName:V,products:";Pagina:"+f+";;;;",prop35:f,eVar35:f});else if(b.match(/\/produto\/+[0-9]+/gi))a="ProdutoSemDepartamento";else if("www.submarino.com.br"==r&&"/"==b||"www.submarino.com.br"==r&&""==b||b.match(/\/HomeSubmarinoV+[0-9]+/gi)){var X=function(){jQuery(".carousel-marrow:eq(2) .product.ui-draggable").each(function(){var a=c.sanitize(jQuery(this).closest(".content").prev(".title").find("h2").text()),
+b=c.sanitize(jQuery(this).closest(".carousel-marrow").prev(".dd-box").find(".li.selected").text()),d=jQuery(".carousel-marrow:eq(2) .product.ui-draggable").index(jQuery(this))+1;e=g+"Box: "+a+"|"+b+"|"+d;c.checkAndAddCookie(jQuery(this),e)})},Y=function(){jQuery(".carousel-marrow:eq(1) .product.ui-draggable").each(function(){var a=c.sanitize(jQuery(this).closest(".content").prev(".title").find("h2").text()),b=c.sanitize(jQuery(this).closest(".carousel-marrow").prev(".dd-box").find(".li.selected").text()),
+d=jQuery(".carousel-marrow:eq(1) .product.ui-draggable").index(jQuery(this))+1;e=g+"Box: "+a+"|"+b+"|"+d;c.checkAndAddCookie(jQuery(this),e)})},Z=function(){jQuery(".carousel-marrow:eq(0) .product.ui-draggable").each(function(){var a=c.sanitize(jQuery(this).closest(".content").prev(".title").find("h2").text()),b=c.sanitize(jQuery(this).closest(".carousel-marrow").prev(".dd-box").find(".li.selected").text()),d=jQuery(".carousel-marrow:eq(0) .product.ui-draggable").index(jQuery(this))+1;e=g+"Box: "+
+a+"|"+b+"|"+d;c.checkAndAddCookie(jQuery(this),e)})};s.channel=f=a="Home";g="Home|";d={events:"event53",prop35:"Home",eVar35:"Home",pageName:a};jQuery(".fix-limit-menu .popAjax").mousedown(function(){mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Regras do Site|1|"};clickCatalystLinkP(mdc_disparo)});jQuery(".fix-limit-menu a:eq(1)").each(function(){e=g+"Regras do Site|2|";c.checkAndAddCookie(jQuery(this),e)});if("function"==typeof jQuery().on)jQuery(".fix-limit-menu .slide-items-wrapper .slide-items > li > div, .fix-limit-menu .slide-items-wrapper .slide-items > li > a").on("mousedown",
+function(){var a=jQuery(".slide-pagination.pagination-counter .selected").text();e=g+"Destaques|"+a+"|";c.setCookie("crmWA_mdc",e,1,".submarino.com.br","/")});jQuery(".div-mundos a").each(function(){var a=jQuery(".div-mundos a").index(jQuery(this))+1;e=g+"Banner Destaque|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".social-icons.pull-right a").mousedown(function(){mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Redes Sociais|"+c.sanitize(jQuery(this).text())};clickCatalystLinkP(mdc_disparo)});
+jQuery(".top2-subday-dez").each(function(){e=g+"Banner 1||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".social-email").next("div").each(function(){void 0==jQuery(".social-email").next("div").attr("class")&&(e=g+"Banner 1||",c.checkAndAddCookie(jQuery(this),e))});jQuery(".columns .row-fluid .slide-items-wrapper:eq(0) a").each(function(){var a=jQuery(".columns .row-fluid .slide-items-wrapper:eq(0) a").index(jQuery(this))+1;e=g+"Banner De Ofertas 1|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".columns .row-fluid .slide-items-wrapper:eq(1) a").each(function(){var a=
+jQuery(".columns .row-fluid .slide-items-wrapper:eq(1) a").index(jQuery(this))+1;e=g+"Banner De Ofertas 2|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});Z();jQuery(".model-round-box.model-carousel.tp1:eq(0) .dropdown-toggle li").on("mousedown",function(){jQuery(document).ajaxStop(function(){Z()})});Y();jQuery(".model-round-box.model-carousel.tp1:eq(1) .dropdown-toggle li").on("mousedown",function(){jQuery(document).ajaxStop(function(){Y()})});X();jQuery(".model-round-box.model-carousel.tp1:eq(2) .dropdown-toggle li").on("mousedown",
+function(){jQuery(document).ajaxStop(function(){X()})});jQuery(".row > .columns .span6:eq(0)").each(function(){e=g+"Banner 2||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".row > .columns .span6:eq(1)").each(function(){e=g+"Banner 3||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".row .banners-oas:eq(0)").each(function(){e=g+"Banner 4||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".row .banners-oas:eq(1) li").each(function(){var a=jQuery(".row .banners-oas:eq(1) li").index(jQuery(this))+5;e=
+g+"Banner "+a+"||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".pull-right:eq(2)").each(function(){e=g+"Banner 9||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".columns.services .span3").each(function(){var a=jQuery(".columns.services .span3").index(jQuery(this))+1;e=g+"Servicos|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".model-box.leftbullet .model-round-box.model-carousel:eq(0)").on("mousedown",function(){var a=jQuery(this).find(".selected").text();e=g+"Top 5 Esquerda|"+a+"|";c.checkAndAddCookie(jQuery(this),
+e)});jQuery(".model-box.leftbullet .model-round-box.model-carousel:eq(1)").on("mousedown",function(){var a=jQuery(this).find(".selected").text();e=g+"Top 5 Centro|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".model-box.leftbullet .model-round-box.model-carousel:eq(2)").on("mousedown",function(){var a=jQuery(this).find(".selected").text();e=g+"Top 5 Direita|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".row .app-slide.slide-ready .slide-item").each(function(){var a=jQuery(".row .app-slide.slide-ready .slide-item").index(jQuery(this))+
+1;e=g+"Exploradores|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#geral_divitems li").each(function(){var a=jQuery("#geral_divitems li").index(jQuery(this))+1;e=g+"Vitrine 1|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#preco-menor_ul .neemu-carousel-item").each(function(){var a=jQuery("#preco-menor_ul .neemu-carousel-item").index(jQuery(this))+1;e=g+"Vitrine 2|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".default-carousel:eq(0) .product").each(function(){var a=jQuery(".default-carousel:eq(0) .product").index(jQuery(this))+
+1;e=g+"Vitrine 3|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".default-carousel:eq(1) .product").each(function(){var a=jQuery(".default-carousel:eq(1) .product").index(jQuery(this))+1;e=g+"Vitrine 4|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".default-carousel:eq(2) .product").each(function(){var a=jQuery(".default-carousel:eq(2) .product").index(jQuery(this))+1;e=g+"Vitrine 5|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#viu-comprou_divall li").each(function(){var a=jQuery("#viu-comprou_divall li").index(jQuery(this))+
+1;e=g+"Vitrine 6|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery("#historico-usuario_ul li").each(function(){var a=jQuery("#historico-usuario_ul li").index(jQuery(this))+1;e=g+"Vitrine 7|"+a+"|";c.checkAndAddCookie(jQuery(this),e)})}else if(0<=b.indexOf("/produto/garantia/"))a="Produto:Garantia:"+b.split("/")[3].match(/[0-9]*\,?[0-9]+/),s.events="event56",d={pageName:a,channel:"GarantiaProduto",prop35:"GarantiaProduto",eVar35:"GarantiaProduto",prop60:"Garantia",events:"event56"};else if(0<=r.indexOf("carrinho.submarino.com.br")||
+0<=r.indexOf("sacola."))if("object"==typeof crmWA_dataLayer&&0<crmWA_dataLayer.length&&"string"==typeof crmWA_dataLayer[0].objTipoDePagina&&("Carrinho"==crmWA_dataLayer[0].objTipoDePagina||"Checkout"==crmWA_dataLayer[0].objTipoDePagina)||0<=r.indexOf("sacola.")){0<=r.indexOf("staging.sacola")&&(D=!1);try{if("Carrinho"==crmWA_dataLayer[0].objPageName){var h="scView",E=!1;0<crmWA_dataLayer[0].objCarrinhoProduto.length&&(h="scOpen",E=!0);0<=document.referrer.indexOf("comparacao.americanas")&&(h+=",event37");
+"Nok"==crmWA_dataLayer[0].objStatusCarrinho&&(h+=",event19");0<=location.href.indexOf("codItemFusion")&&0==crmWA_dataLayer[0].objCarrinhoProduto.length&&(h+=",event4");d={pageName:"Carrinho",channel:"Carrinho",eVar35:"Carrinho",prop35:"Carrinho",prop60:"Carrinho",products:"",events:h};try{if(E){h="";for(l=0;l<crmWA_dataLayer[0].objCarrinhoProduto.length;l++)h+=";"+crmWA_dataLayer[0].objCarrinhoProduto[l].objId+";"+crmWA_dataLayer[0].objCarrinhoProduto[l].objQuantidade+";"+crmWA_dataLayer[0].objCarrinhoProduto[l].objPreco+
+";;eVar17="+crmWA_dataLayer[0].objCarrinhoProduto[l].objSku+",";h=h.substring(0,h.length-1);d.products=h}}catch(da){d.prop48="Erro Carrinho: "+da}}else if(h=function(){var a="";try{for(var a="",b=0;b<crmWA_dataLayer[0].objFunilProduto.length;b++)var c=crmWA_dataLayer[0].objFunilProduto[b].objId,d=crmWA_dataLayer[0].objFunilProduto[b].objSku,e="",e="string"==typeof crmWA_dataLayer[0].objFunilProduto[b].objValorUnit||"number"==typeof crmWA_dataLayer[0].objFunilProduto[b].objValorUnit?crmWA_dataLayer[0].objFunilProduto[b].objValorUnit:
+crmWA_dataLayer[0].objFunilProduto[b].objPreco,a=a+(";"+c+";"+crmWA_dataLayer[0].objFunilProduto[b].objQuantidade+";"+e+";;eVar17="+d+",");return a=a.substring(0,a.length-1)}catch(f){}},E=function(){var a="",b="",c="",e=eVar46=transactionID="",f="",g="purchase,event38";try{a=crmWA_dataLayer[0].objFunilNumeroParcelas,b=crmWA_dataLayer[0].objFunilMetdPagamento,c=crmWA_dataLayer[0].objFunilCustoFrete,eVar46=crmWA_dataLayer[0].objFunilNumPedido,transactionID=crmWA_dataLayer[0].objFunilNumPedido.replace(/-/g,
+""),e=crmWA_dataLayer[0].objFunilNumPedido.replace(/-/g,""),f=crmWA_dataLayer[0].objFunilCustoPedido,g+=",event18,event17="+f+",event16="+c}catch(h){}return d={eVar33:b,eVar34:a,eVar46:eVar46,transactionID:transactionID,purchaseID:e,events:g}},a=s.channel="Checkout",/address\/lightboxchangeaddress.xhtml/.test(b)||/checkout\/oneclickbuy\/userchangeaddress.xhtml/.test(b)||/checkout\/suba\/oneclickbuy\/changepayment.xhtml/.test(b))D=!1;else if("Checkout:EnderecoDeEntrega:AlterarEndereco"==crmWA_dataLayer[0].objPageName)if(d=
+{pageName:a+":EnderecoDeEntrega:AlterarEndereco",events:"event59"+k,prop60:"AlterarEndereco",eVar72:"Carrinho: Alterar Endereco"},jQuery("#useThisAddress").on("mousedown",function(){c.setCookie("crmWA_altEnd","altEnd",1,".submarino.com.br","/")}),k="",0<jQuery(".erro").length)c.setCookie("crmWA_altEnd","",-10,".submarino.com.br","/"),k=",event43",seletor_erro="#deliveryAddressForm .erro select:visible, #deliveryAddressForm .erro input:visible, #deliveryAddressForm .erro textarea:visible",seletor_msg_erro=
+".msgErro",s.list3=c.formularios(seletor_erro,seletor_msg_erro);else{var k=",event42",p="#deliveryAddressForm select, #deliveryAddressForm input, #deliveryAddressForm textarea";c.formularios(p);jQuery(p).focus(function(){var a=jQuery(this).attr("crmWA_forminfo")?jQuery(this).attr("crmWA_forminfo"):"";0<=a.indexOf("|")&&(a=a.split("|")[0]);omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",prop31:a};clickCatalystLinkP(omni_preenchimento)})}else if("Checkout:FormaDePagamento"==
+crmWA_dataLayer[0].objPageName){k="";"altEnd"==c.getCookie("crmWA_altEnd")&&(k=",event18",c.setCookie("crmWA_altEnd","",-10,".submarino.com.br","/"));var d={pageName:a+":FormaDePagamento",events:"scCheckout"+k,prop60:"FormaDePagamento",products:h()},F="",p="#payments select, #payments input, #payments textarea";jQuery("#optionsForm .box01 li").on("mousedown",function(){c.formularios(p);F=c.sanitize(jQuery(this).find(".flag").text());0<=F.indexOf("boleto")&&(F="boleto");0<=F.indexOf("bankline/visa_electron")&&
+(F="bankline/visa_electron");omni_form_view={pageName:"cancelar",link_o:"Visualizou Cadastro",events:"event42",eVar72:"Carrinho:FormaDePagamento:"+F};clickCatalystLinkP(omni_form_view)});jQuery(p).on("focus",function(){0<=jQuery(this).attr("crmwa_forminfo").indexOf("visa_mastercard_american")&&jQuery(this).attr("crmWA_forminfo","data_de_validade");var a=jQuery(this).attr("crmWA_forminfo")?jQuery(this).attr("crmWA_forminfo"):"";0<=a.indexOf("|")&&(a=a.split("|")[0]);""==a&&jQuery(this).attr("value")&&
+(a=c.sanitize(jQuery(this).attr("value")));if("twoCards"==jQuery("#payments > div:visible").attr("id")){var b="Cartao1:";0<=jQuery(this).closest("fieldset").prev("h2").find("span").text().indexOf("2")&&(b="Cartao2:");a=b+a}omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",prop31:a};clickCatalystLinkP(omni_preenchimento)});jQuery("#payments .button.btFinish").on("mousedown",function(){setTimeout(function(){0<jQuery(".payErCont:visible").length&&(k="event43",seletor_erro=
+"#payments .payEr select:visible, #payments .payEr input:visible, #payments .payEr textarea:visible",seletor_msg_erro=".pCardAlert",jQuery(seletor_erro).each(function(){var a="";0<=F.indexOf("2_cartoes_de_credito")&&(a="Cartao1:",0<=jQuery(this).closest("fieldset").prev("h2").find("span").text().indexOf("2")&&(a="Cartao2:"));0<=jQuery(this).attr("crmwa_forminfo").indexOf("visa_mastercard_american")&&jQuery(this).attr("crmWA_forminfo","data_de_validade|");jQuery(this).attr("crmWA_forminfo")&&""!=jQuery(this).attr("crmWA_forminfo")&&
+(t=jQuery(this).attr("crmWA_forminfo"));if(0<=t.indexOf("|")){var b="",b=c.sanitize(jQuery(this).parent().prevAll("div").find(seletor_msg_erro).text());""==b&&(b=""!=jQuery(this).closest("label").prev().find(seletor_msg_erro).text()?c.sanitize(jQuery(this).closest("label").prev().find(seletor_msg_erro).text()):""!=jQuery(this).closest("span").prevAll("div").find(seletor_msg_erro).text()?c.sanitize(jQuery(this).closest("span").prevAll("div").find(seletor_msg_erro).text()):""!=jQuery(this).closest("#credit2Form\\:installmentPanel1, #credit2Form\\:installmentPanel2").prevAll("div").find(seletor_msg_erro).text()?
+c.sanitize(jQuery(this).closest("#credit2Form\\:installmentPanel1, #credit2Form\\:installmentPanel2").prevAll("div").find(seletor_msg_erro).text()):"_");t=t.split("|")[0]+"|"+b}t=a+t;"-|_"!=t&&(m+=t+",")}),""!=m&&","==m.slice(-1)&&(m=m.substring(0,m.length-1)),omni_erro={pageName:"cancelar",link_o:"ErroDeFormulario",events:"event43",eVar72:"Carrinho:FormaDePagamento:"+F,list3:m},clickCatalystLinkP(omni_erro),m="")},1E3)})}else"Checkout:CompraRapida:FormaDePagamento"==crmWA_dataLayer[0].objPageName?
+d={pageName:a+":CompraRapida:FormaDePagamento",prop60:"Confirmacao 1-Click",events:"event44",products:h()}:"Checkout:Obrigado"==crmWA_dataLayer[0].objPageName?(omni_new={pageName:a+":Obrigado",eVar15:"Obrigado:Checkout",prop60:"Obrigado",products:h()},omnidisp=E(),d=jQuery.extend(omni_new,omnidisp)):"Checkout:CompraRapida:Obrigado"==crmWA_dataLayer[0].objPageName&&(omnidisp=E(),omni_one_click={pageName:a+":CompraRapida:Obrigado",eVar15:"Obrigado:1-Click",prop60:"Obrigado:1-Click",products:h()},d=
+jQuery.extend(omni_one_click,omnidisp),d.events+=",event45")}catch(qa){k="",0<=location.href.indexOf("codItemFusion")&&(k="scOpen,scAdd"),d={pageName:"Carrinho",channel:"Carrinho",events:k,prop48:"Erro Carrinho - ATM: DataLayer n\u00e3o definido"}}}else if(0<=_satellite.getVar("getPageName").indexOf("Finance")||0<=b.indexOf("loginfinance")||0<jQuery(".step01.sel").length)if(d={pageName:"",channel:"Finance",prop35:"Finance",eVar35:"Finance",events:""},0<=b.indexOf("loginfinance")||0<jQuery(".step01.sel").length){d.pageName=
+"Finance:Proposta:Login";k="";p=".userData select, .userData input";c.formularios(p);if(0<jQuery(".it-erro").length){var k="event43",t=erro="";jQuery(p).each(function(){""!=jQuery(this).closest(".it-erro").find(".feedbacklabelERROR").text()&&jQuery(this).attr("crmWA_forminfo")&&""!=jQuery(this).attr("crmWA_forminfo")&&(t=jQuery(this).attr("crmWA_forminfo"),erro=c.sanitize(jQuery(this).closest(".it-erro").find(".feedbacklabelERROR").text()),m+=t+erro+",")});""!=m&&","==m.slice(-1)&&(s.list3=m.substring(0,
+m.length-1))}else k="event42",jQuery(p).focus(function(){var a=jQuery(this).attr("crmWA_forminfo")?jQuery(this).attr("crmWA_forminfo"):"";0<=a.indexOf("|")&&(a=a.split("|")[0]);omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",channel:d.channel,prop31:a};clickCatalystLinkP(omni_preenchimento)});d.events=k;d.eVar72="Finance:Login"}else"Finance:ErroCPF"==_satellite.getVar("getPageName")?d.pageName="Finance:Proposta:ErroFormulario":"Finance:Proposta:DadosPessoais"==_satellite.getVar("getPageName")?
+((0<=document.referrer.indexOf("/CustomerWeb/pages/LoginFinance")||0<=document.cookie.indexOf("=finance_login"))&&clickCatalystLinkP({pageName:"cancelar",events:"event18",link_o:"Preenchimento de Formulario"}),d.pageName="Finance:Proposta:Dados",k="",p="#proposalFormStep1 select:visible, #proposalFormStep1 input:visible, #proposalFormStep1 textarea:visible",c.formularios(p),0<jQuery(".msgBox.msgErro").length?(k=",event43",t=erro="",jQuery(p).each(function(){""!=jQuery(this).nextAll(".warnMsg").text()&&
+jQuery(this).attr("crmWA_forminfo")&&""!=jQuery(this).attr("crmWA_forminfo")&&(t=jQuery(this).attr("crmWA_forminfo"),erro=c.sanitize(jQuery(this).nextAll(".warnMsg").text()),0<=t.indexOf("renda")&&(t="renda|"),0<=t.indexOf("nome_(s")&&(t="nome|"),m+=t+erro+",")}),""!=m&&","==m.slice(-1)&&(s.list3=m.substring(0,m.length-1))):(k=",event42",jQuery(p).focus(function(){var a=jQuery(this).attr("crmWA_forminfo")?jQuery(this).attr("crmWA_forminfo"):"";0<=a.indexOf("|")&&(a=a.split("|")[0]);0<=a.indexOf("renda")&&
+(a="renda");0<=a.indexOf("nome_(s")&&(a="nome");omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",channel:d.channel,prop31:a};clickCatalystLinkP(omni_preenchimento)})),d.events="event68"+k,d.eVar72="Finance:Proposta"):"Finance:Proposta:DadosPessoais2"==_satellite.getVar("getPageName")?(d.pageName="Finance:Proposta:Termos",d.events="event69,event18"):"Finance:Sucesso"==_satellite.getVar("getPageName")&&(d.pageName="Finance:Proposta:Sucesso",d.events="event40");else{if("Cadastro"==
+_satellite.getVar("getTypePage")||"Login"==_satellite.getVar("getTypePage")||0<=b.indexOf("/controlpanelweb/")||0<=b.indexOf("/customerweb/pages/"))if("Login"==_satellite.getVar("getTypePage"))channel=a=f="Login",k="",p=".mail, .pasw",0<jQuery("#loginForm .erro").length?(k="event43",seletor_erro=".erro .mail, .erro .pasw",seletor_msg_erro=".feedbacklabelERROR",c.formularios(seletor_erro,seletor_msg_erro),jQuery(seletor_erro).each(function(){erro="_";if(jQuery(this).attr("crmWA_forminfo")&&""!=jQuery(this).attr("crmWA_forminfo")){var a=
+jQuery(this).attr("crmWA_forminfo").split("|")[1];erro=c.sanitize(jQuery(this).attr("placeholder"))+"|"+a;m+=erro+","}}),s.list3=m,0<jQuery("#customerAuthenticationFailure").length&&(s.list3="digite_o_e-mail|usuario_ou_senha_invalidos,senha|usuario_ou_senha_invalidos"),""!=s.list3&&","==s.list3.slice(-1)&&(s.list3=s.list3.substring(0,s.list3.length-1))):(k="event42",c.formularios(p),jQuery(p).focus(function(){var a=jQuery(this).attr("placeholder")?c.sanitize(jQuery(this).attr("placeholder")):"";0<=
+a.indexOf("|")&&(a=a.split("|")[0]);omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",channel:channel,prop31:a};clickCatalystLinkP(omni_preenchimento)})),n=K="",0<=b.indexOf("loginck")?(K="Identificacao:Login:Checkout",a+=":Checkout",n="Login:Checkout"):0<=b.indexOf("loginoneclick")?(K="Identificacao:Login:1-Click",a+=":1-Click",n="Login:1-Click"):(a=0<=location.href.toLocaleLowerCase().indexOf("reviewwriter")?a+":AvaliacaoProduto":a+":PainelDeControle",n="Login"),d={pageName:a,
+channel:channel,events:"event57,"+k,eVar30:K,eVar35:"Login",prop35:"Login",prop60:n,eVar72:"Login"},jQuery(".mail").live("change",function(){q=jQuery(this).val();if(C(q)){var b="";"function"==typeof crmWA_encriptID&&(b=crmWA_encriptID(q.toLowerCase()));d={pageName:"cancelar",link_o:a+":msg-SucessoCadastroEmail",eVar13:b,eVar39:q,prop47:"SUBA:Login-Cadastro",eVar18:""!=f?f+"Cadastro":s.channel+"Cadastro"};clickCatalystLinkP(d)}}),h=jQuery(".userDataCep .erro"),E=jQuery(".userData .erro"),0<h.length&&
+0<E.length?(h="",h=0<=c.sanitize(jQuery(".userDataCep .erro").text()).indexOf("invalido")?"CEPInvalido":"CaixasPostais",a=a+":msg-"+h+"|UsuarioSenhaInvalido"):0<E.length?a+=":msg-UsuarioSenhaInvalido":0<h.length&&(a=0<=c.sanitize(jQuery(".userDataCep .erro").text()).indexOf("invalido")?a+":msg-CEPInvalido":a+":msg-CaixasPostais"),jQuery("#searchPostalCodeLink").mousedown(function(){d={pageName:"Cadastro-M:ProcuraDeCEP"};clickCatalyst(d)}),jQuery("#changeEmailLink").mousedown(function(){d={pageName:"Cadastro-M:AlterarEmail"};
+clickCatalyst(d)}),jQuery("#recoverPasswordLink").mousedown(function(){d={pageName:"Cadastro-M:EnviarSenha"};clickCatalyst(d)});else if("Cadastro"==_satellite.getVar("getTypePage"))channel=prop35=eVar35="Cadastro",a="Cadastro:PF",h="Identificacao:Cadastro:PF",jQuery("#cnpj1, #cnpj2").is(":checked")&&(a="Cadastro:PJ",h="Identificacao:Cadastro:PJ"),k="",p="#area03 select, #area03 input:[value !='individual']:[value !='corporate'], #area03 textarea",jQuery(".feedbacklabelERROR").is(":visible")?(k="event43",
+seletor_erro="#area03 .erro select:visible, #area03 .erro input:visible:[value !='individual']:[value !='corporate'], #area03 .erro textarea:visible",seletor_msg_erro=".feedbacklabelERROR",s.list3=c.formularios(seletor_erro,seletor_msg_erro)):(k="event42",c.formularios(p),jQuery(p).focus(function(){var a=jQuery(this).attr("crmWA_forminfo")?jQuery(this).attr("crmWA_forminfo"):"";0<=a.indexOf("|")&&(a=a.split("|")[0]);omni_preenchimento={pageName:"cancelar",link_o:"Preenchimento de Formulario",channel:channel,
+prop31:a};clickCatalystLinkP(omni_preenchimento)})),d={pageName:a,channel:channel,events:"event58,"+k,eVar30:h,prop35:prop35,eVar35:eVar35,prop60:"Cadastro",eVar72:0<=a.indexOf("PF")?"Cadastro:PessoaFisica":"Cadastro:PessoaJuridica"},jQuery("#cpf1, #cnpj1, #cpf2, #cnpj2").live("mousedown",function(){0<=jQuery(this).attr("id").indexOf("cpf")?(d.pageName="Cadastro:PF",d.eVar72="Cadastro:PessoaFisica"):(d.pageName="Cadastro:PJ",d.eVar72="Cadastro:PessoaJuridica");clickCatalyst(d)}),jQuery("input").live("change",
+function(){if(0<=jQuery(this).attr("id").indexOf("email")&&(q=jQuery(this).val(),C(q))){var b="";"function"==typeof crmWA_encriptID&&(b=crmWA_encriptID(q.toLowerCase()));d={pageName:"cancelar",link_o:a+":msg-SucessoCadastroEmail",eVar13:b,eVar39:q,prop47:"SUBA:Cadastro",eVar18:""!=f?f+"Cadastro":s.channel+"Cadastro"};clickCatalystLinkP(jQuery.extend(d,u))}});else if(0<=b.indexOf("/customerweb/pages/configoneclick/"))d={pageName:"Checkout:CompraRapida:CadastroCartao",channel:"Checkout",events:"event12",
+prop60:"Cadastro Cartao 1-Click"};else if(0<=b.indexOf("/controlpanelweb/panel/home")||0<=b.indexOf("/customerweb/pages/")&&0<=c.sanitize(jQuery(".stgT").text()).indexOf("pedidos")){if(s.channel=a="PainelDeControle",1==jQuery("#statusUpdate").length){var D=!1,S=document.referrer;0<=S.indexOf("update/email")?(h="","function"==typeof crmWA_encriptID&&(h=crmWA_encriptID(c.getCookie("crmWA_emailAlterado").toLowerCase())),d={pageName:a,events:"event19",eVar13:h,eVar39:c.getCookie("crmWA_emailAlterado"),
+prop47:"SUBA:PC:AlterarEmail",eVar38:"Email"},clickCatalyst(jQuery.extend(d,u)),c.setCookie("crmWA_emailAlterado","",-10,location.hostname,"/")):0<=S.indexOf("update/password")?(d={pageName:a,events:"event19",eVar38:"Senha"},clickCatalyst(jQuery.extend(d,u))):0<=S.indexOf("customer/update")&&(d={pageName:a,events:"event19",eVar38:"DadosCadastrais"},clickCatalyst(jQuery.extend(d,u)))}}else if(s.channel="PainelDeControle",0<=b.indexOf("lastorders"))a="PainelDeControle:MeusPedidos:UltimosPedidos";else if(0<=
+b.indexOf("openedorders"))a="PainelDeControle:MeusPedidos:PedidosEmAberto";else if(0<=b.indexOf("deliveredorders"))a="PainelDeControle:MeusPedidos:PedidosEntregues";else if(0<=b.indexOf("ordersbynumber"))a="PainelDeControle:MeusPedidos:PedidosPorNumero";else if(0<=b.indexOf("ordersbydate"))a="PainelDeControle:MeusPedidos:PedidosPorData";else if(0<=b.indexOf("allorders"))a="PainelDeControle:MeusPedidos:TodosOsPedidos";else if(0<=b.indexOf("/update/email"))a="PainelDeControle:Meusdados:AlterarEmail",
+jQuery("#submitLink").live("mousedown",function(){0<=jQuery("#newEmail").val().indexOf("@")&&0<=jQuery("#confirmNewEmail").val().indexOf("@")&&c.setCookie("crmWA_emailAlterado",jQuery("#newEmail").val(),1,location.hostname,"/")});else if(0<=b.indexOf("/update/password"))a="PainelDeControle:MeusDados:AlterarSenha";else if("/customerweb/pages/customer/update"==b)a="PainelDeControle:MeusDados:AlterarDadosCadastrais";else if(0<=b.indexOf("customer/updateemailoffers"))a="PainelDeControle:MeusDados:EmailsDeOfertas";
+else if(0<=b.indexOf("/address/list"))a="PainelDeControle:MeusDados:EnderecosDeEntrega";else if(0<=b.indexOf("controlpanelweb/panel/debitaccountorders"))a="PainelDeControle:AutoAtendimento:DebitoEmConta";else if(0<=b.indexOf("panel/banksliporders/"))a="PainelDeControle:AutoAtendimento:2aViaDoBoleto";else if(0<=b.indexOf("panel/order/danfe"))a="PainelDeControle:AutoAtendimento:2aViaNotaFiscal";else if(0<=b.indexOf("autoatendimento/findordertocancelorexchange"))a="PainelDeControle:AutoAtendimento:CancelarPedido";
+else if(0<=b.indexOf("/controlpanelweb")&&1==jQuery("#errorMessage").length)a="PainelDeControle:Error";else if(0<=b.indexOf("controlpanelweb")&&0<=c.sanitize(jQuery("#infoLote").text()).indexOf("alguns_produtos"))a="PainelDeControle:CancelarPedido:Itens";else if(0<=b.indexOf("reasonstocancelorexchange"))a="PainelDeControle:CancelarPedido:Motivo";else if(0<=b.indexOf("autoatendimento/successpage"))a="PainelDeControle:CancelarPedido:Sucesso";else if(0<=b.indexOf("autoatendimento/voucherlist"))a="PainelDeControle:AutoAtendimento:ValeBonus";
+else if(0<=b.indexOf("configoneclick/messagesuccess"))/address.addsuccess/.test(b)?a="PainelDeControle:CompraRapida:NovoEndereco":/creditcard.addsuccess/.test(b)?a="PainelDeControle:CompraRapida:NovoCartao":/activation.on/.test(b)&&(a="PainelDeControle:CompraRapida",d={pageName:a,events:"event21"});else if(0<=b.indexOf("configoneclick/activation.failure"))a="PainelDeControle:CompraRapida";else if(0<=b.indexOf("/customerweb/pages/configoneclick"))a="PainelDeControle:CompraRapida";else if(0<=b.indexOf("pages/oneclicknewcreditcard"))a=
+"PainelDeControle:CompraRapida:NovoCartaoDeCredito";else if(0<=b.indexOf("/pages/oneclickbuycreditcard"))a="PainelDeControle:CompraRapida:CartaoDeCredito";else if(0<=b.indexOf("pages/oneclicknewaddress")||0<=b.indexOf("/customerweb/pages/oneclickbuynewaddress"))a="PainelDeControle:CompraRapida:NovoEndereco"}else if(0<=r.indexOf("servicos.submarino")||"/forpets"==b||"/portal/hotsite-sl-comp/0/sl-segurosforpets/346668/346668"==b)d={channel:"Servi\u00e7os",eVar35:"Servi\u00e7os",prop35:"Servi\u00e7os"},
+"/"==b?d.pageName="Servicos:Home":"/garantia-estendida"==b?d.pageName="Servicos:Produto:Garantia":"/refresh"==b?d.pageName="Servicos:Produto:Refresh":"/protech"==b?d.pageName="Servicos:Produto:Protech":"/forpets"==b?d.pageName="Servicos:Produto:ForPets":"/portal/hotsite-sl-comp/0/sl-segurosforpets/346668/346668"==b?d.pageName="Servicos:Produto:Linha:ForPets":"/garantia-estendida/cotacao"==b?d.pageName="Servicos:Cotacao:Garantia":"/garantia-estendida/cotacao"==b?d.pageName="Servicos:Cotacao:Garantia":
+"/refresh/cotacao"==b?d.pageName="Servicos:Cotacao:Refresh":"/protech/cotacao"==b&&(d.pageName="Servicos:Cotacao:Protech");else if(0<=r.indexOf("busca.submarino.com.br")){s.channel="Busca";n=crmWA_dataLayerBusca();0<=document.referrer.indexOf(".submarino.com.br")&&(s.eVar74="Busca|||");var ea=new RegExp(/[a-zA-Z]/),h="";"object"==typeof n&&n.busca&&""!=n.busca&&(h=n.busca);0==ea.test(h)&&5<=h.length?a=-1==document.referrer.indexOf("submarino")?"BuscaInterna:LandingPage":"BuscaInterna:Promo":0<=location.href.indexOf("submarino")&&
+(a=0<=K.indexOf("&page=")?"BuscaInterna>p"+c.getParam("page"):"BuscaInterna",k="event7,event65",-1==location.href.indexOf("page=")&&(k+=",event27"));c.pos_resultado("#vitrine article",3,"SUBA","BuscaInterna",".submarino.com.br");s.list2="";d=0!=n.resultado?{pageName:a,eVar19:n.busca,prop19:n.busca,eVar20:n.resultado,prop20:n.resultado,events:k}:{pageName:a,eVar19:n.busca,prop19:n.busca,events:"event24"};jQuery(".hproduct.ui-draggable .btn.mDet, .hproduct.ui-draggable .btn.sVideo").mousedown(function(){var b=
+jQuery(this).prevAll("a").attr("href").split("/")[4];d={pageName:a+"-M:PREV-"+b,events:"prodView",products:";"+b};clickCatalyst(jQuery.extend(d,u))});jQuery("#fancybox-content .acr.tabs-list.tabs-bg a").mousedown(function(){d={pageName:"cancelar",link_o:a+"-M:APrev-"+c.sanitize(jQuery(this).text())};clickCatalystLinkP(d)})}else if(0<=r.indexOf("faq.submarino.com.br"))D=!1,s.channel="Atendimento",s.prop35=s.channel,s.eVar35=s.channel,jQuery(document).ready(function(){a="";a=0<=c.sanitize(jQuery(".selected").text()).indexOf("busca")?
+"Faq:Busca-"+c.sanitize(jQuery(".selected").text()).split("_")[2].match(/[a-zA-z]+/):"Faq:"+c.sanitize(jQuery("#menu .selected").text());d={pageName:a};clickCatalyst(d)});else if(0<=b.indexOf("/homeresenhaproduto/"))s.channel="AvaliacaoDeProdutos",s.prop35=s.channel,s.eVar35=s.channel,d={pageName:"AvaliacaoDeProdutos:"+b.split("/")[2]};else if(s.channel="Outros",0<=b.indexOf("novosubmarino/portal/frametop")||0<=b.indexOf("novosubmarino/portal/framefooter"))D=!1;else if(0<=b.indexOf("/hotsite/politica-de-privacidade"))a=
+"PoliticaDePrivacidade";else if(0<=b.indexOf("/mapa-do-site"))a="MapaDoSite";else if("/hotsite/atendimento"==b)s.channel=a="Atendimento";else if(/atendimento-email/g.test(b))s.channel="Atendimento",jQuery("#mensagem-sucesso").is(":visible")?(q=c.getCookie("crmWA_emailsessao"),C(q)&&(/email/g.test(x)?d={pageName:"Atendimento:PorEmail:Sucesso",eVar39:q,prop47:"SUBA:Atendimento"}:/ouvidoria/g.test(x)&&(d={pageName:"Atendimento:Ouvidoria:Sucesso",eVar39:q,prop47:"SUBA:Atendimento"})),c.setCookie("crmWA_emailsessao",
+"",-10,location.hostname,"/")):a="Atendimento:PorEmail",jQuery(".submit").mousedown(function(){C(jQuery("#Email").val())&&c.setCookie("crmWA_emailsessao",jQuery("#Email").val(),1,location.hostname,"/")});else if(/atendimento-ouvidoria/g.test(b))s.channel="Atendimento",a="Atendimento:Ouvidoria",jQuery(".submit").mousedown(function(){C(jQuery("#Email").val())&&c.setCookie("crmWA_emailsessao",jQuery("#Email").val(),1,location.hostname,"/")}),jQuery("#mensagem-sucesso").is(":visible")&&(q=c.getCookie("crmWA_emailsessao"),
+C(q)&&/ouvidoria/g.test(x)&&(d={pageName:"Atendimento:Ouvidoria:Sucesso",eVar39:q,prop47:"SUBA:Atendimento"}));else if(0<=b.indexOf("/portal/hotsite_evento/header-b")||0<=b.indexOf("header-blackfriday/sl-apostasbf14/menu-apostasbf14/0")){var f=s.channel="Hotsite",I=b.replace("/portal/hotsite-sl/","");0<=b.indexOf("-40desc")?a="Hotsite:blackfriday:ate40":0<=b.indexOf("-60desc")?a="Hotsite:blackfriday:ate60":0<=b.indexOf("-80desc")?a="Hotsite:blackfriday:ate80":0<=b.indexOf("-fin-2014")?a="Hotsite:blackfriday:ate85":
+0<=b.indexOf("apostasbf14")&&(a="Hotsite:blackfriday:apostas");d={pageName:a,prop35:f,eVar35:f}}else if(0<=b.indexOf("/estaticapop/blacknight-2015-5-mobile"))f=s.channel="Hotsite",a="Hotsite:Estatico:blacknight-2015-5-mobile",d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/estaticapop/megaoff-mobile-15"))f=s.channel="Hotsite",a="Hotsite:Estatico:megaoff-mobile-15",d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/portal/hotsite_evento/header-mo-"))f=s.channel="Hotsite",0<=b.indexOf("header-mo-40off")?
+a="Hotsite:MegaoffBR:Ate40Desconto":0<=b.indexOf("header-mo-60off")?a="Hotsite:MegaoffBR:Ate60Desconto":0<=b.indexOf("header-mo-80off")?a="Hotsite:MegaoffBR:Ate80Desconto":0<=b.indexOf("header-mo-85off")&&(a="Hotsite:MegaoffBR:Ate85Desconto"),d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/hotsite")&&(0<=b.indexOf("cartao-submarino")||0<=b.indexOf("/hotsite/hotsite-15x-fin")))f=s.channel="Hotsite:Finance",0<=b.indexOf("home-cartao-submarino")?a="Finance:Hotsite:Home":0<=b.indexOf("/hotsite/vantagens-cartao-submarino")?
+a="Finance:Hotsite:Vantagens":0<=b.indexOf("hotsite/leguas-cartao-submarino")?a="Finance:Hotsite:Fidelidade":0<=b.indexOf("/hotsite/hotsite-15x-fin")?a="Finance:Hotsite:Parcelamento":0<=b.indexOf("/hotsite/limite-cartao-submarino")?a="Finance:Hotsite:Limite":0<=b.indexOf("/hotsite/como-pedir-cartao-submarino")?a="Finance:Hotsite:Comopedir":0<=b.indexOf("/hotsite/desbloqueie-cartao-submarino")?a="Finance:Hotsite:Desbloqueio":0<=b.indexOf("/hotsite/internet-banking-cartao-submarino")?a="Finance:Hotsite:Internetbanking":
+0<=b.indexOf("/hotsite/pague-suas-contas-cartao-submarino")?a="Finance:Hotsite:PagueSuasContas":0<=b.indexOf("/hotsite/websaque-cartao-submarino")?a="Finance:Hotsite:Websaque":0<=b.indexOf("/hotsite/taxas-cartao-submarino")?a="Finance:Hotsite:Taxas":0<=b.indexOf("/hotsite/duvidas-cartao-submarino")?a="Finance:Hotsite:Faq":0<=b.indexOf("/hotsite/atendimento-cartao-submarino")&&(a="Finance:Hotsite:Contato"),d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/portal/hotsite-sl/"))f=s.channel="Hotsite",
+I=b.replace("/portal/hotsite-sl/",""),a="Hotsite:Dinamico:"+I,0<=b.indexOf("/portal/hotsite-sl/header-fashion-ate99/")&&(s.channel="SUBA:moda_calcados_e_acessorios",s.eVar49="342768||"),d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/portal/hotsite-sl-comp"))f=s.channel="Hotsite",I=b.replace("/portal/hotsite-sl-comp/",""),a="Hotsite:Dinamico:"+I,d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/hotsite/blackfriday-2014-landing"))f=s.channel="Hotsite",a="Hotsite:blackfriday:reativa\u00e7\u00e3o-email-atrasado",
+d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/hotsite/"))f=s.channel="Hotsite",I=b.split("/"),a="Hotsite:Estatico:"+I[2],d={pageName:a,prop35:f,eVar35:f};else if(0<=b.indexOf("/oferta24horas")){s.channel="Deal";var P="",aa="",ba=0;jQuery(".pd-bt-buy-lk").each(function(a,b){aa=0<ba?";,;":";";jQuery(this).attr("href").match(/produto\/\d+/)&&(P=P+aa+jQuery(this).attr("href").match(/\d+/),ba++)});d=""!=P?{pageName:"Deal",events:"prodView",products:P+";"}:{pageName:"Deal"}}else if(0<=b.indexOf("/hotsite/politica-de-privacidade"))s.channel=
+"Outros",a="PoliticaDePrivacidade";else if(0<=b.indexOf("/mapa-do-site"))s.channel="Outros",a="MapaDoSite";else if(0<=b.indexOf("shopseeall"))s.channel="Outros",a="TodasAsLojas";else if(0<=b.indexOf("/homeestatica/catalogo"))s.channel="Outros",a="Catalogo";else if(0<=b.indexOf("publicidade-e-media-pack"))s.channel="Outros",a="MediaPack";else if(0<=b.indexOf("/hotsite/home-cartao-submarino"))s.channel=a="CartaoSUBA";else if(0<=b.indexOf("/hotsite/mastercard-cartao-submarino"))s.channel="CartaoSUBA",
+a="CartaoSUBA:MasterCard";else if(0<=b.indexOf("/hotsite/como-pedir-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:ComoPedir";else if(0<=b.indexOf("/hotsite/desbloqueie-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Desbloqueie";else if(0<=b.indexOf("/hotsite/cartao-adicional-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Adicional";else if(0<=b.indexOf("/hotsite/cartao-com-chip"))D=!1,s.channel="CartaoSUBA",a="CartaoSUBA:ComChip",d={pageName:a},clickCatalyst(d);else if(0<=
+b.indexOf("/hotsite/limite-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Limite";else if(0<=b.indexOf("/hotsite/data-compra-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:MelhorDataDeCompra";else if(0<=b.indexOf("/hotsite/seguranca-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguranca";else if(0<=b.indexOf("/hotsite/taxas-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:TarifasETaxas";else if(0<=b.indexOf("/hotsite/duvidas-cartao-submarino"))s.channel="CartaoSUBA",
+a="CartaoSUBA:FAQ";else if(0<=b.indexOf("hotsite/institucional-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Institucional";else if(0<=b.indexOf("hotsite/internet-banking-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:InternetBanking";else if(0<=b.indexOf("/hotsite/lojaseguro"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguros";else if(0<=b.indexOf("/hotsite/cartao-protegido-premiado"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguros:CartaoProtegido";else if(0<=b.indexOf("/hotsite/compra-segura-premiada"))s.channel=
+"CartaoSUBA",a="CartaoSUBA:Seguros:Compra+Segura";else if(0<=b.indexOf("/hotsite/casa-segura-premiada"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguros:Casa+Segura";else if(0<=b.indexOf("/hotsite/protecao-service"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguros:ProtecaoService";else if(0<=b.indexOf("/hotsite/protecao-global"))s.channel="CartaoSUBA",a="CartaoSUBA:Seguros:ProtecaoGlobal";else if(0<=b.indexOf("hotsite/pague-suas-contas-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:PagueSuasContas";
+else if(0<=b.indexOf("/hotsite/websaque-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:WebSaque";else if(0<=b.indexOf("/hotsite/central-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:CentralDePromocoes";else if(0<=b.indexOf("/hotsite/leguas-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Leguas:ComoFunciona";else if(0<=b.indexOf("/hotsite/leguas-cartao-saldo"))s.channel="CartaoSUBA",a="CartaoSUBA:Leguas:Regras";else if(0<=b.indexOf("/hotsite/troca-cartao-submarino"))D=!1,
+s.channel="CartaoSUBA",a="CartaoSUBA:TroqueAura",d="?conf=1"==location.search?{pageName:a,events:"event39"}:{pageName:a},clickCatalyst(d);else if(0<=b.indexOf("/hotsite/atendimento-cartao-submarino"))s.channel="CartaoSUBA",a="CartaoSUBA:Atendimento";else if(0<=b.indexOf("/hotsite/central-de-lancamentos-2013"))s.channel="CartaoSUBA",a="CartaoSUBA:CentralDeLancamentos";else if(0<=b.indexOf("/rockinrio2013"))s.channel="RockInRio",a="CartaoSUBA:RockInRio";else if(0<=b.indexOf("/parceiros/"))s.channel=
+"Marketplace",a="Marketplace:ListaDeLojas:"+b.split("/")["2"],s.prop57="Marketplace: Lista de Lojas";else if(0<=b.indexOf("/lojista/"))s.channel="Marketplace",a="Marketplace:Lojista:"+c.sanitize(jQuery(".partner-name").text()),s.prop57="Marketplace: Pagina de Lojista";else if(1==!jQuery(".box-404-title").length){if(2==b.split("/").length||3==b.split("/").length&&""==b.split("/")[2])s.channel="Hotsite",a="Hotsite:"+b.split("/")[1]}else s.channel="Outros",1==jQuery(".box-404-title").length?d={pageName:"Erro404",
+channel:"Outros",pageType:"errorPage"}:a="XURL";try{for(var J=document.cookie.split("; ").length,l=0;l<J;l++)0<=document.cookie.split("; ")[l].indexOf("=")&&(h=J!=l+1?",":"",s.list2+=document.cookie.split("; ")[l].split("=")[0]+h);var z=evento_dom_interactive=0;if(window.performance&&window.performance.timing&&window.performance.timing.navigationStart&&window.performance.timing.domInteractive){z=(((new Date).getTime()-performance.timing.navigationStart)/1E3).toFixed(1);if("number"==typeof parseFloat(z)&&
+100<z||0>z)z="";evento_dom_interactive=(window.performance.timing.domInteractive-window.performance.timing.navigationStart)/1E3;evento_dom_interactive=evento_dom_interactive.toFixed(1);if("number"==typeof evento_dom_interactive&&100<evento_dom_interactive||0>evento_dom_interactive)evento_dom_interactive=""}if(""!=z&&""!=evento_dom_interactive)if(null!=c.getCookie("crmWA_temp_carr")){var M=c.getCookie("crmWA_temp_carr"),T=parseFloat(M.split("|")[2])+1,fa=(parseFloat(M.split("|")[0])+parseFloat(z))/
+parseFloat(T),ga=(parseFloat(M.split("|")[1])+parseFloat(evento_dom_interactive))/parseFloat(T),ha=parseFloat(M.split("|")[0])+parseFloat(z),ia=parseFloat(M.split("|")[1])+parseFloat(evento_dom_interactive),ja=fa.toFixed(1)+"|"+ga.toFixed(1),ka=ha.toFixed(1)+"|"+ia.toFixed(1)+"|"+T.toString();s.eVar71=ja;document.cookie="crmWA_temp_carr="+ka+";path=/;domain=.submarino.com.br"}else s.eVar71=z+"|"+evento_dom_interactive,document.cookie="crmWA_temp_carr="+(z+"|"+evento_dom_interactive+"|1")+";path=/;domain=.submarino.com.br";
+if("nao_disparar"!=g){jQuery(".contact-helpMenu .popAjax").mousedown(function(){0<=jQuery(this).attr("href").indexOf("compre-pelo-telefone")&&(mdc_disparo={pageName:"cancelar",link_o:"MapaDeClicks",eVar45:g+"Topo|televendas|"},clickCatalystLinkP(mdc_disparo))});jQuery(".contact-helpMenu a").each(function(){if(-1==jQuery(this).attr("href").indexOf("compre-pelo-telefone")){var a=c.sanitize(jQuery(this).text());0<=a.indexOf("peca_ja_o")&&(a="cartao_submarino:_peca_ja_o_seu");e=g+"Topo|"+a+"|";c.checkAndAddCookie(jQuery(this),
+e)}});if("function"==typeof jQuery().on)jQuery(".mainSearch form").on("submit",function(){e=g+"Busca||";c.setCookie("crmWA_mdc",e,1,".submarino.com.br","/")});jQuery(".loginCadastro.signIn a").each(function(){var a=c.sanitize(jQuery(this).text());e=g+"Login|"+a+"|";c.checkAndAddCookie(jQuery(this),e)});jQuery(".cartInfo").each(function(){e=g+"Carrinho||";c.checkAndAddCookie(jQuery(this),e)});jQuery(".oferta24h-header, .oferta24h-header a").each(function(){e=g+"Oferta WOW||";c.checkAndAddCookie(jQuery(this),
+e)});jQuery("#footer-inner a, .sitemap-link a").each(function(){var a=jQuery(this).text()&&""!=jQuery(this).text()?c.sanitize(jQuery(this).text()):"link";e=g+"Footer|"+a+"|";c.checkAndAddCookie(jQuery(this),e)})}jQuery(".mainMenu .submenu > .submenu-wrap a, .mainMenu .menuDptos > .itemMenu > a").each(function(){var a="";"nao_disparar"!=g&&(a=g);var a=a+"mp|",b="",d="";0<jQuery(this).closest(".submenu").length?(b=b=c.sanitize(jQuery(this).closest(".submenu").prev("a").text()),d=c.sanitize(jQuery(this).text())&&
+""!=c.sanitize(jQuery(this).text())?c.sanitize(jQuery(this).text()):"item",b=b+"|"+d):b=c.sanitize(jQuery(this).text())+"|_";c.checkAndAddCookie(jQuery(this),a+b)});J="";J="/"==b||""==b?"Home":0<=r.indexOf("busca")?"Busca":0<=b.indexOf("/loja/")?"Departamento":0<=b.indexOf("/subloja/")?"Subloja":0<=b.indexOf("/linha/")?"Linha":0<=b.indexOf("/sublinha/")?"Sublinha":0<=b.indexOf("/produto/")?"Produto":"Carrinho"===_satellite.getVar("getPageName")?"Carrinho":"Checkout:Obrigado"===_satellite.getVar("getPageName")?
+"Obrigado":"Hotsite"==f?"Hotsite":"Outros";if(""!=J&&(y="","object"==typeof crmWA_dataLayer_recomendacao)){for(var G=G+",event72",la=crmWA_dataLayer_recomendacao.length,l=0;l<la;l++)if("object"==typeof crmWA_dataLayer_recomendacao[l]){var r=l+1,ma=crmWA_dataLayer_recomendacao[l]["Recomendacao"+r][0].nome,ca=crmWA_dataLayer_recomendacao[l]["Recomendacao"+r][0].quantidade_produtos;if(0!=ca)for(r=0;r<ca;r++)y+="Recomendacao|"+J+"|"+ma+"|"+(r+1)+","}y&&""!=y&&(s.list1+=y.substring(0,y.length-1))}}catch(na){d.prop48=
+"Erro Global: "+na}var O="SUBA:",q=id_indisponivel=sku_indisponivel=seletor_submit="";b.match(/\/produto\/+[0-9]+/gi)&&(q="#frm-email",seletor_submit=".frm.valid-form",O+="ProdIndisponivel",id_indisponivel="object"==typeof crmWA_dataLayer?crmWA_dataLayer[0].objIdProd:"",sku_indisponivel=0<jQuery("input[name='soldout.skus']").length?jQuery("input[name='soldout.skus']").attr("value"):"");"function"==typeof jQuery&&"function"==typeof jQuery().on&&(jQuery("#frm-email").change(function(){q=jQuery("#frm-email").val()}),
+jQuery(seletor_submit).on("submit",function(a){0<=O.indexOf("ProdIndisponivel")?U(q,id_indisponivel,sku_indisponivel):U(q);a.preventDefault()}));if(D){d.events&&""!=d.events?d.events+=G:(d.events=G,d.events&&","==d.events.charAt(0)&&(d.events=d.events.slice(1)));var N=d.eVar35?d.eVar35:f;if(""==d.products||void 0==d.products)s.products=";Pagina:"+N+";;;;";if("object"==typeof d){if(d.eVar35||(d.eVar35=s.channel,d.prop35=s.channel),d.eVar41=H,d.prop41=H,d.list1=s.list1,N=d.eVar35?d.eVar35:f,""==d.products||
+void 0==d.products)s.products=";Pagina:"+N+";;;;"}else"string"==typeof a&&(d={pageName:a,prop35:s.channel,eVar35:s.channel,eVar41:H,prop41:H,events:G},d.events&&","==d.events.charAt(0)&&(d.events=d.events.slice(1)),N=d.eVar35?d.eVar35:f,""==d.products||void 0==d.products)&&(s.products=";Pagina:"+N+";;;;");var oa=d&&d.events&&""!=d.events?",":"";""!=z&&""!=evento_dom_interactive&&(d.events=d.events+oa+"event74="+z+",event75="+evento_dom_interactive);document&&document.cookie&&0<document.cookie.length&&
+0<=document.cookie.indexOf(";")&&(d.events=d.events+",event76="+document.cookie.split(";").length);null!=c.getCookie("WA_identificacao")&&(d.events+=",event52",void 0==c.getParam("rrid")&&void 0==c.getParam("RRID")&&C(c.getCookie("WA_identificacao"))&&(s.eVar39=c.getCookie("WA_identificacao"),s.prop47="SUBA:CookieEmail","function"==typeof crmWA_encriptID&&(s.eVar13=crmWA_encriptID(c.getCookie("WA_identificacao").toLowerCase()))),c.setCookie("WA_identificacao","",-10,"submarino.com.br","/"));clickCatalyst(jQuery.extend(d,
+u))}s.list3=""}}catch(pa){d={pageName:"XURL",prop48:pa},clickCatalyst(d)}}document_readyState();; amc.call('getLoaderById', 0).publish('ontagload.Tagueamento', {id: 'Tagueamento',tag: amc.call('getById', 'Tagueamento')})</script><script type="text/javascript" id="b2wuid">/*
+	Biblioteca jsSHA - SHA-384/SHA-512
+	
+	Referencia: github.com/Caligatio/jsSHA
+	
+	Padrao de disparo:
+		var shaObj = new jsSHA("This is a Test", "TEXT");
+		var hash = shaObj.getHash("SHA-512", "HEX");
+*/
+
+	(function(J){function u(a,c,b){var h=0,f=[0],k="",l=null,k=b||"UTF8";if("UTF8"!==k&&"UTF16"!==k)throw"encoding must be UTF8 or UTF16";if("HEX"===c){if(0!==a.length%2)throw"srcString of HEX type must be in byte increments";l=x(a);h=l.binLen;f=l.value}else if("ASCII"===c||"TEXT"===c)l=y(a,k),h=l.binLen,f=l.value;else if("B64"===c)l=z(a),h=l.binLen,f=l.value;else throw"inputFormat must be HEX, TEXT, ASCII, or B64";this.getHash=function(a,c,b,k){var l=null,e=f.slice(),m=h,q;3===arguments.length?"number"!==
+	typeof b&&(k=b,b=1):2===arguments.length&&(b=1);if(b!==parseInt(b,10)||1>b)throw"numRounds must a integer >= 1";switch(c){case "HEX":l=A;break;case "B64":l=B;break;default:throw"format must be HEX or B64";}if("SHA-384"===a)for(q=0;q<b;q++)e=t(e,m,a),m=384;else if("SHA-512"===a)for(q=0;q<b;q++)e=t(e,m,a),m=512;else throw"Chosen SHA variant is not supported";return l(e,C(k))};this.getHMAC=function(a,b,c,l,n){var e,m,q,r,p=[],v=[];e=null;switch(l){case "HEX":l=A;break;case "B64":l=B;break;default:throw"outputFormat must be HEX or B64";
+	}if("SHA-384"===c)m=128,r=384;else if("SHA-512"===c)m=128,r=512;else throw"Chosen SHA variant is not supported";if("HEX"===b)e=x(a),q=e.binLen,e=e.value;else if("ASCII"===b||"TEXT"===b)e=y(a,k),q=e.binLen,e=e.value;else if("B64"===b)e=z(a),q=e.binLen,e=e.value;else throw"inputFormat must be HEX, TEXT, ASCII, or B64";a=8*m;b=m/4-1;m<q/8?(e=t(e,q,c),e[b]&=4294967040):m>q/8&&(e[b]&=4294967040);for(m=0;m<=b;m+=1)p[m]=e[m]^909522486,v[m]=e[m]^1549556828;c=t(v.concat(t(p.concat(f),a+h,c)),a+r,c);return l(c,
+	C(n))}}function n(a,c){this.a=a;this.b=c}function y(a,c){var b=[],h,f=[],k=0,l;if("UTF8"===c)for(l=0;l<a.length;l+=1)for(h=a.charCodeAt(l),f=[],2048<h?(f[0]=224|(h&61440)>>>12,f[1]=128|(h&4032)>>>6,f[2]=128|h&63):128<h?(f[0]=192|(h&1984)>>>6,f[1]=128|h&63):f[0]=h,h=0;h<f.length;h+=1)b[k>>>2]|=f[h]<<24-k%4*8,k+=1;else if("UTF16"===c)for(l=0;l<a.length;l+=1)b[k>>>2]|=a.charCodeAt(l)<<16-k%4*8,k+=2;return{value:b,binLen:8*k}}function x(a){var c=[],b=a.length,h,f;if(0!==b%2)throw"String of HEX type must be in byte increments";
+	for(h=0;h<b;h+=2){f=parseInt(a.substr(h,2),16);if(isNaN(f))throw"String of HEX type contains invalid characters";c[h>>>3]|=f<<24-h%8*4}return{value:c,binLen:4*b}}function z(a){var c=[],b=0,h,f,k,l,n;if(-1===a.search(/^[a-zA-Z0-9=+\/]+$/))throw"Invalid character in base-64 string";h=a.indexOf("=");a=a.replace(/\=/g,"");if(-1!==h&&h<a.length)throw"Invalid '=' found in base-64 string";for(f=0;f<a.length;f+=4){n=a.substr(f,4);for(k=l=0;k<n.length;k+=1)h="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".indexOf(n[k]),
+	l|=h<<18-6*k;for(k=0;k<n.length-1;k+=1)c[b>>2]|=(l>>>16-8*k&255)<<24-b%4*8,b+=1}return{value:c,binLen:8*b}}function A(a,c){var b="",h=4*a.length,f,k;for(f=0;f<h;f+=1)k=a[f>>>2]>>>8*(3-f%4),b+="0123456789abcdef".charAt(k>>>4&15)+"0123456789abcdef".charAt(k&15);return c.outputUpper?b.toUpperCase():b}function B(a,c){var b="",h=4*a.length,f,k,l;for(f=0;f<h;f+=3)for(l=(a[f>>>2]>>>8*(3-f%4)&255)<<16|(a[f+1>>>2]>>>8*(3-(f+1)%4)&255)<<8|a[f+2>>>2]>>>8*(3-(f+2)%4)&255,k=0;4>k;k+=1)b=8*f+6*k<=32*a.length?b+
+	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".charAt(l>>>6*(3-k)&63):b+c.b64Pad;return b}function C(a){var c={outputUpper:!1,b64Pad:"="};try{a.hasOwnProperty("outputUpper")&&(c.outputUpper=a.outputUpper),a.hasOwnProperty("b64Pad")&&(c.b64Pad=a.b64Pad)}catch(b){}if("boolean"!==typeof c.outputUpper)throw"Invalid outputUpper formatting option";if("string"!==typeof c.b64Pad)throw"Invalid b64Pad formatting option";return c}function p(a,c){var b=null,b=new n(a.a,a.b);return b=32>=c?
+	new n(b.a>>>c|b.b<<32-c&4294967295,b.b>>>c|b.a<<32-c&4294967295):new n(b.b>>>c-32|b.a<<64-c&4294967295,b.a>>>c-32|b.b<<64-c&4294967295)}function D(a,c){var b=null;return b=32>=c?new n(a.a>>>c,a.b>>>c|a.a<<32-c&4294967295):new n(0,a.a>>>c-32)}function K(a,c,b){return new n(a.a&c.a^~a.a&b.a,a.b&c.b^~a.b&b.b)}function L(a,c,b){return new n(a.a&c.a^a.a&b.a^c.a&b.a,a.b&c.b^a.b&b.b^c.b&b.b)}function M(a){var c=p(a,28),b=p(a,34);a=p(a,39);return new n(c.a^b.a^a.a,c.b^b.b^a.b)}function N(a){var c=p(a,14),
+	b=p(a,18);a=p(a,41);return new n(c.a^b.a^a.a,c.b^b.b^a.b)}function O(a){var c=p(a,1),b=p(a,8);a=D(a,7);return new n(c.a^b.a^a.a,c.b^b.b^a.b)}function P(a){var c=p(a,19),b=p(a,61);a=D(a,6);return new n(c.a^b.a^a.a,c.b^b.b^a.b)}function Q(a,c){var b,h,f;b=(a.b&65535)+(c.b&65535);h=(a.b>>>16)+(c.b>>>16)+(b>>>16);f=(h&65535)<<16|b&65535;b=(a.a&65535)+(c.a&65535)+(h>>>16);h=(a.a>>>16)+(c.a>>>16)+(b>>>16);return new n((h&65535)<<16|b&65535,f)}function R(a,c,b,h){var f,k,l;f=(a.b&65535)+(c.b&65535)+(b.b&
+	65535)+(h.b&65535);k=(a.b>>>16)+(c.b>>>16)+(b.b>>>16)+(h.b>>>16)+(f>>>16);l=(k&65535)<<16|f&65535;f=(a.a&65535)+(c.a&65535)+(b.a&65535)+(h.a&65535)+(k>>>16);k=(a.a>>>16)+(c.a>>>16)+(b.a>>>16)+(h.a>>>16)+(f>>>16);return new n((k&65535)<<16|f&65535,l)}function S(a,c,b,h,f){var k,l,p;k=(a.b&65535)+(c.b&65535)+(b.b&65535)+(h.b&65535)+(f.b&65535);l=(a.b>>>16)+(c.b>>>16)+(b.b>>>16)+(h.b>>>16)+(f.b>>>16)+(k>>>16);p=(l&65535)<<16|k&65535;k=(a.a&65535)+(c.a&65535)+(b.a&65535)+(h.a&65535)+(f.a&65535)+(l>>>
+	16);l=(a.a>>>16)+(c.a>>>16)+(b.a>>>16)+(h.a>>>16)+(f.a>>>16)+(k>>>16);return new n((l&65535)<<16|k&65535,p)}function t(a,c,b){var h,f,k,l,p,t,u,E,x,e,m,q,r,y,v,s,z,A,B,C,D,F,G,H,d,w=[],I,g=[1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,
+	3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298];e=[3238371032,914150663,812702999,4144912697,4290775857,1750603025,1694076839,3204075428];f=[1779033703,3144134277,1013904242,
+	2773480762,1359893119,2600822924,528734635,1541459225];if("SHA-384"===b||"SHA-512"===b)m=80,h=(c+128>>>10<<5)+31,y=32,v=2,d=n,s=Q,z=R,A=S,B=O,C=P,D=M,F=N,H=L,G=K,g=[new d(g[0],3609767458),new d(g[1],602891725),new d(g[2],3964484399),new d(g[3],2173295548),new d(g[4],4081628472),new d(g[5],3053834265),new d(g[6],2937671579),new d(g[7],3664609560),new d(g[8],2734883394),new d(g[9],1164996542),new d(g[10],1323610764),new d(g[11],3590304994),new d(g[12],4068182383),new d(g[13],991336113),new d(g[14],
+	633803317),new d(g[15],3479774868),new d(g[16],2666613458),new d(g[17],944711139),new d(g[18],2341262773),new d(g[19],2007800933),new d(g[20],1495990901),new d(g[21],1856431235),new d(g[22],3175218132),new d(g[23],2198950837),new d(g[24],3999719339),new d(g[25],766784016),new d(g[26],2566594879),new d(g[27],3203337956),new d(g[28],1034457026),new d(g[29],2466948901),new d(g[30],3758326383),new d(g[31],168717936),new d(g[32],1188179964),new d(g[33],1546045734),new d(g[34],1522805485),new d(g[35],2643833823),
+	new d(g[36],2343527390),new d(g[37],1014477480),new d(g[38],1206759142),new d(g[39],344077627),new d(g[40],1290863460),new d(g[41],3158454273),new d(g[42],3505952657),new d(g[43],106217008),new d(g[44],3606008344),new d(g[45],1432725776),new d(g[46],1467031594),new d(g[47],851169720),new d(g[48],3100823752),new d(g[49],1363258195),new d(g[50],3750685593),new d(g[51],3785050280),new d(g[52],3318307427),new d(g[53],3812723403),new d(g[54],2003034995),new d(g[55],3602036899),new d(g[56],1575990012),
+	new d(g[57],1125592928),new d(g[58],2716904306),new d(g[59],442776044),new d(g[60],593698344),new d(g[61],3733110249),new d(g[62],2999351573),new d(g[63],3815920427),new d(3391569614,3928383900),new d(3515267271,566280711),new d(3940187606,3454069534),new d(4118630271,4000239992),new d(116418474,1914138554),new d(174292421,2731055270),new d(289380356,3203993006),new d(460393269,320620315),new d(685471733,587496836),new d(852142971,1086792851),new d(1017036298,365543100),new d(1126000580,2618297676),
+	new d(1288033470,3409855158),new d(1501505948,4234509866),new d(1607167915,987167468),new d(1816402316,1246189591)],e="SHA-384"===b?[new d(3418070365,e[0]),new d(1654270250,e[1]),new d(2438529370,e[2]),new d(355462360,e[3]),new d(1731405415,e[4]),new d(41048885895,e[5]),new d(3675008525,e[6]),new d(1203062813,e[7])]:[new d(f[0],4089235720),new d(f[1],2227873595),new d(f[2],4271175723),new d(f[3],1595750129),new d(f[4],2917565137),new d(f[5],725511199),new d(f[6],4215389547),new d(f[7],327033209)];
+	else throw"Unexpected error in SHA-2 implementation";a[c>>>5]|=128<<24-c%32;a[h]=c;I=a.length;for(q=0;q<I;q+=y){c=e[0];h=e[1];f=e[2];k=e[3];l=e[4];p=e[5];t=e[6];u=e[7];for(r=0;r<m;r+=1)w[r]=16>r?new d(a[r*v+q],a[r*v+q+1]):z(C(w[r-2]),w[r-7],B(w[r-15]),w[r-16]),E=A(u,F(l),G(l,p,t),g[r],w[r]),x=s(D(c),H(c,h,f)),u=t,t=p,p=l,l=s(k,E),k=f,f=h,h=c,c=s(E,x);e[0]=s(c,e[0]);e[1]=s(h,e[1]);e[2]=s(f,e[2]);e[3]=s(k,e[3]);e[4]=s(l,e[4]);e[5]=s(p,e[5]);e[6]=s(t,e[6]);e[7]=s(u,e[7])}if("SHA-384"===b)a=[e[0].a,e[0].b,
+	e[1].a,e[1].b,e[2].a,e[2].b,e[3].a,e[3].b,e[4].a,e[4].b,e[5].a,e[5].b];else if("SHA-512"===b)a=[e[0].a,e[0].b,e[1].a,e[1].b,e[2].a,e[2].b,e[3].a,e[3].b,e[4].a,e[4].b,e[5].a,e[5].b,e[6].a,e[6].b,e[7].a,e[7].b];else throw"Unexpected error in SHA-2 implementation";return a}"function"===typeof define&&typeof define.amd?define(function(){return u}):"undefined"!==typeof exports?"undefined"!==typeof module&&module.exports?module.exports=exports=u:exports=u:J.jsSHA=u})(this);
+
+
+
+
+//Criptografia de e-mail
+	//Função de setCookie
+		function setCookie(nome_cookie, valor, horas, domain, path){
+			var data_exp = new Date;
+				data_exp.setHours(data_exp.getHours()+horas)
+			var valor_cookie = escape(valor) + ((horas==null) ? "" : "; expires="+data_exp.toUTCString());
+				document.cookie = nome_cookie + "=" + valor_cookie + ';domain=' + domain + ';path=' + path;
+		}
+		
+	//Verifica se cookie está setado
+		//Não existe - Seta cookie "anonimo" || Seta cookie se começar com an (valor antigo)
+		if(document.cookie.indexOf("B2W-UID") == -1){
+			//Identificador de Identificador Randomico
+				var identificador = "va_"			
+			//Gera date
+				var data = new Date()
+			//Ano	
+				var timeStampY =  data.getFullYear().toString();
+			//Dia	
+				var timeStampD =  data.getDate().toString();
+			//Dia da semana	
+				var timeStampDi = data.getDay().toString();
+			//Hora	
+				var timeStampH =  data.getHours().toString();
+			//Minuto
+				var timeStampM =  data.getMinutes().toString();
+			//Segundo	
+				var timeStampS = data.getSeconds().toString();
+			//Numero Randomico entre 1 e 999	
+				var num_random = (Math.random()*1000+1).toString();
+			//TimeStamp	
+				var timeStamp = identificador + timeStampY + timeStampD + timeStampDi + timeStampH + timeStampM + timeStampS + "_" + num_random
+
+			//Seta cookie B2W-UID Anonimo
+				if(typeof setCookie == "function"){
+					setCookie("B2W-UID", timeStamp, 17532, "submarino.com.br", "/")
+				}			
+		}
+	
+	//Função que dispara o e-mail hasheado.
+		function crmWA_encriptID(email){
+			//Valida valor de e-mail
+				var verifica_padrao_email = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			
+			//Verifica se jsSHA ja é uma função e se o e-mail está no padrão
+			if(typeof jsSHA == "function" && verifica_padrao_email.test(email)){
+				//Captura o e-mail e passa para o padrão da biblioteca
+					var email_hash = new jsSHA(email, "TEXT");
+				//Captura o email no padrão e faz a encriptação "SHA-384" (iria ser 512, mas possui mais de 100 characters)
+					var captura_email_hash = email_hash.getHash("SHA-384", "HEX");
+				
+				//Seta cookie e retorna valor hasheado
+					if(typeof setCookie == "function"){						
+						setCookie("B2W-UID", captura_email_hash, 17532, "submarino.com.br", "/")
+						
+						return captura_email_hash
+					}
+				//Retorna vazio se a função não estiver instanciada	
+					else{
+						return ""
+					}
+			}
+		}
+; amc.call('getLoaderById', 0).publish('ontagload.b2wuid', {id: 'b2wuid',tag: amc.call('getById', 'b2wuid')})</script><script type="text/javascript" id="afiliados">
+
+try{	
+	//Script SUBMARINO
+
+	//Verifica Cookie afiliado
+	if(document.cookie.indexOf("subaEPar=afilio") >=0){
+		//Verifica disparo para a página de Sucesso: Boleto, cartão, compra com 1 click
+		if(typeof crmWA_dataLayer == "object" && crmWA_dataLayer[0]['objPageName'] == "Checkout:Obrigado"){
+			//Disparo
+				var numero_pedido = crmWA_dataLayer[0]['objFunilNumPedido'];
+				var valor_total_pedido = crmWA_dataLayer[0]['objFunilSubtotal'].replace('.', '');
+				var referrer = document.referrer
+				var departamentos_por_virgula = crmWA_dataLayer[0]['objFunilProduto'][0]['objDepartamento']
+				var src = "https://secure.afilio.com.br/sale.php?pid=1008&order_id=" + numero_pedido + "&order_price=" + valor_total_pedido + "&preurl=" + referrer + "&xtra=" + departamentos_por_virgula;
+				var body = document.getElementsByTagName('body')[0]
+				var img = new Image(); // create image element
+				img.src = src
+				img.border = '0'; img.width = '1'; img.height = '1'; body.appendChild( img );
+		}
+	}
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.afiliados', {id: 'afiliados',tag: amc.call('getById', 'afiliados')})</script><script type="text/javascript" id="kenshoo">
+try{
+	if(jQuery(".title02 #basketThanksText").text().indexOf("Obrigado") >=0 || location.pathname.toLowerCase().indexOf("/checkout/suba/finalizepurchase.") >=0){
+		var script = document.createElement('script');
+		var hostProtocol = (("https:" == document.location.protocol) ? "https" : "http");	
+		script.src = hostProtocol + '://1222.xg4ken.com/media/getpx.php?cid=8e4654dd-cf90-45be-8e1f-2c92ea4514ad'
+		var body = document.getElementsByTagName('body')[0]
+		body.appendChild(script);
+		
+		function kenshoo_ready_state(){
+			//Verifica dataLayer
+			if(typeof crmWA_dataLayer == "undefined" || typeof k_trackevent != "function"){
+				setTimeout(kenshoo_ready_state, 1000);
+			}
+			else{
+				var params = new Array();
+				params[0]='id=8e4654dd-cf90-45be-8e1f-2c92ea4514ad';
+				params[1]='type=conv';
+				var valor_pedido = '';
+				var order_id = '';
+				
+				valor_pedido = crmWA_dataLayer[0]['objFunilCustoPedido'];
+				order_id = crmWA_dataLayer[0]['objFunilNumPedido'];
+				
+				params[2]='val=' + valor_pedido;
+				params[3]='orderId=' + order_id;
+				params[4]='promoCode=';
+				params[5]='valueCurrency=BRL';
+				params[6]='GCID='; //For Live Tracking only
+				params[7]='kw='; //For Live Tracking only
+				params[8]='product='; //For Live Tracking only
+				
+				k_trackevent(params,'1222');						
+			}
+		}
+		kenshoo_ready_state();
+	}
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.kenshoo', {id: 'kenshoo',tag: amc.call('getById', 'kenshoo')})</script><script type="text/javascript" id="vizury">
+try{
+	var path = location.pathname.toLocaleLowerCase();
+	var url = location.href.toLocaleLowerCase();
+
+	if(path.indexOf("/hotsite/home-cartao-submarino") >=0 || path.indexOf("/hotsite/rmkt-pecaja-072013") >=0 || path.indexOf("/hotsite/como-pedir-cartao-submarino/") >=0 || url.indexOf("carrinho.submarino.com.br/finance/") >=0 || jQuery(".wrapHeader.headerFinanceWrapHeader").length > 0){
+		(function() {
+			try {
+				var viz = document.createElement("script");
+				viz.type = "text/javascript";
+				viz.async = true;
+				viz.src = ("https:" == document.location.protocol ?"https://cdn6.vizury.com" : "http://cdn6.vizury.com")+ "/analyze/pixel.php?account_id=VIZVRM1262";
+
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(viz, s);
+				viz.onload = function() {
+					try {
+						pixel.parse();
+					} catch (i) {
+					}
+				};
+				viz.onreadystatechange = function() {
+					if (viz.readyState == "complete" || viz.readyState == "loaded") {
+						try {
+							pixel.parse();
+						} catch (i) {
+						}
+					}
+				};
+			} 
+			catch (i) {}
+		})();			
+	}
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.vizury', {id: 'vizury',tag: amc.call('getById', 'vizury')})</script><script type="text/javascript" id="afilioFinanceProposta">try{
+	//SUBA - Finance
+	//Verifica disparo para a página de Sucesso: Boleto, cartão, compra com 1 click
+	if(location.pathname == "/finance/xhtml/proposal/proposalStep2.xhtml"){
+		var num_solicitacao = ""
+		
+		if(typeof jQuery == "function" && jQuery(".request-id").text() != ""){
+			num_solicitacao = jQuery(".request-id").text()
+		}
+		else{
+			num_solicitacao = (Math.random()).toString().replace(".","")
+		}
+		
+		//Pedido = numero random
+		var src = "https://secure.afilio.com.br/lead.php?pid=1241&order_id=" + num_solicitacao
+		
+		var body_afilio = document.getElementsByTagName('body')[0]
+		var img_afilio = new Image(); // create image element
+		img_afilio.src = src
+		img_afilio.border = '0'; img_afilio.width = '1'; img_afilio.height = '1'; body_afilio.appendChild(img_afilio);
+	}
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.afilioFinanceProposta', {id: 'afilioFinanceProposta',tag: amc.call('getById', 'afilioFinanceProposta')})</script><script type="text/javascript" id="sociomanticsubmarino">try{
+		var path_sociom = location.pathname.toLowerCase(); 
+
+	//Category page
+	if(location.pathname.indexOf("loja") >=0 || location.pathname.indexOf("subloja") >=0 || location.pathname.indexOf("linha") >=0 || location.pathname.indexOf("sublinha") >=0){		
+		var departamento_socio = "", subloja_socio = "", linha_socio = "", sublinha_socio = "";
+		
+		//dep
+		if(path_sociom.match(/\/loja\/+[0-9]+/gi)){
+			departamento_socio = (jQuery(".boxSotreNav .titleStore h1").length > 0)?jQuery(".boxSotreNav .titleStore h1").text():jQuery(".titleMenu").text()
+		}
+		
+		//Subloja
+		else if(path_sociom.match(/\/subloja\//gi)){
+			departamento_socio = jQuery(".boxSotreNav .titleStore .hTitleStore").text();
+			subloja_socio = jQuery.trim(jQuery(".bCrumb .category.last").text());	
+		}
+		
+		//Linha
+		else if(path_sociom.match(/\/linha\//gi)){
+			departamento_socio = jQuery(".bCrumb > li > a:eq(0)").text()
+			
+			//Verifica Moda
+				//Subloja
+				if(jQuery(".bCrumb > li > a").length == 2){
+					subloja_socio = jQuery.trim(jQuery(".bCrumb > li > a:eq(1)").text());
+				}
+				
+				//Linha
+				if(path_sociom.indexOf("moda-calcados-e-acessorios") == -1){
+					linha_socio = jQuery.trim(jQuery(".bCrumb .category.last").text());
+				}
+				else{
+					linha_socio = (jQuery(".box-content-a .lnli-label.selected").text().indexOf(".") >=0)?jQuery.trim(jQuery(".box-content-a .lnli-label.selected").text()).split('.')[1]:jQuery.trim(jQuery(".box-content-a .lnli-label.selected").text());
+				}
+		}
+		
+		//Sublinha
+		else if(path_sociom.match(/\/sublinha\//gi)){	
+			departamento_socio = jQuery(".bCrumb > li > a:eq(0)").text()
+				
+			//Verifica se é moda
+				if(jQuery(".bCrumb > li > a").length == 3){
+					subloja_socio = jQuery.trim(jQuery(".bCrumb > li > a:eq(1)").text());
+					linha_socio = jQuery.trim(jQuery(".bCrumb > li > a:eq(2)").text());
+				}
+				else if(jQuery(".bCrumb > li > a").length == 2){
+					linha_socio = jQuery.trim(jQuery(".bCrumb > li > a:eq(1)").text());
+				}
+			
+			sublinha_socio = jQuery.trim(jQuery(".bCrumb .category.last").text());
+		}
+		
+		
+		var product = {
+			category : [departamento_socio , subloja_socio , linha_socio , sublinha_socio]
+		};
+	}
+	
+	//Produto
+	else if(path_sociom.indexOf("produto") >=0 && path_sociom.indexOf("/produto/garantia/") == -1){
+		var id_produto_sociom = ""
+		
+		if(typeof crmWA_dataLayer == "object" && typeof crmWA_dataLayer[0]['objIdProd'] == "string"){
+			id_produto_sociom = crmWA_dataLayer[0]['objIdProd']
+		}
+		
+		var product = {
+			identifier: id_produto_sociom
+		};
+	}
+	
+	//Carrinho
+	else if(path_sociom == "/checkout/" || path_sociom.indexOf("/checkout/suba/basket/subabasket.xhtml") >=0 || path_sociom == "/checkout/addBuyLaterAuthentication.xhtml" || path_sociom == "/checkout/basket/basket.xhtml"){
+		if(typeof crmWA_dataLayer == "object"){
+			//Itera produtos no objeto basket	
+			var produtos = new Array();
+
+			for (var i = 0; i < crmWA_dataLayer[0]['objCarrinhoProduto'].length; i++){
+				produtos.push({
+					identifier: crmWA_dataLayer[0]['objCarrinhoProduto'][i]['objId'], 
+					amount: crmWA_dataLayer[0]['objCarrinhoProduto'][i]['objPreco'], 
+					currency: 'BRL',
+					quantity: 1
+				});
+			}
+			
+			var basket = {
+				products : produtos				
+			};
+		}
+	}
+	
+	//Sucesso
+	else if(path_sociom.indexOf("/checkout/suba/revisao/subabasketrevisaoboleto.xhtml") >=0 ||
+		   path_sociom.indexOf("/checkout/suba/revisao/subabasketrevisao.xhtml") >=0){
+		if(typeof crmWA_dataLayer == "object"){
+			//Itera produtos no objeto basket	
+			var produtos = new Array();
+
+			for (var i = 0; i < crmWA_dataLayer[0]['objFunilProduto'].length; i++){
+				produtos.push({
+					identifier: crmWA_dataLayer[0]['objFunilProduto'][i]['objId'], 
+					amount: crmWA_dataLayer[0]['objFunilProduto'][i]['objValorUnit'], 
+					currency: 'BRL',
+					quantity: 1
+				});
+			}
+			
+			var basket = {
+				products : produtos,
+				transaction : crmWA_dataLayer[0]['objFunilNumPedido'],
+				amount: crmWA_dataLayer[0]['objFunilCustoPedido'],
+				currency: 'BRL'
+			};	
+		}
+	}
+	
+	//Função padrão Sociomantic
+	(function(){
+		var s   = document.createElement('script');
+		var x   = document.getElementsByTagName('script')[0];
+		s.type  = 'text/javascript';
+		s.async = true;
+		s.src   = ('https:'==document.location.protocol?'https://':'http://')
+				+ 'us-sonar.sociomantic.com/js/2010-07-01/adpan/submarino-br';
+		x.parentNode.insertBefore( s, x );
+	})();
+	
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.sociomanticsubmarino', {id: 'sociomanticsubmarino',tag: amc.call('getById', 'sociomanticsubmarino')})</script><script type="text/javascript" id="responsysFilaDePedidos">try{
+    /**
+     * Script para registro de pedidos na base do CRM em tempo real.
+     *
+     * Como usar:
+     *   crmRegisterOrder();
+     */
+    (function (root) {
+
+        if (!(typeof root.crmWA_dataLayer === 'object' && crmWA_dataLayer.length)) return false;
+
+
+        var $ = root.jQuery;
+        var obj = root.crmWA_dataLayer[0];
+        var params = {};
+
+        /**
+         * Mapa com todos os endereços que o script pode executar o cadastro.
+         * @attribute brand_map
+         * @type {Object}
+         */
+        var brand_map = {
+            'localhost': {
+                name: 'americanas',
+                ref: 'ACOM',
+                host: 'americanas.com.br'
+            },
+            'americanas.com.br': {
+                name: 'americanas',
+                ref: 'ACOM'
+            },
+            'submarino.com.br': {
+                name: 'submarino',
+                ref: 'SUBA'
+            },
+            'shoptime.com.br': {
+                name: 'shoptime',
+                ref: 'SHOP'
+            },
+            'soubarato.com.br': {
+                name: 'soubarato',
+                ref: 'SB'
+            }
+        };
+
+        /**
+         * Contém a marca atual baseado no mapa.
+         * @attribute brand
+         * @type {Object}
+         */
+        var brand = (function () {
+            for (var brand in brand_map) {
+                if (root.location.host.indexOf(brand) > -1) {
+                    if (!brand_map[brand].host) brand_map[brand].host = brand;
+                    return brand_map[brand];
+                }
+            }
+            return null;
+        })();
+
+        /**
+         * Pega os valores na página e retorna um objeto.
+         * @method getParams
+         * @returns {Object}
+         */
+        function getParams() {
+            if (!(obj.objFunilProduto && obj.objFunilProduto.length)) return null;
+            var sku = [],
+                price = [],
+                items = [],
+                params = {};
+
+            obj.objFunilProduto.forEach(function (product) {
+                sku.push(product.objSku);
+                price.push(product.objValorUnit);
+                items.push(product.objQuantidade);
+            });
+
+            params.vl_unit_sku = price.join(',');
+            params.qtd_item = items.join(',');
+            params.sku = sku.join(',');
+
+            params.cod_pedido = obj.objFunilNumPedido;
+            params.customer_id_ = obj.objFunilIdUser;
+            params.email_address_ = crmWA_dataLayer[0]['objEmailUsuario']
+            params.type = 'cart';
+            params.callback = 'crmRegisterOrderCallback';
+            return params
+        }
+
+        /**
+         * Retorna o endereço de destino do cadastro baseado na marca atual.
+         * @method getUrl
+         * @returns {string}
+         */
+        function getUrl() {
+            return 'https://s-apps.' + brand.host + '/responsys/cr.php';
+        }
+
+        /**
+         * Dispara a ação de cadastro com os parâmetros e url de destino.
+         * @method registerOrder
+         */
+        function registerOrder() {
+            var url = getUrl();
+            var params = getParams();
+            $.getScript([url, '?', $.param(params)].join(''));
+        }
+
+        /**
+         * Emite mensagens de log baseado no tipo de mensagem, com tratamento de exceção
+         *
+         * @method log
+         * @param type
+         * @param msg
+         * @returns {boolean}
+         */
+        function log(type, msg){
+            if(!(type && msg)) return false;
+
+            if(root.console && typeof root.console[type] === 'function'){
+                root.console[type](msg)
+                return true;
+            }
+            return false;
+        }
+
+        /**
+         * Função global de callback da ação de cadastro.
+         *
+         * @method crmRegisterOrderCallback
+         */
+        root.crmRegisterOrderCallback = function(){
+            //log('info', 'Order successfully registered!');
+        };
+
+        /**
+         * Função global que inicia toda ação de cadastro
+         * @method crmRegisterOrder
+         */
+        root.crmRegisterOrder = function(){
+            if (brand && $.fn && $.fn.jquery) {
+                registerOrder();
+            }else{
+                if(root.console && typeof root.console.warn === 'function'){
+                    //log('warn', 'crmRegisterOrder is disabled. jQuery does not exist or trade brand is not recognized.');
+                }
+            }
+        }
+    }(this));
+
+
+    //Regra de disparo na página de sucesso
+    if(typeof crmWA_dataLayer == "object" && typeof crmWA_dataLayer[0]['objFunilNumPedido'] == "string" && typeof crmWA_dataLayer[0]['objEmailUsuario'] == "string" && crmWA_dataLayer[0]['objEmailUsuario'] != ""){
+    	crmRegisterOrder();
+    }
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.responsysFilaDePedidos', {id: 'responsysFilaDePedidos',tag: amc.call('getById', 'responsysFilaDePedidos')})</script><script type="text/javascript" id="tagPok">
+try{
+    //Essa verificação de ready é necessária pq o box do banner só aparece no final do carregamento.
+    function document_ready_tag_pok(){
+        //Tentativa padrão de disparos
+            //Verifica se o document está pronto
+            if(document.readyState != "complete"){
+                setTimeout(document_ready_tag_pok, 500);
+            }
+            
+            //Verifica se é um usuário POK na forma de pagamento
+            else if(location.pathname.indexOf("/checkout/suba/payment/subaPayment") >=0 && jQuery("#financeForm .bannerFinance").is(':visible')){                   
+                //Src original: src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/970713310/?value=0&amp;label=92MxCOKJ6AcQ3tHvzgM&amp;guid=ON&ampI;script=0"
+                
+                
+                /* <![CDATA[ */
+                
+                var src = "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/970713310/?value=0&label=92MxCOKJ6AcQ3tHvzgM&guid=ON&script=0"              
+                var body = document.getElementsByTagName('body')[0]
+                var img = new Image();
+                img.src = src
+                
+                /* ]]> */
+                
+                img.border = '0'; img.width = '1'; img.height = '1'; body.appendChild( img );
+            }
+    }
+    document_ready_tag_pok();
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.tagPok', {id: 'tagPok',tag: amc.call('getById', 'tagPok')})</script><script type="text/javascript" id="foresee">	
+
+	(function() {
+		var foresee_script = document.createElement('script'); 
+		foresee_script.type = 'text/javascript'; foresee_script.async = true;
+		foresee_script.src = '//s-apps.submarino.com.br/media/global/foresee/foresee-trigger.js'
+		var foresee_first = document.getElementsByTagName('script')[0]; 
+		foresee_first.parentNode.insertBefore(foresee_script, foresee_first);
+	})();
+
+; amc.call('getLoaderById', 0).publish('ontagload.foresee', {id: 'foresee',tag: amc.call('getById', 'foresee')})</script><script type="text/javascript" id="shoppingUol">try{
+    //Pixel de conversão Shopping UOL
+    if(typeof crmWA_dataLayer == "object" && typeof crmWA_dataLayer[0]['objFunilNumPedido'] == "string"){
+        
+        var merchantId = "aa0faf40-a397-11e2-9e96-0800200c9a66"
+        var orderID = (typeof crmWA_dataLayer[0]['objFunilNumPedido'] == "string")?crmWA_dataLayer[0]['objFunilNumPedido']:''
+        var orderAmount = (typeof crmWA_dataLayer[0]['objFunilCustoPedido'] == "string")?crmWA_dataLayer[0]['objFunilCustoPedido']:''
+                    
+        var src = "https://tracker.shopping.uol.com.br/notification/merchant/" + merchantId + "?orderId=" + orderID + "&orderAmount=" + orderAmount 
+        var body = document.getElementsByTagName('body')[0]
+        var img = new Image(); // create image element
+        img.src = src
+        img.border = '0'; img.width = '1'; img.height = '1'; body.appendChild( img );
+        
+    }
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.shoppingUol', {id: 'shoppingUol',tag: amc.call('getById', 'shoppingUol')})</script><script type="text/javascript" id="produtosintel">
+try{
+	//Página de sucesso
+		if(typeof crmWA_dataLayer == "object" && typeof crmWA_dataLayer[0]['objFunilNumPedido'] == "string"){
+			var numero_de_produtos = crmWA_dataLayer[0]['objFunilProduto'].length;		
+			var verifica_prod_intel = ""
+			var verifica_cost_intel = 0;
+			
+			//Itera todos os produtos
+				for(var i=0; i < numero_de_produtos; i++){				
+					if((crmWA_dataLayer[0]['objFunilProduto'][i]['objNome']).toLowerCase().indexOf("_intel_") >=0){
+						verifica_prod_intel = "ok";
+						
+						verifica_cost_intel += crmWA_dataLayer[0]['objFunilProduto'][i]['objValorUnit'] * crmWA_dataLayer[0]['objFunilProduto'][i]['objQuantidade']
+					}
+				}
+			
+			//Se tiver produto intel dispara tag
+				if(verifica_prod_intel == "ok"){
+					//Google
+						/* <![CDATA[ */
+							var intel_google_search = "//www.googleadservices.com/pagead/conversion/963048932/?value=" + verifica_cost_intel + "&label=t9wACJqu3VYQ5OubywM&guid=ON;script=0"
+										
+							var google_search_body = document.getElementsByTagName('body')[0]
+							var google_search_img = new Image(); // create image element
+							//Url
+								google_search_img.src = intel_google_search;							
+							//Config da img
+								google_search_img.border = '0'; google_search_img.width = '1'; google_search_img.height = '1'; 
+							//Append child
+								google_search_body.appendChild(google_search_img);
+						/* ]]> */
+						
+						/* <![CDATA[ */
+							var intel_google_gdmConversion = "//www.googleadservices.com/pagead/conversion/963617173/?value=" + verifica_cost_intel + "&label=oHF5CM-gllcQlcO-ywM&guid=ON;script=0"
+
+							var google_gdm_body = document.getElementsByTagName('body')[0]
+							var google_gdm_img = new Image();
+							//Url
+								google_gdm_img.src = intel_google_gdmConversion;	
+							//Config da img
+								google_gdm_img.border = '0'; google_gdm_img.width = '1'; google_gdm_img.height = '1'; 
+							//Append child
+								google_gdm_body.appendChild(google_gdm_img);
+							
+						/* ]]> */
+						
+					//Facebook
+						(function() {
+							var _fbq = window._fbq || (window._fbq = []);
+							if (!_fbq.loaded) {
+								var fbds = document.createElement('script');
+								fbds.async = true;
+								fbds.src = '//connect.facebook.net/en_US/fbds.js';
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(fbds, s);
+								_fbq.loaded = true;
+							}
+						})();
+						window._fbq = window._fbq || [];
+						window._fbq.push(['track', '6018304276961', {'value':verifica_cost_intel,'currency':'BRL'}]);
+						
+					//DoubleClick Floodlight					
+						src_iframe_intel = "https://2220804.fls.doubleclick.net/activityi;src=2220804;type=Final0;cat=Subma0;qty=1;cost=" + verifica_cost_intel.toFixed(2) + ";ord=" + crmWA_dataLayer[0]['objFunilNumPedido'] + "?"
+						
+						ifrm_intel = document.createElement("IFRAME"); 
+						ifrm_intel.setAttribute("src", src_iframe_intel); 
+						ifrm_intel.style.width = ifrm_intel.style.height = "1"
+						document.body.appendChild(ifrm_intel);
+						
+				}
+		}
+}
+catch(e){}; amc.call('getLoaderById', 0).publish('ontagload.produtosintel', {id: 'produtosintel',tag: amc.call('getById', 'produtosintel')})</script><script type="text/javascript" id="sitecatalyst_stub">var s=new SC_Stub();
+s.tagContainerName="Submarino_s";
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+function SC_Stub(){var t=this,w=t.w=window;t.d=w.document;t._c='s_l';if(!w.s_c_il){w.s_c_il=[];w.s_c_in=0}t._il=w.s_c_il;t._in=w.s_c_in;t._il[t._in]=t;w.s_c_in++;t.fs=function(x,y){if(x&&y){var a=
+x.split(','),b=y.split(','),i,j;for(i=0;i<a.length;i++){for(j=0;j<b.length;j++)if(a[i]==b[j])return 1}}return 0};t.aa=function(a){var b=0,i;if(a){b=[];for(i=0;i<a.length;i++)b[i]=a[i]}return b};t.wl=[
+];t.wq=[];t.createAsynchronousCustomTagHandler=function(o,f){var t=this,x,i;if(!f){f=o;o=0;x=t.w}else{if(!t.w[o])t.w[o]={};x=t.wl[o]=t.w[o]}if(typeof(f)!='object')f=[f];for(i=0;i<f.length;i++)if(!x[f[
+i]])x[f[i]]=new Function('var t=s_c_il['+t._in+'];t.wq[t.wq.length]={'+(o?'o:"'+o+'",':'')+'f:"'+f[i]+'",a:t.aa(arguments)}')};t.as=function(x){var y=[],i;for(i=1;i<x.length;i++)y[y.length]=x[i]
+return y};t.s=0;t.contextData={};t.retrieveLightData={};if(!w.s_giq)w.s_giq=[];t._gi=w.s_gi;w.s_gi=new Function('u','var t=s_c_il['+t._in+
+'],w=t.w,l=t._il,i,j,x,s;u=u.toLowerCase();if(l)for(j=0;j<2;j++)for(i=0;i<l.length;i++){s=l[i];x=s._c;if((!x||x=="s_c"||(j>0&&x=="s_l"))&&s.oun&&(s.oun==u||(s.fs&&s.sa&&s.fs(s.oun,u)))){'+
+'if(s.sa)s.sa(u);return s}}if(!t.oun){t.sa(u);return t}if(t._gi)return t._gi(u);s=new SC_Stub();s.tagContainerName="s_tca_"+w.s_giq.length;s.sa(u);w.s_giq[w.s_giq.length]=s;return s');t.sa=function(u)
+{var t=this;if(t.s)t.s.sa(u);t.un=u;if(!t.oun)t.oun=u;else if(!t.fs(t.oun,u))t.oun+=','+u};t.tq=[];t.track=t.t=function(vo){var t=this,m;if(t.s)return t.s.t(vo);if(!vo)vo={};for(m in t){if(m!='un'
+||t.u!=t.un)vo[m]=t[m]}t.tq[t.tq.length]=vo;t.lnk=t.linkName=t.linkType='';return '';};t.trackLink=t.tl=function(o,u,n,vo){var t=this;if(t.s)return t.s.tl(o,u,v,vo);t.lnk=o;t.linkType=u;t.linkName=n
+return t.t(vo)};t.trackLight=function(p,ss,i,vo){var t=this;if(t.s)return t.s.trackLight(p,ss,i,vo);t.lightProfileID=p;t.lightStoreForSeconds=ss;t.lightIncrementBy=i;return t.t(vo)};t.lmq=[]
+t.loadModule=function(n,u,d){var t=this;if(t.s)return t.s.loadModule(n,u,d);t.lmq[t.lmq.length]={n:n,u:u,d:d};return 0};t.ml=[];t.mmq=[];t.mo=function(m,f){var t=this,i;t.ml[m]=t[m]={};if(f)
+for(i=0;i<f.length;i++)t[m][f[i]]=new Function('var t=s_c_il['+t._in+'];t.mmq[t.mmq.length]={m:"'+m+'",f:"'+f[i]+'",a:t.aa(arguments)}')};t.mo('Media',['open','play','stop','close','track']);t.mo(
+'Survey',['launch']);}; amc.call('getLoaderById', 0).publish('ontagload.sitecatalyst_stub', {id: 'sitecatalyst_stub',tag: amc.call('getById', 'sitecatalyst_stub')})</script><script type="text/javascript" id="sitecatalyst" async="" defer="" src="./Painel de Controle Submarino_files/sitecatalyst.js"></script><iframe id="destination_publishing_iframe_b2w_0" src="./Painel de Controle Submarino_files/dest4.html" style="display: none; width: 0px; height: 0px;"></iframe></body></html>

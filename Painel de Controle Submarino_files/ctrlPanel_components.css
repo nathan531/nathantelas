@@ -1,0 +1,1713 @@
+/* cores 
+link hover - #2b80c3
+titulo - #0363ac
+*/
+
+body.new-customer { line-height: 1;	color: #333; background: #f2f2f2; font: 68.75%/1.25 arial, verdana, helvetica, sans-serif; width: 1024px; margin: 0 auto; }
+#header{position:relative;z-index:3;background:#0A75BB;}
+#content{position:relative;z-index:2;margin-bottom:0;overflow:hidden;background-color: #fff; width: 1024px;min-height: 500px;}
+#footer{padding-left:10px;position:relative;z-index:1;margin-top:20px;}
+#footer-inner{padding:72px 10px 0 0;margin-top:-68px;}
+#footer #header{background:none;}
+#fullBanner{margin:-10px -5px;}
+#mainContent{margin:0 10px;}
+#mainContent-inner{margin-right:-3px;}
+#area1{padding:10px;}
+#area2{padding-left:190px;margin-top:5px;}
+#area2:after{content:".";display:block;clear:both;visibility:hidden;font-size:0;height:0;}
+#area2-1{width:100%;float:right;margin:0 1px 0 -190px;position:relative;z-index:2;display:inline;}
+#area2-1-outer{margin-left:-2px;}
+#area2-1-inner{margin-right:-4px;position:relative;}
+#area2-1-2{padding-left:145px;}
+#area2-1-2:after{content:".";display:block;clear:both;visibility:hidden;font-size:0;height:0;}
+#area2-1-2-1{width:100%;float:left;margin:0 -200px 0 -145px;display:inline;}
+#area2-1-2-2{width:135px;float:right;margin:0 5px 0 -10px;display:inline;}
+#area2-2{width:190px;margin:0 0 0 -190px;position:relative;float:left;display:inline;}
+body.formCad, body.formCad #content,  body.hmLogin, body.hmLogin #content{background:#fff;}
+body.formCad #content{padding:0 50px;}
+.skip{position:absolute;height:0;overflow:hidden;display:block;margin:0!important;padding:0!important;}
+#content .hmLogin.myAccount{width:400px;margin: 0 auto;}
+#content .hmLogin.myAccount .login .client fieldset{border:0px;}
+#fullBanner.bannerLoginCp{margin:0 auto 0px auto;overflow:hidden;width: 1004px;}
+.cpanel #fullBanner{overflow:hidden;position:relative;margin:0;}
+.fbanner, .fbannerLogin{position:relative;margin-left:-1000px;left:50%;margin-top:0;margin-bottom:0;}
+.cpanel #area2-2 .component{padding:0;margin:0 5px 0 0;}
+.cpanel #area2-2 .box1{padding:0;margin:0 5px 0 0;}
+.cpanel .content{padding:0 10px;}
+.loginOderrs .loginForm fieldset{border:#f1f1f1 1px solid}
+.login.loginMeusPedidos .boxVisitante .btCont2{margin-top:36px;}
+/* .cpanel .home, .cpanel .hContent{padding:0 10px 10px;zoom:1;} */
+.cpanel .home{padding:0 10px 10px;zoom:1;}
+.home .col-1{overflow:hidden;}
+.home .col-2{overflow:hidden;}
+.ctrlP li{margin-bottom:15px;}
+.home .myOrds, .home .persData, .home .othrServ{margin-bottom:30px;overflow:hidden;zoom:1;}
+.otherServs{overflow:hidden;clear:both;margin-top:50px;padding:10px 0 0;border-top:1px solid #ccc;}
+.otherServs li{width:49%;float:left;}
+.sMenu{padding:5px 5px 0 0;}
+.hContent{overflow:hidden;}
+.hContent .title01{float:left;margin-right:50px;padding-left:5px;}
+.hContent .msgAlert{margin:0;overflow:hidden;}
+/* .contentBody{background:url(../img/bgContent01.png) repeat-x 0 0;padding:20px;} */
+fieldset.type01{float:left;margin-right:10px;}
+.nextAlter{background-position: -562px -220px!important;display: block;width: 103px;height: 32px;border: 0;}
+.btnAlter{background: url(../img/spriteButtonCP.png) no-repeat -537px -215px;cursor:hand;cursor:pointer;text-indent:-9999999px;height: 32px;width: 128px;float: none;border: none;margin: 32px 0px 0px -20px;}
+
+/* Padroes Painel de Controle */
+.title01{color:#666;font-size:1.2em;font-weight:bold;}
+.title01 .ico{display:none;}
+.title strong{font-size:0.9em;}
+.title .titIco{background-position:-165px -144px;height:60px;width:50px;margin:0 10px 0 10px;}
+.title02{color:#00adef;font-weight:bold;font-size:1.65em;}
+.title02 .ico{width:39px;height:51px;margin-right:7px;}
+/* botoes e icones */
+.bull, .stp, .btn, .tag,.bkt .lk{background:url(../img/sprite01.png) no-repeat 0 0;}
+
+.button{cursor:pointer;}
+.ico{background:url(../img/spriteIconesCP.png) no-repeat 0 0;}
+.btn, .button{background:url(../img/spriteButtonCP.png) no-repeat 0 0;}
+ ul.lCards.it-erro span.feedbacklabelERROR.feedback{color:#f00;}
+
+/* Botoes da Home */
+.button.btLOrders{background-position:0 0; height:24px; width:153px;}
+.button.btAllOrds{background-position:0 -170px; height:24px; width:153px;}
+.button.btOrdCancel{background-position:0 -170px; height:24px; width:153px;}
+.button.btOrdDate{background-position:0 -102px; height:24px; width:153px;}
+.button.btOpOrdsOp{background-position:0 -68px; height:24px; width:153px;}
+.button.btOrdDeld{background-position:0 -136px; height:24px; width:153px;}
+.button.btOrdsId{background-position:0 -34px; height:24px; width:153px;}
+.button.btChMail{background-position:-163px 0; height:24px; width:153px;}
+.button.btChPass{background-position:-163px -34px; height:24px; width:153px;}
+.button.btDlAdd{background-position:-163px -136px; height:24px; width:153px;}
+.button.btChData{background-position:-163px -102px; height:24px; width:153px;}
+.button.btOfMail{background-position:-163px -68px; height:24px; width:153px;}
+.button.btBk{background-position:0 -204px; height:24px; width:153px;}
+.button.cancPeds{background-position:0 -392px; height:24px; width:153px;}
+.button.worthBuy{background-position:0 -426px; height:24px; width:153px;}
+.button.btOffCE{background-position:0 -458px; height:24px; width:171px;}
+.button.btCa{background-position:0 -238px; height:24px; width:153px;}
+.button.btConfCE{background-position:-163px -170px; height:24px; width:171px;}
+.button.btConfAdd{background-position:-163px -238px; height:24px; width:181px;}
+.button.btConfCrd{background-position:-163px -204px; height:24px; width:171px;}
+.button.btCreditCard{background-position:-0px -686px; height:24px; width:153px;}
+.button.btOneClick{background-position:-0px -721px; height:24px; width:153px;}
+
+/* Icones dos titulos */
+.ico.ordOk{background-position:0 0;}
+.ico.ordNmb{background-position:-42px 0;}
+.ico.ordDte{background-position:-84px 0;}
+.ico.allOrd{background-position:-125px 0;}
+.ico.lsOrd{background-position:0 -54px;}
+.ico.config{background-position:-42px -54px;}
+.ico.vchr{background-position:-84px -54px;}
+.ico.chOrd{background-position:-125px -54px;}
+.ico.invoice{background-position:0 -108px;}
+.ico.bill{background-position:-42px -108px;}
+.ico.delAdd{background-position:-84px -108px;}
+.ico.mailOff{background-position:-125px -108px;}
+.ico.chCad{background-position:0 -161px;}
+.ico.chPwd{background-position:-42px -161px;}
+.ico.chMail{background-position:-84px -161px;}
+.ico.ordCanc{background-position:-125px -161px;}
+.ico.ordOpn{background-position:0 -216px;}
+.ico.addrT{background-position:-42px -216px;}
+.ico.ords{background-position:-84px -216px;}
+.ico.oneCb{background-position:-126px -216px;}
+.ico.t1{background-position:0 0; width:40px; height:40px;}
+.ico.t2{background-position:0 -50px; width:40px; height:40px;}
+.ico.t3{background-position:0 -100px; width:40px; height:40px;}
+.ico.t4{background-position:0 -148px; width:40px; height:40px;}
+.ico.iUsrId{background-position:0 -77px;background-image:url(../img/sprite02.png);}
+.ico.iCallCent{background-position:-31px -77px;background-image:url(../img/sprite02.png);}
+.ico.oneClick{background-position:-106px -78px;display:block;width:26px;height:25px;}
+.ico.help2{background-position:-29px -293px;display:block;width:13px;height:13px;}
+.ico.icoHelp{background-position:-196px -240px;display:block;width:20px;height:20px;}
+.ico.helpFormIco{background-position:-226px -240px;width:20px;height:20px;margin:0 5px;}
+.ico.cardOk{background-position:-200px -157px;width:34px;height:39px;display:block;background-image:url(../img/sprite03.png);}
+.ico.cardWrn{background-position:0 -197px;width:33px;height:32px;}
+.ico.adrOk {background-position:-105px -36px;width:33px;height:32px;display:block}
+.ico.adrWrn {background-position:-237px -157px;width:33px;height:39px;display:block;background-image:url(../img/sprite03.png);}
+.DebtAcc{background-position:-355px -215px;width:33px !important;height:51px;}
+.TrackOder{background-position:-279px -147px;width:53px;height:46px;}
+
+.icoPF{background-position:-50px 0;float:left;height:46px;margin-right:10px;width:46px;}
+.icoPJ{background-position:0 -162px;float:left;height:50px;margin-right:10px;width:40px;}
+.icoAddr{background-position:-50px -56px;float:left;height:46px;margin-right:10px;width:46px;}
+.icoOneClickCard{background-position:-64px -277px;float:left;height:36px;width:36px;margin-right:10px;}
+.icoOneClickAddress{background-position:-110px -277px;float:left;height:36px;width:36px;margin-right:10px;}
+
+/* Icones Topo */
+.ico.icoTopoId{background-position: 0 -400px;height:43px;width: 267px;display:block;margin: 20px 0 0;}
+.ico.icoTopoCP{background:url(../img/icoTopoCP.png) #00adef center no-repeat;border-top:#019bd9 1px solid;height:95px;display:block;}
+.ico.icoTopoOneClick{background:url(../img/icoTopoOneClick.png) #00adef center no-repeat;border-top:#019bd9 1px solid;height:95px;display:block;}
+.loginMeusPedidos .ico.icoTopoId{background-position: 0 -535px;}
+
+/* cartoes */
+.ico.crdSuba1,.ico.crdSuba2,.ico.crdVisa,.ico.crdMaster,.ico.crdAmex,.ico.crdAmexCorp,.ico.crdDinners,.ico.crdAura,.ico.crdHiperCard,.ico.crdElo,.ico.crdSubaAuraSmall,.ico.crdSubaAuraBig,.ico.crdSubaMasterSmall,.ico.crdSubaMasterBig,.ico.crdVisaSmall,.ico.crdVisaBig,.ico.crdMasterSmall,.ico.crdMasterBig,.ico.crdAmexSmall,.ico.crdAmexBig,.ico.crdAmexCorpSmall,.ico.crdAmexCorpBig,.ico.crdDinnersSmall,.ico.crdDinnersBig,.ico.crdAuraSmall,.ico.crdAuraBig,.ico.crdHipercardSmall,.ico.crdHipercardBig
+{background:url(../img/sprite03.png) no-repeat 1000px 1000px;}
+
+.ico.crdSuba1{background-position:0 0;width:49px;height:35px;display:block;}
+.ico.crdSuba2{background-position:-52px 0;width:49px;height:35px;display:block;}
+.ico.crdVisa{background-position:-104px 0;width:49px;height:35px;display:block;}
+.ico.crdMaster{background-position:-208px 0;width:49px;height:35px;display:block;}
+.ico.crdAmex{background-position:-312px 0;width:49px;height:35px;display:block;}
+.ico.crdAmexCorp{background-position:-185px -116px;width:49px;height:35px;display:block;}
+.ico.crdDinners{background-position:-260px 0;width:49px;height:35px;display:block;}
+.ico.crdAura{background-position:-364px 0;width:49px;height:35px;display:block;}
+.ico.crdHiperCard{background-position:-156px 0;width:49px;height:35px;display:block;}
+.ico.crdElo{background-position:-320px -158px;width:49px;height:35px;display:block;}
+.ico.crdSubaAuraSmall{background-position:0 0;width:49px;height:35px;display:block;}
+.ico.crdSubaAuraBig{background-position:-63px -166px;height:50px;width:67px;display:block;}
+.ico.crdSubaMasterSmall{background-position:-52px 0;width:49px;height:35px;display:block;}
+.ico.crdSubaMasterBig{background-position:0 -166px;height:50px;width:67px;display:block;}
+.ico.crdVisaSmall{background-position:-104px 0;width:49px;height:35px;display:block;}
+.ico.crdVisaBig{background-position:0 -115px;width:59px;height:38px;display:block;}
+.ico.crdMasterSmall{background-position:-208px 0;width:49px;height:35px;display:block;}
+.ico.crdMasterBig{background-position:-61px -115px;width:59px;height:38px;display:block;}
+.ico.crdAmexSmall{background-position:-312px 0;width:49px;height:35px;display:block;}
+.ico.crdAmexBig{background-position:-120px -115px;width:59px;height:38px;display:block;}
+.ico.crdAmexCorpSmall{background-position:-185px -116px;width:49px;height:35px;display:block;}
+.ico.crdAmexCorpBig{background-position:-180px -115px;width:59px;height:38px;display:block;}
+.ico.crdDinnersSmall{background-position:-260px 0;width:49px;height:35px;display:block;}
+.ico.crdDinnersBig{background-position:-300px -115px;width:59px;height:38px;display:block;}
+.ico.crdAuraSmall{background-position:-364px 0;width:49px;height:35px;display:block;}
+.ico.crdAuraBig{background-position:-240px -115px;width:59px;height:38px;display:block;}
+.ico.crdHipercardSmall{background-position:-156px 0;width:49px;height:35px;display:block;}
+.ico.crdHipercardBig{background-position:-360px -115px;width:59px;height:38px;display:block;}
+
+/* icone */
+.ico.arw{background-position:-51px -271px;}
+.ico.arw1{background-position:-45px -297px;}
+.ico.arw2{background-position:-45px -292px;}
+.ico.arw3{background-position:-45px -302px;}
+.ico.def{background-position:-128px -86px;width:17px;height:18px;display:block;background-image:url(../img/sprite03.png);}
+.msgAlert .ico{background-image:url(../img/sprite03.png);float:left;padding:0;}
+.ico.success, .msgAlert .ico.suc {float:left;background-image:url(../img/spriteIconesCP.png);background-position:0px -682px;margin:10px 10px 0 0;height:42px;width:39px;}
+.oneClickPage .msgAlert .ico.suc{margin:7px 5px 0 0;background-position:-50px -689px;height:23px;width:23px;}
+
+.ico.warning, .msgAlert .warning, .ico.warn {background:url(../img/sprite03.png) -60px -62px;margin-top:5px;float:left;height:25px;width:25px;margin-right:10px;}
+.ico.erro, .msgAlert .erro{float:left;background:#fff url(../img/spriteIconesCP.png) -0px -623px;width:25px;height:25px;margin:0 15px 0 0;}
+.ico.iBill{background-position:-417px -1px;width:41px;height:29px;display:block;background-image:url(../img/sprite03.png);}
+#successPasswordRecovery{padding:25px;}
+#statusUpdateEmail{width: 335px;clear: none;}
+
+/* btn */
+.btSrh{background-position:-561px -150px;display:block;height:24px;width:117px;}
+.btN{background-position:-465px -28px;display:block;width:75px;height:23px;}
+.btY{background-position:-465px -54px;display:block;width:75px;height:23px;}
+.btSave{background-position:-672px -220px;display:block;width:167px;height:28px; border: 0;}
+.btSave2{background-position: -681px -346px;display: block;height: 24px;width: 99px;}
+.btNewAcc{background-position:-168px -114px;display:block;width:173px;height:26px;}
+.btCont{background-position:-354px 0;display:block;width:153px;height:29px;}
+.btCont2{background-position:-482px -85px;display:block;height:27px;width:125px;border:0;}
+.canc{background-position:-562px -738px;display:block;width:179px;height:26px;}
+.btBack{background-position:-562px -184px;display:block;width:81px;height:26px;margin-right:10px;}
+.btBack2{background-position:-168px 0;display:block;width:356px;height:26px;}
+.btBack3{background-position:-777px -184px;display:block;width:123px;height:26px;margin-right:10px;}
+.btBack1C{background-position:0 -577px;display:block;width:256px;height:26px;margin-right:10px;}
+.btReq{background-position:-335px -28px;display:block;width:124px;height:26px;}
+.btChg, .nextStep{background-position:-354px 0px;display:block;width:170px;height:32px; border: 0;}
+.btCad{background-position:-562px -346px;display:block;width:109px;height:26px;}
+.btOk{background-position:-684px -120px;display:block;width:30px;height:16px;}
+.btBuy{background-position:-344px -114px;display:block;width:124px;height:26px;}
+.btYes{background-position:-354px -151px;height:22px;width:50px;}
+.btNo{background-position:-414px -151px;height:22px;width:50px;}
+.btMod{background-position:-219px 0;display:block;width:61px;height:18px;}
+.btRem{background-position:-262px 0;display:block;width:41px;height:12px;background-image:url(../img/sprite02.png);}
+.btNewDelAdd{background-position:0 -493px;display:block;width:205px;height:18px;float:left;}
+.btOtherAdd{display:block;height:18px;width: 205px;background-position:0 -521px;margin: 0 0 10px;}
+.btDelCard{display:block;height:18px;width:151px;background-position:-163px -426px;}
+.btOrdCanc2{background-position:-562px -671px;display:block;width:183px;height:18px;}
+.btPrnBill{background-position:-562px -899px;display:block;width:179px;height:26px;background-image:url(../img/spriteButtonCP.png);}
+.btChDelAdd{background-position:0 -652px;display:block;width:168px;height:18px;}
+.btOrdTrck{background-position:-144px -22px;display:block;width:141px;height:16px;background-image:url(../img/sprite02.png);}
+.btReqNf{background-position:-144px -42px;display:block;width:158px;height:16px;background-image:url(../img/sprite02.png);}
+.btReqCh{background-position:-144px -60px;display:block;width:94px;height:14px;background-image:url(../img/sprite02.png);}
+.btReq2v{background-position:-240px -60px;display:block;width:97px;height:14px;background-image:url(../img/sprite02.png);}
+.btPay2Cards{background-position:-562px -382px;display:block;width:206px;height:20px;margin:0 0 10px;}
+.bt1Card{background-position:-166px -216px;display:block;width:188px;height:53px;margin:0 0 10px;}
+.btFinish{background-position:-224px -173px;display:block;width:194px;height:39px;margin:0 0 10px;}
+.btCadCard{background-position:0 -549px;display:block;width:205px;height:18px;margin-bottom:10px;}
+.btActive{background-position:-562px -412px;display:block;height:26px;width:256px;}
+.btUnlock{display:block;font-size:1em;line-height:1.2;text-indent:0;color:#2B80C3;background:none;overflow:hidden;}
+.rastPedido,.segViaBol,.segViaNF,.btOtherCard2,.canPedido,.reschedule,.btChangeOrd,.meuBanco{height:16px;width:141px;display:block;}
+.rastPedido{background-position:-563px -475px;display:block;width:183px;height:18px;}
+.segViaBol{background-position:-562px -446px;display:block;width:183px;height:18px;}
+.segViaNF{background-position:-562px -503px;display:block;width:183px;height:18px;}
+.btOtherCard2{background-position:-562px -559px;display:block;width:183px;height:18px;}
+.canPedido{background-position:-562px -587px;display:block;width:183px;height:18px;}
+.reschedule{background-position:-562px -615px;display:block;width:183px;height:18px;}
+.btChangeOrd{background-position:-562px -531px;display:block;width:183px;height:18px;}
+.gotoHome{background-position:-365px -144px;height:26px;width:231px;}
+.meuBanco{background-position:-562px -644px;display:block;width:183px;height:18px;}
+.btCancel{background-position:-197px -293px;width:136px;height:32px;}
+.btContinue{background-position:-335px -293px;width:136px;height:32px;}
+.btClose{background-position:-653px -184px;display:block;width:114px;height:26px;margin-right:10px;}
+.btChCep2{background-position:-234px -392px;width:82px;height:18px;margin-right:10px;float:none;}
+ #buttonsNewAddress .nextStep{background-position: -681px -346px;display: block;height: 24px;width: 99px;}
+ .debitAccount{background-position:-562px -643px;display:block;width:183px;height:18px;}
+.cancel01 .nextStep, .cancel02 .nextStep, .cancel03 .nextStep{background-position:-562px -699px;display:block;width:177px;height:29px;}
+.btTimeLine{width:188px;height:18px;background-position:-562px -815px;}
+.btDets{width:108px;height:19px;background-position:-354px -183px;}
+
+/*popup */
+/* .readyJs body {background:none;} */
+.popUp .titleBox01{margin-bottom:40px;}
+.popUp .buttonBox{overflow:hidden;}
+.popUp .buttonBox .btCont01{float:right;margin:0 15px 15px;}
+.popUp ul{margin-bottom:35px;}
+ .popUp #forgotPasswordForm ul{margin-bottom:0px;}
+
+/* login */
+.popUp.login2 form, .popUp.login2Erro form{clear:both;border-top:1px solid #f2f2f2;padding:15px 0 0 16px;overflow:hidden;margin-bottom:30px;}
+.popUp.login2 .titleBox02, .popUp.login2Erro .titleBox02{border-bottom:1px solid #dfdfdf;margin-bottom:1px;overflow:hidden;}
+.popUp.login2 form .title4, .popUp.login2Erro form .title4{display:block;color:#666;margin:0 0 15px 20px;}
+.popUp.login2 ul, .popUp.login2Erro ul{margin-bottom:25px;}
+.popUp.login2 .col01, .popUp.login2Erro .col01{border-right:1px dotted #ccc;padding-right:15px;margin-left:-16px;}
+.popUp.login2 .col01, .popUp.login2Erro .col01, .popUp.login2 .col02, .popUp.login2Erro .col02{width:50%;float:left;}
+.popUp.login2 .lbl, .popUp.login2Erro .lbl{width:40px;}
+.popUp.login2 .buttonBox, .popUp.login2Erro .buttonBox{padding-left:50px;margin-bottom:35px;}
+.login .erro .lbl{width:auto;}
+/* popDeactive */
+.popDeactive{text-align:center;}
+.popDeactive .msgBox strong{color:#0082d8;display:block;font-size:1.4em;font-weight:bold;}
+.popDeactive .msgBox span{display:block;font-size:1.1em;}
+.popDeactive .buttons{text-align:center;overflow:hidden;padding:20px 0 0;}
+.popDeactive .buttons li{display:inline;margin:0 5px;}
+/* popCep */
+.popCep fieldset{width:100%;}
+.popCep .tit{color:#00ADEF;font-weight:bold;font-size:1.7em;border-bottom:1px dotted #CCC;padding-bottom:5px;}
+.popCep .putCep{color:#666;font-size:1.1em;margin:10px;}
+.popCep .lbl, .popCep .lbl3 {width:55px;float:left;}
+.popCep .erro .lbl, .popCep .erro .lbl3 {width:60px;float:left;}
+.popCep .sel01{width:75px;}
+.popCep .tp01, .popCep .tp02, .popCep .tp03{margin:0 0 12px;}
+.popCep .tp01{float:left;}
+.popCep .tp03{clear:left;}
+.popCep .sel01{width:75px;}
+.popCep .tp02 .text{margin-left:5px;padding:1px 0;width:245px;}
+.popCep .tp03 .text{width:335px;}
+.popCep .buttons{/*clear:both;float:right;*/}
+.popCep02 .buttons{clear:both;margin:12px 0 0;}
+.popCep02 .tit{text-transform:normal;font-weight:normal;border-bottom:1px dotted #aaa;margin-bottom:12px;display:inline-block;}
+.popCep02 .formCep{border-bottom:15px;}
+.popCep02 .table03 .cepNumb{width:22px;}
+.popCep02 .table03 tr th, .popCep02 .table03 tr td{border-top:0;border-right:0;border-bottom:0;font-size:1.1em;}
+.popCep02 .table03 .odd td{background:#ededed;}
+.popCep02 .table03 .link{color:#3383c2;text-decoration:underline;cursor:pointer;}
+.popCep .btCont2{background-position: -561px -150px;display: block;height: 24px;width: 117px;cursor:pointer;}
+
+.popUp.popCep .nextStep{background-position:-562px -220px;width: 100px;height: 26px;}
+
+
+/* pop nAddress */
+.nAddress .title03{color:#0082D6;border-bottom:1px dotted #999;padding:0 0 5px;}
+.nAddress .buttons{text-align:center;}
+.nAddress .buttons li a{float:none;display:inline-block;}
+.nAddress .buttons li{display:inline;margin:0 5px;}
+.nAddress .buttons .btCad{background-position:-562px -346px;width:109px;height:26px;}
+
+/* caixa */
+.boxTop1{background:url(../img/boxe1.png) no-repeat 0 0;margin-right:5px;zoom:1;}
+.boxTop1-a{background:url(../img/boxe1.png) no-repeat right 0;padding:5px 5px 5px 0;position:relative;left:5px;overflow:hidden;zoom:1;}
+.box1{margin-right:5px;}
+.box1-a{background:url(../img/boxe1.png) no-repeat right -68px;padding:20px 10px 10px 10px;position:relative;left:5px;overflow:hidden;}
+.topBox2{background-color:#d8d8d8;zoom:1;}
+.topBox2-a{padding:4px 5px 4px 0;position:relative;left:12px;overflow:hidden;}
+.box2{border:3px solid #d8d8d8;}
+.box2-a{padding:0px 0 0 5px;margin-left:10px;}
+.box2-b{margin-left:-15px;padding-left:15px;position:relative;}
+.box2-c{padding:0 10px 10px 0;overflow:hidden;position:relative;}
+/* espacamento topo caixa */
+#area2-1-inner .box2-c{padding:10px 10px 15px 0;overflow:hidden;position:relative;}
+.box4{border:2px solid #ededed;padding:15px;}
+
+.topBox2 .title11{color:#666;font-size:1.1em;}
+.box .box1{overflow:visible;margin:0 5px 0 0;padding:0;}
+.title10{font-size:1.1em;}
+.boxTop1 .title10 strong, .boxTop1 .info strong{color:#2b80c3;}
+.boxTop1 .title10 strong{font-size:1.4em;}
+.boxTop1 .info strong{font-size:1.15em;}
+.boxTop1 .title10{float:left;padding-left:20px;}
+.boxTop1 .info{font-size:1.1em;font-weight:bold;float:right;padding-right:20px;}
+.boxTit {padding: 20px 0px 0px 50px;}
+.geralEntrega {padding: 10px 40px;}
+.backButtons .btBack {background-position: -562px -184px; display: block; width: 81px; height: 26px; margin-right: 10px;}
+.lForm {padding: 20px 0px 0px 0px;}
+.arowBox.boxWrp {margin-bottom: 20px;}
+.cadPFico {background-position: -327px -501px; width: 15px; height: 18px; margin-right: 10px}
+.obr {font-size: 10px; font-family: arial;}
+
+/* popUps */
+.popUp #content{background:#fff;overflow:hidden;zoom:1; width: 912px;}
+.fdPass, .lockPass, .fdMail{padding:10px;}
+.fdPass .lForm, .lockPass .lForm, .fdMail .lForm{margin:45px 0 40px;}
+.fdPass .buttons, .lockPass .buttons, .fdMail  .buttons{text-align:right;padding:10px;}
+.fdPass .tit1, .lockPass .tit1, .fdMail .tit1{font-size:1.5em;}
+.fdPass p, .lockPass p, .fdMail p{margin:0;}
+
+/* login */
+.login .client fieldset{margin:0px 0 0px 0px;}
+.login .client .boxVisitante {margin:0px 0 30px 30px; border: 0;}
+.client .lbl{width:50px;}
+.nonclient .lbl, .nonclient .erro .lbl{width:auto;}
+
+.logTelV .client fieldset{border:none;}
+
+/* home ctrlpanel */
+.ctrlP .button:hover, .sMenu .li a:hover{color:#2b80c3;}
+.ctrlP .bts{margin: 0 0 0 46px;}
+.ctrlP .bts li{margin:10px 0 0 0;float:left;width:33%;}
+.ctrlP .bts .ico{height:8px;width:8px; display:none;}
+
+.sMenu .li{padding:0 0 10px;margin-bottom:10px;}
+.sMenu .li ul{padding-left:13px;}
+.sMenu .li.last{border-bottom:0;}
+.sMenu .li a strong{<color:#2b80c3;font-size:1.18em;margin-bottom:7px;display:block;}
+
+/* table */
+.table01{width:100%;position:relative;}
+.table01 thead th{background:#00adef;padding:6px 5px;color:#FFF;}
+.table01 thead tr{position:relative;}
+.table01 thead th.col01:after {display:block;width:0;height:0;content: url("../img/bgTableLeft.gif");left:0;top:0;position:absolute;}
+.table01 thead th.col05:after {display:block;width:0;height:0;content: url("../img/bgTableRight.gif");right:14px;top:0;position:absolute;}
+.table01 tbody{background:#fff url(../img/bg_tbody.png) repeat-x 0 0;}
+.table01 tbody td{border:1px solid #e3e3e3;padding:10px;vertical-align:top;}
+.table01 tfoot th, .table01 tfoot td{border:1px solid #e3e3e3;padding:10px;text-align:left;}
+.table01 tbody .col01,.table01 tfoot th{border-left:0;}
+.table01 tbody .col05, .table01.cart tbody .col04, .table01.gCard tbody .col04, .table01 tfoot td{border-right:0;}
+.table01 tbody .last td, .table01 tfoot .last th, .table01 tfoot .last td, .table01.gCard .last td, .table02 .last td{border-bottom:0;}
+.table01 .name, .tBill .open2 .ordvalue{display:block;}
+.table01 .ordId, .table01 .deliveryType{color:#2b80c3;font-size:1.35em;font-weight:bold;}
+.table01 tbody .col01, .table01 tbody .col03, .table01 tbody .col05{text-align:center;}
+.table01 tbody .col01 .seeMore{display:block;color:#666666;}
+.table01 tbody .col01 .seeMore .ico{width:8px;height:4px;margin-right:5px;display:none;}
+.table01 tbody .col01 .seeMore a{color:#2b80c3;}
+.table01 tbody .open .col05{background:#d8d8d8;border-bottom:none; border-radius:12px 12px 0 0;}
+.table01 tbody .open .ordId, .table01 tbody .open .deliveryType{font-size:1.8em;color:#00adef;}
+.table01 tbody .open .col01 .seeMore a{color:#666666;}
+.table01 table thead th{background:#d8d8d8;color:#666666;}
+.table01 .details{padding:0;border:0;}
+.table01 table{width:100%;position:relative;}
+.table01 table tbody td{background:#f0f1f3;color:#666666;border-color:#d0d6e1;}
+.table01 table tbody .showDtls td{background:#fff;}
+.table01 table tfoot th, .table01 table tfoot td{color:#898989;padding:5px;text-align:left;background:#f0f1f3;border-left:0;border-bottom:1px solid #d5d6d7;}
+.table01 table tfoot .colTitle th{background:#d8d8d8;}
+.table01 table .hd .col01{text-align:left;}
+.table01 table .hd .col01:after {display:block;width:0;height:0;content:"";left:0;top:28px;position:absolute;}
+.table01.cart tfoot th{font-weight:normal;}
+.table01.cart tfoot .total{text-transform:uppercase;font-weight:bold;}
+.table01.cart tfoot .valueTotal{text-transform:uppercase;font-weight:bold;}
+.table01.gCard .used{font-weight:bold;}
+.table01.gCard .col04 .btUnlock{text-decoration:underline;}
+.table01 tbody .open .btTimeLine{background-position:-562px -843px;}
+.table01 tbody .open .btDets{width:118px;height:19px;background-position:-354px -212px;}
+
+.table02{width:100%;}
+.table02 thead th {background:#e7e7e7!important;}
+.table02 th, .table02 td{text-align:center;vertical-align:top;}
+.table02 th{font-size:1.1em;padding:5px;}
+.table02 td{border-bottom:1px solid #e7e7e7;}
+.table02 .pImg,.table02  .qt,.table02  .value,.table02  label, .table02  .selc, .table02 .ordStatus{display:block;margin:10px 0;}
+.table02 .pInfo{display:block;margin:10px 0 20px;}
+.table02 .warnErr{vertical-align:middle;text-align:left;}
+.table02 thead th.col01:after {display:block;width:0;height:0;content:none;}
+.table02 thead th.col05:after {display:block;width:0;height:0;content:none;}
+.table02 .btDets{display:block; width:auto;height:auto; font-size:1em; text-indent:0; line-height: 1.2;color:#2B80C3;background:none; padding-left:10px;}
+.table02 .timeline-box{padding:0;}
+.table02 .timeline-box #linkGenerateDanfe{text-decoration:underline;}
+.table02 #deliveryInfo, .table02 #orderDetailsPanel{display:none;}
+.table02 .open #deliveryInfo, .table02 .open #orderDetailsPanel{display:block;}
+.firstTitleOrder{background:#d8d8d8;border-bottom:none; border-radius:0 !important;}
+.table02 tbody.open .deliveryType{font-size:1.35em;color:#2B80C3;}
+
+.table03{width:100%;}
+.table03 thead th {background:#D8D8D8 !important;}
+.table03 th, .table03 td{border:1px solid #e8e8e8;padding:5px;}
+.table03 th{border-top:0;}
+.table03 .col01{border-left:0;}
+.table03 .col08{border-right:0;}
+.success{background-position:-231px -211px;float:left;height:46px;width:43px;margin:0 15px;}
+#deliveryInfo .table03 .orderLine .col03 span, #deliveryInfo .table03 .col04 span{display:inline;margin:0;}
+#deliveryInfo .table03 .deliverySummary{text-align:right;}
+#deliveryInfo .table03 .col04 {text-align:right;width:150px;}
+#deliveryInfo .table03 .col04 span{padding-right: 60px;}
+#deliveryInfo .table03 .orderLine .col01{text-align:left;}
+
+.statusDetls .msgBox{padding:10px;zoom:1;}
+.statusDetls .msgBox:after{content:".";display:block;clear:both;visibility:hidden;font-size:0;height:0;}
+.statusDetls .msgBoxErro{/* background:#ecd0cf; */}
+.statusDetls .msgBox p{margin:0;}
+.statusDetls .msgBoxErro p{float:left;}
+.statusDetls .txBox{margin-top:5px;}
+.statusDetls .msg .ico.suc{width:36px;height:37px;background-position:-365px -214px;;float:left;margin:-5px 10px 0 0;}
+.statusDetls .msgBox .att2{display:none;}
+.statusDetls .msgBoxErro .att2{background:url(../img/sprite03.png) no-repeat -60px -62px;float:left;height:25px;margin:0 10px 0 0;width:25px;display:block;}
+.details  form ul li{clear:none;overflow:none;}
+
+.showDtls .statusDetls .msgBox .msg {float: left;width: 70%;}
+.showDtls .msgBox .msg .tx {display: block;color: #8b8b8b;text-transform:normal;text-align:left;}
+.showDtls .msgBoxErro .msg .tx{color:#FE0000;}
+.showDtls .statusDetls .msgBox .buttons {float: right;text-align: right;width: 29%;margin: 0;}
+.showDtls .statusDetls .msgBox .buttons .button{float:right;clear:right;margin:0 0 5px;}
+.showDtls .statusDetls .msgBox .att{background-image:url(../img/sprite03.png);float:left;background-position:-60px -62px;height:25px;margin-right:10px;width:25px;}
+
+.cCardSuc .msgAlert{margin:0 -10px 10px;padding-bottom:35px;}
+.cCardSuc .txBox .tx{display:block;font-size:1.1em;}
+.cCardSuc .txBox{float:left;margin-top:5px;}
+
+.tBill .open2 .name, .tBill .open2 .ordDate, .tBill .open2 .ordvalue{min-height:30px;font-weight:bold;}
+.tBill .ordvalue, .tBill .pBill a, .tBill .totalValue{white-space:nowrap;}
+.tBill .col05 .ico{float:left;margin-right:10px;}
+.tBill .pBill a{text-decoration:underline;color:#2b80c3;}
+.tBill .col04{border-right:0;}
+.tBill .col05{border-left:0;}
+
+/* Time Line */
+.tl .ico{background:url(../img/spriteIconesCP.png) no-repeat 0 0;}
+.tl{overflow:hidden;background:#fff;padding:25px 0;}
+.tl li{float:left;width:19.9%;text-align:center;height:130px;}
+.tl li  .stsName{display:block;font-weight:bold;display:block;padding-bottom:50px;color:#898989;}
+.tl li  .stsName span{display:block;}
+.tl li .date , .tl li .date strong, .tl li .prev{display:block;color:#898989;}
+
+.tl.timeLineFourSteps li{width:24.9%;}
+
+/* 1 etapa tl */
+.tl.stg01 li{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.tl.stg01 .st01{background:url(../img/bgTimeLine.png) no-repeat center 30px;}
+.tl.stg01 .st05, .tl.stg02 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+.tl.stg01 .st02 .timeCont{display:none;}
+.tl.stg01 .st03 .timeCont{display:none;}
+.tl.stg01 .st04 .timeCont{display:none;}
+.tl.stg01 .st01 .ico{background-position:-50px -146px;}
+.atgCanc .stg01 .st01{background:url(../img/bgTimeLine.png) no-repeat center -997px;}
+.atgCanc .stg01 .st02, .atgCanc .stg01 .st03, .atgCanc .stg01 .st04{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.atgCanc .stg01 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+/* 2 etapa tl */
+.tl.stg02 li{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.tl.stg02 .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.stg02 .st02{background:url(../img/bgTimeLine.png) no-repeat center -654px;}
+.tl.stg02 .st03 .timeCont{display:none;}
+.tl.stg02 .st04 .timeCont{display:none;}
+.tl.stg02 .st01 .ico{background-position:-40px -112px;}
+.tl.stg02 .st02 .ico{background-position:-50px -146px;}
+.atgCanc .stg02 .st02{background:url(../img/bgTimeLine.png) no-repeat center -1224px;}
+.atgCanc .stg02 .st03, .atgCanc .stg02 .st04{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.atgCanc .stg02 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+/* 3 etapa tl */
+.tl.stg03 li{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.tl.stg03 .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.stg03 .st02{background:url(../img/bgTimeLine.png) no-repeat center -880px;}
+.tl.stg03 .st03{background:url(../img/bgTimeLine.png) no-repeat center -654px;}
+.tl.stg03 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+.tl.stg03 .st04 .timeCont{display:none;}
+.tl.stg03 .st01 .ico{background-position:-40px -112px;}
+.tl.stg03 .st02 .ico{background-position:-40px -112px;}
+.tl.stg03 .st03 .ico{background-position:-50px -146px;}
+.atgCanc .stg03 .st03{background:url(../img/bgTimeLine.png) no-repeat center -1224px;}
+.atgCanc .stg03 .st04{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.atgCanc .stg03 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+/* 4 etapa tl */
+.tl.stg04 li{background:url(../img/bgTimeLine.png) no-repeat center -770px;}
+.tl.stg04 .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.stg04 .st02, .tl.stg04 .st03{background:url(../img/bgTimeLine.png) no-repeat center -880px;}
+.tl.stg04 .st04{background:url(../img/bgTimeLine.png) no-repeat center -654px;}
+.tl.stg04 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+.tl.stg04 .st01 .ico{background-position:-40px -112px;}
+.tl.stg04 .st02 .ico{background-position:-40px -112px;}
+.tl.stg04 .st03 .ico{background-position:-40px -112px;}
+.tl.stg04 .st04 .ico{background-position:-50px -146px;}
+.atgCanc .stg04 .st04{background:url(../img/bgTimeLine.png) no-repeat center -1224px;}
+.atgCanc .stg04 .st05{background:url(../img/bgTimeLine.png) no-repeat center -428px;}
+/* 5 etapa tl */
+.tl.stg05 .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.stg05 .st02, .tl.stg05 .st03, .tl.stg05 .st04{background:url(../img/bgTimeLine.png) no-repeat center -880px;}
+.tl.stg05 .st05{background:url(../img/bgTimeLine.png) no-repeat center -312px;}
+.tl.stg05 .st01 .ico{background-position:-40px -112px;}
+.tl.stg05 .st02 .ico{background-position:-40px -112px;}
+.tl.stg05 .st03 .ico{background-position:-40px -112px;}
+.tl.stg05 .st04 .ico{background-position:-40px -112px;}
+.tl.stg05 .st05 .ico{background-position:-50px -146px;}
+.atgCanc .stg05 .st05{background:url(../img/bgTimeLine.png) no-repeat center -1108px;}
+/* 5 etapa tl */
+.tl.complete .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.complete .st02, .tl.complete .st03, .tl.complete .st04{background:url(../img/bgTimeLine.png) no-repeat center -880px;}
+.tl.complete .st05{background:url(../img/bgTimeLine.png) no-repeat center -538px;}
+.tl.complete .st05, .tl.complete .st05 .stsName, .tl.complete .st05 strong, .tl.complete .st05 span{color:#898989;}
+.tl .ico{margin-top:5px;}
+.tl .ico.prvd{width:85px;height:24px;background-position:-50px -180px;}
+.tl .ico.progs{width:105px;height:24px;background-position:-50px -146px;}
+.tl .ico.comp{width:105px;height:24px;background-position:-40px -112px;}
+.atgCanc .stg01 li.st01  .date, .atgCanc  .stg01 li.st01    .date strong, .atgCanc  .stg01 li.st01   .prev,   .atgCanc .stg02 li.st02  .date, .atgCanc  .stg02 li.st02    .date strong, .atgCanc  .stg02 li.st02   .prev,   .atgCanc .stg03 li.st03  .date, .atgCanc  .stg03 li.st03    .date strong, .atgCanc  .stg03 li.st03   .prev,   .atgCanc .stg04 li.st04  .date, .atgCanc  .stg04 li.st04    .date strong, .atgCanc  .stg04 li.st04   .prev,   .atgCanc .stg05 li.st05  .date, .atgCanc  .stg05 li.st05    .date strong, .atgCanc  .stg05 li.st05   .prev{color:#B20606;}
+.atgCanc .stg01  .st01 .ico, .atgCanc .stg02  .st02 .ico, .atgCanc .stg03  .st03 .ico, .atgCanc .stg04  .st04 .ico, .atgCanc .stg05  .st05 .ico{width:85px;height:24px;background-position:-50px -210px;}
+.tl.complete .ico{width:105px;height:24px;background-position:-40px -112px;}
+/* 5 etapa tl temporario */
+.tl.complete5 .st01{background:url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.complete5 .st02, .tl.complete5 .st03, .tl.complete5 .st04{background:url(../img/bgTimeLine.png) no-repeat center -880px;}
+.tl.complete5 .st05{background:url(../img/bgTimeLine.png) no-repeat center -538px;}
+.tl.complete5 .st05, .tl.complete5 .st05 .stsName, .tl.complete5 .st05 strong, .tl.complete5 .st05 span{color:#898989;}
+.tl.complete5 .ico{width:105px;height:24px;background-position:-40px -112px;}
+/* lista casamento */
+.stg01.progressWeddingList .st02 {background: url(../img/bgTimeLine.png) no-repeat center -428px;}
+.stg02.progressWeddingList .st02 {background: url(../img/bgTimeLine.png) no-repeat center -312px;}
+.tl.completeWeddingList .st01 {background: url(../img/bgTimeLine.png) no-repeat center -196px;}
+.tl.completeWeddingList .st02 {background: url(../img/bgTimeLine.png) no-repeat center -538px;}
+.tl.completeWeddingList .ico{width:105px;height:24px;background-position:-40px -112px;}
+
+/* mensagens */
+.msgAlert{margin:0px  0 0px;font-size:1.2em;/* overflow:hidden;*/padding-top:10px;}
+.box2-c .msgAlert p{float:left;margin-top:0px;}
+.box2-c .msgAlert .erro{margin:0 7px 0 0;}
+.msgAlertTop{clear: both;margin:0 0 15px;padding: 5px 0;}
+.orderMsgAlertTop{clear: both;margin-bottom: 15px;}
+.orderMsgAlertTop .warning{margin:0 20px 0 10px;}
+
+.msgAlertTop  .warning{margin:8px 20px 0 10px;}
+
+.msgAlertTop .msgError .tmsg{color:#666666;}
+
+.msgAlert .tmsg{font-size:1.2em;color:#548f40;margin:0;padding-top:0px;font-weight: normal;width:420px;}
+.msgAlert .tmsg2{color:#fe0000;}
+.msgAlert .txt1{margin:10px 0 0;display:block;}
+.msgAlert .tmsg .txt1{margin-top:5px;font-weight: normal;font-size:0.8em;}
+.msgAlertTop.msgAlert .txt1{color:#898889; font-size: 19px;font-weight: normal;}
+.saveCardAddress .msgAlertTop{padding:15px 10px;}
+.msgAlert .txt2{margin:0;}
+.msgAlert .txt3{font-size:0.9em;font-weight:normal;}
+#newCustomerAddress{clear:left;}
+#generalMessageInfo{padding-top:5px;}
+.saveCardAddress .msgError #generalMessageInfo{color:#666;font-size:16px;}
+.saveCardAddress .msgError .ico.warn{margin-top:0px;}
+
+.wrn p{margin:0;color:#8a8a8a;}
+.wrn .smsg{display:block;font-size:1em;}
+.wrn2 p{margin:0;color:#f00;padding:6px;}
+.wrn2 p a{color:#f00;font-weight:bold;}
+.wrn2 .smsg{display:block;font-size:1em;}
+.wrn2 .arwWrn{position:absolute;bottom:-9px;left:20px;display:block;width:11px;height:9px;background:url(../img/arw_wrn.png) no-repeat 0 0;}
+
+.usrId, .callCent{margin:10px 0;overflow:hidden;}
+.usrId p, .callCent p{margin-top:0;}
+.usrId .ico, .callCent .ico{float:left;width:28px;height:36px;margin:0 10px;}
+.usrId .tmsg, .callCent .tmsg{display:block;font-size:1.18em;}
+.usrId .smsg, .callCent .smsg{display:block;font-size:1em;}
+
+.infoPage{padding:0 30px 0;font-size:1.1em;}
+.infoPage strong{color:#2b80c3;font-size:1.40em;}
+.infoPage span{color:#2b80c3;font-size:0.9em;}
+.infoPage .info{margin-top:0;}
+.infoPage .info strong, .infoPage .info span{color:#666;font-size:0.9em;display:block;}
+
+.contentBody .infoPage{padding:0;clear:left;}
+.contentBody .infoPage .tmsg{font-size:1em;color:#666;font-weight:bold;}
+.contentBody .infoPage a{text-decoration:underline;}
+.content .buttons{overflow:hidden;margin:0px 0 0;}
+.buttons .rw, .form .buttons .rw, .rewind, .buttons .rewind, .form .buttons .rewind{float:left;}
+.buttons .ff, .form .buttons .ff, .forward, .buttons .forward, .form .buttons .forward{float:right;}
+
+.payErCont.erro{background:#fbe3e3;-moz-border-radius:3px;border-radius:3px;_width:100% !important;_height:auto !important;display:inline;}
+.popUp li.erro{padding:5px 0;}
+.box03 .box1, .box04 .box1, .box05 .box1{padding:0;margin:0;}
+.erro .lbl{width:190px;margin: 2px 0px 0;}
+.popCep .erro .lbl{width:190px;margin: 0px;}
+.payEr {overflow: hidden;}
+.payErCont .erro{padding: 5px;}
+.payCard .payErCont {overflow: hidden;}
+.minhaConta{padding-top: 30px;}
+
+div.destaq2 .box4{padding:12px 8px;}
+div.destaq2 .lbl2{font-weight:normal;}
+.postalCode {cursor: hand;cursor: pointer;}
+.oneCbL {text-align:left;}
+.oneCbL .ico{float:left;margin-right:10px;}
+.oneCbL .lbl6{color:#2b80c3;font-size:1.45em;}
+
+.req .lbl{font-weight:bold;}
+.lbl4{display:none;}
+.lbl5{display:block;font-weight:bold;}
+form li.type01{float:left;margin:0 10px 0 0;clear:none;}
+form li.type02{clear:left;float:left;margin:10px 10px 0 0;}
+form li.type03{margin-top:20px;}
+form ul li{overflow:hidden;clear:both;}
+.more, .lForm .more{display:block;margin:3px 0 0 200px;}
+form .info a{color:#2b80c3;text-decoration:underline;margin:0 2px;}
+.bankData, .usrData{margin-top:15px;border-top:1px dotted #ccc;}
+
+.lbl{width:195px;}
+.erro .lbl, .box04 .lbl, .box05 .lbl{width:190px;}
+
+.fSearch {overflow:hidden;}
+.fSearch .lbl{width:155px;}
+.form01.fSearch .lForm01{float:left;margin-right:10px;}
+.form01.fSearch li{display:inline;}
+.form01 .fSearch .form .button{margin-top:15px;}
+.form .button{float:left;}
+.form legend{display:block;margin-bottom:10px;font-weight:bold;color:#666;}
+.form legend span{display:block;}
+.form legend a{color:#2b80c3;text-decoration:underline;}
+.form .chData legend{padding-bottom:15px;font-weight:normal;font-size:1em;margin:0;}
+.form .hlight{padding-left:0;}
+.form .hlight *{vertical-align:middle;}
+.form .btNewDelAdd{margin-left: 10px;}
+form ul.type01{overflow:hidden;padding:20px;zoom:1;}
+form ul.type02{overflow:hidden;padding:10px;}
+form ul.type02 li{overflow:hidden;}
+form ul.type02 input{margin:0 10px 25px 0;float:left;}
+form ul.type02 .info{display:block;overflow:hidden;}
+form ul.usrData{padding-bottom:10px;}
+.usrData .type1{float:left;clear:left;width:50%;}
+.usrData .type2{float:right;clear:right;text-align:right;}
+.usrData .lbl2{text-align:right;float:left;}
+.usrData .inp{text-align:left;width:100px;float:left;}
+.usrData .type1 .lbl2{width:100px;} 
+.usrData .type2 .lbl2{width:150px;}
+.usrData .ordNumb .lbl2, .usrData .ordTotValue .lbl2{text-transform:uppercase;}
+.usrData .ordNumb .inp, .usrData .ordTotValue .inp{color:#2b80c3;font-size:1.25em;font-weight:bold;}
+.customerRegister{padding:0 40px;}
+.customerRegister .topBox01-1{color:#333;font-size: 1.3em;font-weight: normal;}
+
+.destaqL{display:block;padding-left:5px;}
+.destaqL-a{display:block;background:url(../img/lbl.png) no-repeat right center;text-align:right;font-size:1.1em;color:#00adef;padding:5px 20px;}
+
+address{font-style:normal;}
+.adr{clear:both;}
+.adr .name, .adr .locality{display:block;}
+.addrList{clear:both;overflow:hidden;margin:30px 0;}
+.addrList li{float:left;width:33%;margin:0 0 30px;padding:0;clear:none;}
+.addrList .col1{clear:left;}
+
+.oneCbuy{margin:30px 0;}
+.oneCbuy .ico{float:left;margin:0 10px 5px 0;}
+.oneCbuy .lbl2, .oneCbuy .lbl5{font-weight:normal;}
+
+.boxAddr{padding:0 15px 0 30px;margin-right:15px;border-right:1px dotted #ccc;}
+.addrList .col3 .boxAddr{border:0;}
+.boxAddr .buttons{overflow:hidden;}
+.boxAddr .buttons .button{float:left;width:41px;height:12px;background-image:url(../img/sprite02.png);margin:0 1px;}
+
+.topBox02{position:relative;}
+.topBox02 .ico{position:absolute;height:20px;width:20px;display:block;}
+.topBox02 .ico.nAdr{background-position:-29px -269px;color:#fff;font-size:1em;font-weight:bold;line-height:1.8;text-align:center;text-indent:0;display:none;}
+.addrDel{padding-left:45px;margin:0 0 0 20px;float:left;width:30%;}
+.addrDel .topBox02 .ico{width:40px;height:48px;left:-40px;}
+.topBox02 h4{float:left;font-size:1.45em;margin-bottom:10px;}
+.topBox02 .buttons{float:right;margin-top:4px;padding:0;}
+.topBox03{margin-bottom:30px;}
+.topBox03 .ico{float:left;}
+.topBox03 h4{font-size:1.25em;color:#2b80c3;margin-bottom:20px;overflow:hidden;padding-left:10px;}
+.addrDel .topBox02 h4{margin-bottom:0;}
+.addrDel .adr{padding-bottom:20px;}
+.list01 .li{width:33.3%;float:left;}
+.list02 li{padding:10px 0;border-bottom:1px dotted #e8e8e8;overflow:hidden;}
+.list02 li.last{border-bottom:0;}
+.list02 .selcAdr{margin:15px 0 0 -40px;float:left;}
+.list02 .adr{clear:none;overflow:hidden;}
+.list02 .boxAddr{border:0;margin:0;padding:5px 15px 5px 50px;}
+.list02 .select .boxAddr{background:#e3f1fb;}
+.list02 .buttons2{float:right;}
+.boxA{float:left;width:40%;padding-right:30px;margin:0 10px 20px 0;background:url(../img/div3.png) no-repeat right center;}
+.boxA .buttons, .boxB .buttons{padding:20px 0 0;margin:10px 0 0;}
+.crdData th{text-align:right;padding-right:5px;}
+.selcCard .ico{float:left;margin:10px 20px;}
+.selcCard input{float:left;margin:15px 10px;}
+.form .buttons{padding:10px 0;overflow:hidden;}
+
+/* Header Checkout */
+.headerCh{overflow:hidden;height:69px;background:#00adef;padding: 5px 30px 25px 402px;}
+.headerCh .hdBox01{margin-left:-383px;float:left;width:364px;}
+.headerCh .ico.logo{width:116px;height:86px;background:url(../img/spriteIconesCP.png) no-repeat -165px 0;float:left;margin-right:20px;}
+.headerCh .ico.sec{display:none;}
+.headerCh .hlMenu li{float:left;margin-top:25px;}
+.headerCh .hlMenu li a{color:#fff;}
+.headerCh  .ico.lArw{width:7px;height:10px;background:url(../img/spriteIconesCP.png) no-repeat -242px -214px;}
+.headerCh  .ico.dbt{width:14px;height:14px;background:url(../img/spriteIconesCP.png) no-repeat -218px -212px;margin-left:10px;}
+.headerCh .chSteps li{margin-top:20px;float:left;width:20%;font-weight:bold;color:#a9a8a8;position:relative;background: url(../img/bgStps.gif) repeat-x bottom left;white-space:nowrap;padding:0;margin-bottom:0;line-height:1.3em;}
+.headerCh .chSteps li.completed{background:url(../img/bgStpsPas.gif) repeat-x bottom left; }
+.headerCh .chSteps li.completed .tx a {color: #cceffc;}
+
+.headerCh .chSteps li .tx{left:33px;position:relative;top:-7px;color:#fff;font-size:1.1em;}
+.headerCh .chSteps li .tx a{color:#fff;font-weight:bold;}
+.headerCh .chSteps .steps{float:left;font-size:1.25em;font-weight:bold;width:16px;height:22px;background:url(../img/spriteIconesCP.png) no-repeat -1px -204px;padding:7px 5px 2px 11px;position:absolute;color:#FFF;top:-1px;}
+.headerCh .chSteps li.step02 .steps, .headerCh .chSteps li.step03 .steps, .headerCh .chSteps li.step04 .steps{background-position:0 -239px;}
+.headerCh .chSteps li.step01 .steps{background-position:-40px -239px;width:33px;height:33px;padding:0;text-indent:-9999px;}
+.headerCh .chSteps li.step05 .steps{background-position:-78px -239px;}
+.headerCh .chSteps li.step05{background:none;}
+.headerCh .chSteps li.completed .steps{background-position:-155px -239px;top:-2px;}
+.headerCh .chSteps li.step01.completed .steps{background-position:-40px -239px;width:33px;height:33px;padding:0;text-indent:-9999px;top:-1px;}
+.headerCh .chSteps li.sel  .steps{background-position:-116px -239px;font-size:1.45em;padding: 8px 5px 2px 11px;top:-2px;}
+.headerCh .chSteps li.sel .tx{color:#00ff00;font-size:1.2em;line-height:1.1em;}
+.headerCh .chSteps li.sel .tx a{color:#00ff00;}
+.financeSolicitation{display: block;clear: left;float: left;margin-top: -33px;color:#fff;}
+
+/* icones no cadastro */
+.topBox01 {color:#0082D6;font-size:2em;font-weight:bold;margin:0 0 5px;overflow:hidden;padding:10px 0 0;}
+.topBox01 .topBox01-1{display:block;margin-top:5px;}
+
+/* popCard Cartao */
+.payCard .title03{border-bottom:1px dotted #999;color:#0082D6;padding:0 0 5px;font-size:1.2em;;zoom:1;}
+.lCards{overflow:hidden;}
+.lCards li{clear: none;float: left;padding: 0 0 15px;text-align: center;width: 11%;}
+.lCards .ico{width:59px;height:38px;display:block;margin:0 auto;background:url(../img/sprite03.png) no-repeat -1000px -1000px;}
+.lCards .subaVisa{background-position:0 -166px;height:50px;width:67px;}
+.lCards .subaMaster{background-position:0 -166px;height:50px;width:67px;}
+.lCards .subaAura{background-position:-63px -166px;height:50px;width:67px;}
+.lCards .visa{background-position:0 -115px;}
+.lCards .master{background-position:-61px -115px;}
+.lCards .amex01{background-position:-120px -115px;}
+.lCards .amex02{background-position:-180px -115px;}
+.lCards .aura{background-position:-240px -115px;}
+.lCards .dinners{background-position:-300px -115px;}
+.lCards .hipercard{background-position:-360px -115px;}
+.lCards .elo{background-position: -280px -158px;height: 39px;width: 39px;margin-bottom: 5px;}
+.cData.box01, .box1-2 .box01{border:none;}
+.lCards .subaCrdAura .lbl, .lCards .subaCrdMaster .lbl{width:100%;}
+
+.cdtCrd .boxCards{padding-right:320px;}
+.cardData{padding-top:20px;zoom:1;}
+.cardData li{overflow:hidden;margin-bottom:15px;}
+.cardData li a{color:#161616;text-decoration:underline;}
+.cardData .tp1{width:250px;margin-right:5px;}
+.cardData .tp2{width:55px;margin-right:15px;}
+.cardData .tp3{width:26px;}
+.cardData  select{font-size:1em;color:#666;}
+.cardData .parcel{background:#ddeef9;padding:5px 0;}
+.cardData .parcel .lbl{font-size:1.18em;font-weight:bold;}
+.cardData .lbl{width:138px;display:block;float:left;text-align:right;margin-right:10px;}
+.cdtCrd .boxWrap{position:relative;}
+.cdtCrd .box1-2{position:absolute;right:0;top:-95px;width:173px;background:url(../img/bgSeparete.gif) no-repeat left top;overflow:hidden;padding-left:100px;}
+.cdtCrd .box1-2 p, .cdtCrd .box1-2 .tp2, .cdtCrd .box1-2 .button.bt2CardAcom{display:none;}
+.cdtCrd .box1-1{padding-right:255px;}
+.cdtCrd .box1-2 .topBox01{margin:0 auto;display:block;font-size:0;line-height:0;text-indent:-9999em;vertical-align:middle;color:#fff;background:url(../img/spriteBi.png) no-repeat -159px -521px;overflow:hidden;height:38px;width:68px;}
+.cdtCrd .box1-2  .bt2Card{background-position:-173px -78px;height:36px;width:173px;display:block;margin:0 auto;}
+.cdtCrd .box1-2  .box01{padding:0;}
+.cdtCrd  .button.btFinish {background-position:0 -78px;height:37px;width:173px;}
+
+/* erro */
+.cardData .payEr .lbl{margin:2px 10px 0 5px;}
+.cardData .payEr{color:#f00;}
+.cardData .payEr input{border:1px solid #FF0000;}
+.cardData .payEr{color:#f00;padding:5px 0;zoom:1;}
+.cadNewCrd .cardData .tx1 {display: block; margin-left: 150px;}
+.twoCards .erro .tx1 {margin-left: 153px;}
+.twoCards .erro .feedbacklabelERROR {display: block; margin: 0 5px 0 153px;}
+
+.lCards .lbl{color:#333;display:block;font-size:1em;font-weight:normal;text-align:center;width:100%;}
+.lCards .lbl strong{display:block;}
+.popUp .lCards li{vertical-align:top;}
+.payCard .buttons .btCad{background-position:-562px -346px;width:109px;height:26px;}
+.payCard .buttons .back{background-position:-562px -184px;height:26px;width:81px;}
+.payCard .box01, .payCard .lCards input{border:0;}
+.payCard .cardData{padding:0;}
+.payCard .lCards{margin:10px 0 0;}
+.payCard  .newConfig .btCad{margin:0 5px;}
+/* Pagamento dois cartoes */
+.payBox fieldset, .payBox2 fieldset {padding:2px;}
+.boxWrap.twoCards{padding-top:5px;}
+.boxWrap .box01{margin-bottom:0;}
+.boxWrap.twoCards .cardData .tp3{margin-right:5px;}
+.boxWrap.twoCards  .parcel .lbl{width:100px;margin-right:6px;}
+.boxWrap.twoCards .box1-1{float:left;width:49%;margin:0 3px 20px;border-right:1px dotted #ccc;}
+.boxWrap.twoCards .box1-2{float:right;width:49%;}
+.boxWrap.twoCards .topBox01{color:#666;font-size:1.1em;margin:0;padding:0;}
+.boxWrap.twoCards .topBox01 .topBox01-1{padding:10px 10px 10px 0;font-weight:normal;}
+.cdtCrd2  .btFinish{margin:25px 0 10px;}
+.cdtCrd2 .buttons .payOpts{float:left;}
+.boxWrap.twoCards .box01{border:0;padding:0 10px 10px;}
+.boxWrap.twoCards .payErCont p{margin:0;}
+.boxWrap.twoCards .box1-1 .card1{height:58px;width:65px;background:url(../img/sprite01.png) no-repeat -442px -216px;}
+.boxWrap.twoCards .box1-2 .card2{height:58px;width:65px;background:url(../img/sprite02.png) no-repeat 4px -123px;}
+/* paginacao */
+.pagination{padding:0 10px;position:relative;display:inline;line-height:16px;zoom:1;}
+.pageList{display:inline-block;}
+.pageList .pag{display:inline;}
+.pageList .pag a{padding:2px 3px;}
+.pageList .selected a,.pageList .pag a:hover{background:#0082D6;color:#fff;text-decoration:none;}
+.pageList .prev, .pageList .next {width:7px;padding:14px 0 0 0;overflow:hidden;background:url(../img/sprite03.png) no-repeat -414px -38px;display:inline-block;height:0;position:absolute;top:0;}
+.pageList .prev{left:0;}
+.pageList .next{background:url(../img/sprite03.png) no-repeat -422px -38px;right:0;}
+.pageList .prev a, .pageList .next a{position:absolute;left:0;top:0;display:block;width:7px;padding:14px 0 0 0;overflow:hidden;height:0;}
+
+.prodListTop{margin-bottom:10px;position:relative;z-index:1;}
+.prodListTop:after{content:".";display:block;clear:both;visibility:hidden;font-size:0;height:0;}
+.prodListTop .pagination{float:right;}
+.prodListBottom{overflow:hidden;text-align:center;margin:10px;}
+.prodListTop .qtdItens{width:50px;}
+
+/* nFound */
+.nFound{position:relative;width:45.5em;margin:50px auto;padding:10px 70px;overflow:hidden;}
+.nFound .ico{position:absolute;left:15px;top:0;}
+.nFound .warning,.nFound .success{left: 30px;top: 10px;background:url(../img/sprite03.png) no-repeat -60px -62px;}
+.nFound .erro{float:none;}
+.nFound .title{font-size:1.65em;margin:0 0 10px 0;}
+.nFound .subTit{margin:0 0 5px 0;font-size:1em;}
+.nFound .problemList{margin:0 0 15px;}
+.nFound .problemList li{margin:0 0 5px;}
+.nFound .problemList li:before{content:"- ";}
+
+/* ajuste Header */
+.header .mainNav .checkAlso .title {font-size: 1.1em; color: #fff; }
+
+/* ajuste Footer */
+#content .login .box1 { padding: 0; }
+
+.boxDlAdd .userCard .crdList .ico.subaVisa2 { background-position: -52px 0;width:49px;height:35px;display:block;background-image:url(../img/sprite03.png);}
+.boxDlAdd .userCard .crdList .radio{clear:both;float:left;}
+.boxDlAdd .userCard .crdData th {text-align:left;}
+.boxDlAdd .userCard .crdData .ico{display:block;float:left;}
+
+/* Login */
+.login {background:none;}
+/* cancelar pedido */
+.canc .box04,.canc .boxInfoCliente{clear:both;}
+.canc .box1{background:none;}
+/* Erro */
+.erro .feedbacklabelERROR{display:inline;margin:0 5px 0 0;}
+.lCards .feedbacklabelERROR{display:block;text-align:center}
+
+.updateEmail .lbl {width:195px;}
+
+#loginForm .erro .feedbacklabelERROR {display: block;}
+.loginPainel .feedbacklabelERROR{clear: left;display: block; color:red;margin-left:10px;}
+
+
+/* destaque  */
+.hlight2{background:#f2f2f2;border-radius:3px 3px 3px 3px;overflow:hidden;padding:5px 0;}
+.hlight3{background:#e3f1fc;border-radius:3px 3px 3px 3px;overflow:hidden;padding:5px 0;}
+.hlight4{background:#ededed;border-top:1px solid #D0D6E1;border-bottom:1px solid #D0D6E1;padding:10px;}
+.hlight4.erro {background:#fbe3e3;}
+/* form email */
+.chMail .form{margin:15px 0 0;}
+.chMail .form .lbl{float:none;vertical-align:middle;text-align:left;width:auto;}
+.chMail .form input{display:block;}
+.fdPass .lbl{width:auto;}
+.fdPass .erro .feedbacklabelERROR{display:block;margin-left:50px;}
+/* ajuste footer */
+.disableBgFooter #footer, .disableBgFooter #footer-inner {background:none;}
+/* logincrm */
+#loginCrmForm .lbl{width:100px;}
+.logTelV{width:600px;margin:0 auto;overflow:hidden;}
+.logTelV .client{width:100%;border:none;margin:0;}
+.logTelV .client fieldset{padding:0;}
+.logTelV .client .buttons{float:none;margin-left:50px;}
+.logTelV .client .lbl{text-align:left;float:none;margin:0;padding:0;}
+.logTelV .client .inp06{display:block;}
+.logTelV .client .btCont2{float:right}
+.addrForm .lbl{width:195px;}
+.chData .cardData .lbl{width:160px;}
+.logTelV .client li.erro {padding: 5px 10px;}
+.logTelV .client .userData .info.rl{clear:both;color:#666;display:block;margin:0;padding:0;}
+
+/* tabela cancelamento */
+.tb03{font-size:1.1em;border-collapse:collapse; width:100%;clear:both;}
+.tb03 td, .tb03 th{padding:5px 10px;} 
+.tb03 thead th{text-align:left;border-right:1px dotted #ccc; text-transform:uppercase;background:#01a8dd;color:#fff;}
+.tb03 thead th.col03{text-align:right; border-right:none;}
+.tb03 tbody td{text-align:left;border-right: 1px dotted #ccc;border-top: 1px dotted #ccc;}
+.tb03 tbody td.col03{text-align:right; border-right:none;}
+.tb03 tfoot td{text-align:left;border-top: 1px dotted #ccc; font-weight:bold;}
+.tb03 tfoot td.col03, .tb03 tfoot td.col04{border-bottom: 1px dotted #ccc;}
+.tb03 tfoot td.col02, .tb03 tfoot td.col04{text-align:right;}
+.tb03 tfoot td.col03{text-transform:uppercase;}
+.orderCancel .cancelOpts{color:#898989; font-size:1.1em; margin-bottom:20px;}
+.orderCancel .cancelOpts li{margin-bottom:10px;font-weight:bold; clear:left;}
+.orderCancel .cancelOpts li input{margin-right:5px;}
+.orderCancel .vt{font-size:1.2em; font-weight:bold;text-transform: uppercase;margin:0 0 10px;float:right;}
+.orderCancel .vt span{color:#0082D6;}
+.orderCancel .ps{margin-bottom:20px;}
+.boxMotivo{font-size:1.1em; margin-bottom:20px; clear:both;}
+.orderCancel .crdList .userData li {border:0;}
+.orderCancel .usData .crdList li{border-bottom:0;}
+.orderCancel .crdList li{padding:0 0 10px;}
+.boxMotivo .lkDuv{float:right;font-size:1.1em;text-decoration:underline;position:relative;top:-25px;}
+.boxMotivo .title04{margin-bottom:10px;overflow:hidden;_zoom:1;}
+.orderCancel .arwDw {overflow:hidden;zoom:1;padding:10px 20px;background:#ededed;clear:both;}
+#otherInfo .dataCliente .lbl{width:132px;}
+#otherInfo .dataCliente li{display:inline-block;}
+#otherInfo .dataCliente .name .lbl, #otherInfo .dataCliente .cpf .lbl{width:100px;text-align:left;font-weight:bold;color:#888;}
+#otherInfo .dataCliente .name, #otherInfo .dataCliente .cpf{display:block;}
+#otherInfo .dataCliente .bnk .lbl, #otherInfo .dataCliente .ag .lbl, #otherInfo .dataCliente .cc .lbl{width:90px;display:block;float:none;text-align:left;font-weight:bold;overflow:hidden;margin-bottom:5px;color:#888;}
+#otherInfo .dataCliente .bnk, #otherInfo .dataCliente .ag,  #otherInfo .dataCliente .cc{display:inline-block;margin-right:15px;_display:inline;}
+#otherInfo .title06 {margin-bottom:15px;}
+.btnsPostalCode .btOk{display:inline-block;float:none;position:relative;top:-2px;}
+#deliveryListView .date{float:right;}
+.cancel01 #orderFoundForm .contentBody{padding:0;}
+.cancel01 #orderFoundForm .infoLote{padding:0 10px;}
+.cancel01 #orderFoundForm .infoLote p {margin: 0 0 10px;overflow: hidden;}
+.reasonsToCancel .box1{background:none;}
+.refundOptions {float:left;clear:left;padding-bottom: 10px;}
+.refundOptions  .usData{float:left;clear:left;}
+/* Dados do Estorno */
+.usData  .boxWrap01{overflow: hidden;padding-left:50px;}
+.usData  .boxWrap01 .userData li{font-size: 1.1em;margin-bottom:0;}
+.usData .boxWrap01 .userData li strong{margin-right:3px;}
+.usData  .boxWrap01 .bW01A{float:left; width: 49%;padding-right:10px;border-right:1px dotted}
+.usData  .arwDw .msgs{clear:both;}
+.usData  .boxWrap01 .bW01B{overflow:hidden; width:43%; padding-left:10px;padding-top:10px;}
+.usData  .arwDw .ps{padding-bottom:10px;position:relative;top:10px;clear:right;margin-bottom:0;}
+.usData  .arwDw .ps.rw {margin-right:125px;}
+.usData  .boxWrap01 .payOptImg{float:left; margin-right:10px;padding-top:5px;}
+.usData  .boxWrap01 .title06{margin-bottom:10px;}
+.usData  .boxWrap01 .title06 .value{font-size:1em;vertical-align:top;}
+.usData  .boxWrap01.type02 .bW01B{min-height:285px;}
+.usData  .boxWrap01.type02 .dataCliente .bnk{float:none;}
+.usData  .boxWrap01.type02 .dataCliente li.ag{margin-right:30px;}
+.usData  .boxWrap01.type02 .dataCliente li.ag .rl,.usData  .boxWrap01.type02 .dataCliente li.cc .rl{display:block;}
+.usData .boxWrap01 .vlbox1{margin:-10px 0 30px; font-size:1.1em;}
+.usData .boxWrap01 .vlbox1 span{font-weight:bold; display:block;}
+.usData .boxWrap01 .vlbox1 input{width:75px;}
+.usData .boxWrap01.sngL .bW01B, .usData .boxWrap01.sngL .ps.tpb, .usData .boxWrap01.sngR .bW01A, .usData .boxWrap01.sngR .ps.tpa{display:none;} 
+.usData .boxWrap01.sngL  .bW01A {width:auto; float:none;background:none;}
+.usData .boxWrap01.sngL .dataCliente .bnk{float:left;}
+.usData .boxWrap01.sngL .dataCliente .name {margin-right:30px;}
+.usData .boxWrap01.sngR .bW01B{float:none; width:auto;padding:0 20px;min-height:120px;}
+.usData .arwDw .boxWrap01.sngR  .ps{position:static;}
+.usData .arwDw .boxWrap01.sngR .msgs{margin-left:0;}
+.usData .boxWrap01.sngR {padding-left:0;}
+.usData .crdList{overflow: hidden;}
+.usData .crdList li{margin:-1px 25px 20px 0; border-top:1px dotted;padding-top:10px;}
+.usData .crdList li ul li{ border-top:none;margin:0 0 15px 0;padding-top:0;}
+/* listas troca e devolucao  */
+.typesList{overflow:hidden;margin-bottom:5px;}
+.typesList li{overflow:hidden;margin-bottom:10px;}
+.typesList li p{padding-left:40px;margin:5px 0 25px;}
+.typesList li .iptBox{margin-right:10px;padding:70px 4px;background:#EBF1FE;}
+.typesList li .iptBox input{margin-top:5px;}
+.titleCollectType {font-size:1.2em;margin-bottom:20px;}
+/* Endereco de entrega */
+#deliveryAddressInfo .title04{background-color:#F0F0F0;font-size:1em;font-weight:bold;overflow:hidden;padding:5px 20px;text-transform:uppercase;}
+#deliveryAddressInfo .addressBox{margin:20px 0;float:left;width:49%;border-right:1px dotted #ccc;}
+#deliveryAddressInfo .addPrin{background:url(../img/spriteCP.png) no-repeat -772px -475px;height:37px;width:173px;color:#fff;display:inline-block;font-size:0;line-height:0;overflow:hidden;text-indent:-9999em;vertical-align:middle;}
+#deliveryAddressInfo .adr #city {display:block;}
+#deliveryAddressInfo .arowBox02{float:right;width:49%;text-align:right;margin:20px 0;}
+#deliveryAddressInfo .arowBox02 .chAdd{display:none;}
+#deliveryAddressInfo .arowBox02 .obs{display:block;font-size:1.1em;font-weight:bold;margin:25px 0;text-align:right;}
+#deliveryAddressInfo .arowBox02 .btMod{background:url(../img/spriteCP.png) no-repeat -718px -513px;height:36px;width:229px;color:#fff;display:inline-block;font-size:0;line-height:0;overflow:hidden;text-indent:-9999em;vertical-align:middle;}
+.cancelSuccess .msgAlert .tmsg{display:block; overflow:hidden;}
+/* Popup trackorder */
+.popUp form .trackOrder, .popUp form .trackOrder  div{margin:0;}
+.popUp .trackOrder .area1{overflow:hidden;margin-bottom:-10px;}
+.popUp .trackOrder .area1 .tit1{color:#00ADEF;font-size:2.1em;font-weight:bold;margin-bottom:0;}
+.popUp .trackOrder .area1 .tit1 .NunOrder{font-weight:normal;}
+.popUp .trackOrder .area1 .icCardlv{margin-top:-10px;}
+.popUp .trackOrder .adr{font-weight:normal;padding-left:0;text-transform:none;}
+.popUp .trackOrder .area2{overflow:hidden;/* padding-left:200px; */margin-bottom:10px;}
+.popUp .trackOrder .area2 .boxMsg{padding-left:60px;}
+.popUp .trackOrder .area2-1{float:left;/* width:100%;margin-left:-200px; */padding-right:110px;}
+.popUp .trackOrder .area2-2{float:right;}
+.popUp .trackOrder .estimatedTime{color:#313131;font-weight:bold;text-align:right;}
+.popUp .trackOrder .estimatedTime .subTit1{font-size:1.7em;margin:0;}
+.popUp .trackOrder .estimatedTime .tit1{/* margin-bottom:5px; */margin:0;}
+.popUp .trackOrder .table01 th{padding:2px 10px;border-right:none;}
+.popUp .trackOrder .table01 td{border-right:none;}
+.popUp .trackOrder .table01  .selected td{background:#f9e9e9;font-weight:bold;}
+.popUp .trackOrder .table01 table .hd .col01:after {display:block;width:0;height:0;content:"";left:0;top:28px;position:absolute;}
+.popUp .trackOrder .table03 thead tr{background:#ccc;}
+/* form de busca de pedido */
+.fSearch .lbl{width:;}
+/* form cadastro endereco */
+#corporateFormPanel .pj{margin-bottom:20px;}
+/* endereco 1 click */
+.btnsPostalCode .btFCep{color:#2B80C3;}
+
+/* Pop Atualizar Cadastro */
+.popUpdInfo{padding:0 20px 40px 20px;}
+.popUp.popUpdInfo ul{margin-bottom:0;}
+.popUpdInfo .boxUserInfo{width:430px;margin:0 auto 30px auto;border-radius: 9px; -moz-border-radius: 9px;-webkit-border-radius: 9px; border: 4px solid #00AEED;padding:20px 10px;background:#EFFDEC;}
+.popUpdInfo .titleUpInfo{font-size:1.65em;color:#03a7e6;margin-bottom:30px;text-align:center;}
+.popUpdInfo .icoUpInfo{width:46px;height:42px;background-position:-508px -215px;margin-right:10px;}
+.popUpdInfo .txUsInf{font-size:1.2em;margin-bottom:15px;}
+.popUpdInfo .userInfoList{text-align:left;}
+.popUpdInfo .userInfoList .type{color:#148cc0;font-size:1.1em; border-right:1px solid #148cc0;padding-right:5px;margin-right:10px;text-align:right;width:140px;display:inline-block;line-height:1.4;}
+.popUpdInfo .userInfoList .item{font-size:1.1em;text-align:left;font-weight:bold;}
+.popUpdInfo .userInfoList .item.req{font-size:1em;font-weight:normal;color:#d10035;}
+.popUpdInfo .buttons{text-align:center;}
+.popUpdInfo .buttons .btCancel{margin-right:20px;}
+
+
+/* ################  LOGIN FINANCE ################### */
+.loginFinance .ff, .loginFinance .forward{float:right;}
+.loginFinance .rw{float:left;}
+.loginFinance .wrapHeader{background:url(../img/shadowHeader.png) repeat-x 0 bottom;padding:0 0 0px;position:relative;z-index:999;}
+.loginFinance .headerFinance{background:#0e60aa url(../img/bgHeaderFinance.png) no-repeat center 0;}
+.loginFinance #wrapContent{margin:-10px auto 0;padding:0 20px;position:relative;width:960px;z-index:9;clear:both;}
+.contentFinance .infoBox{background:#fff;padding:2px 0px 0px 30px;overflow:hidden;background:url(../img/bg-card.jpg) 0px 0px no-repeat;margin-top: 25px;height:250px;}
+.contentFinance .nonclient .listOptions{display:none;}
+.contentFinance .nonclient .box01 .userDataCep{padding:0;}
+.contentFinance .nonclient .userDataCep .info .btChCep{color:#2B80C3;text-decoration:underline;margin:0 2px;}
+.contentFinance .nonclient .titleNoClient{background:url(../img/spriteIconesCP.png) no-repeat -276px -431px;width:291px;height:20px;}
+.contentFinance .nonclient .titleNewUser{background:url(../img/spriteIconesCP.png) no-repeat -323px -473px;width:117px;height:12px;display:block;margin:20px 0 15px;}
+
+.loginFinance .box01 .btnCadast{background:url(../img/spriteButtonCP.png) no-repeat -187px -948px;width:176px;margin-top:28px;}
+
+/* listas */
+.loginFinance .iList .li{display:inline;}
+.loginFinance .safeList{float:right;margin:0 0 7px;}
+.loginFinance .safeList .li{margin-left:20px;float:left;}
+
+/* ico */
+.loginFinance .ico, .loginFinance .stp, .loginFinance .btn, .loginFinance .tag, .loginFinance button, .loginFinance .button{display:-moz-inline-box;display:inline-block;font-size:0;line-height:0;text-indent:-9999em;vertical-align:middle;color:#fff;background:url(../img/spriteFinance.png) no-repeat 1000px 1000px;overflow:hidden;}
+.loginFinance input.btn, .loginFinance button.btn{display:block;border:0;}
+
+.loginFinance  .btCont2 {background: url(../img/spriteButtonCP.png) no-repeat 0px -947px;height:32px;margin-top:5px;width:181px;border:none;cursor:pointer;float:left;}
+.loginFinance  .cardG{background-position:0 0;height:255px;width:375px;float:left;margin:65px 30px 0 10px;}
+.loginFinance  .cardM{background-position:-385px 0;height:127px;width:195px;}
+.loginFinance  .icoWarn, .loginFinance  .warn .ico{background-position:-514px -153px;height:13px;width:15px;margin:0 7px 0 0;}
+.loginFinance  .icoErro, .loginFinance  .erro .ico{background-position:-532px -153px;height:16px;width:15px;margin:0 7px 0 0;}
+.loginFinance  .logo{background-position:-380px -130px;height:37px;width:112px;}
+.loginFinance  .safeSite{background-position:-380px -172px;height:30px;width:90px;}
+.loginFinance  .safeNet{background-position:-487px -175px;height:27px;width:50px;}
+.loginFinance  .certisign{background-position:-555px -172px;height:27px;width:69px;}
+.contentFinance .login-card .titleClient{background:url(../img/spriteIconesCP.png) no-repeat 0px -536px;width:350px;height:20px;margin-bottom:10px;margin-left:0px;}
+.contentFinance .nonclient .titleClient{background:url(../img/spriteIconesCP.png) no-repeat 0px -563px;width:350px;height:51px;margin-bottom:10px;margin-left:0px;display: inline-block;
+font-size: 0;
+line-height: 0;
+text-indent: -9999em;
+vertical-align: middle;}
+.login-card .userData{margin-top:10px;}
+.contentFinance #registerFormPanel .mail.inpRad{font-size:1.2em;}
+
+/* boxes */
+
+.contentFinance .tit01{margin-bottom:25px;
+	background:url(../img/cartaoSub.png)no-repeat;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999em;
+	vertical-align: middle;width:590px;height:34px;margin-top:33px;margin-bottom: 0px;}
+
+
+/* forms */
+.contentFinance input,.loginFinance select{border:1px solid #bababa;}
+.contentFinance .lForm li{clear:both;display:block;margin:0 0 10px;}
+.contentFinance .lForm li  *{vertical-align:middle;}
+.contentFinance .field{margin:0 0 0px;overflow:hidden;clear:both;}
+.contentFinance .lbl{float:left;font-size:1.1em;margin:5px 5px 0 0;text-align:right;}
+.contentFinance .userData input{width:338px;height:25px;padding-left: 5px;}
+.contentFinance .userData-nonclient input{width:200px;}
+.contentFinance .userData  .cep{width:75px;}
+.contentFinance .userData  .cep01{width:48px;}
+.contentFinance .userData li{margin-bottom:10px;}
+.contentFinance .userData .btChCep {text-decoration:underline;}
+.contentFinance .req .camp{float:left;margin:0 7px 10px 0;padding:2px;font-size:1.1em;color:#7c7c7c;}
+.contentFinance .req .camp .tp01{margin:-3px 2px 0;padding:2px;}
+.contentFinance .usrAct li{display:inline;}
+.contentFinance .usrAct li a{text-decoration:underline;margin:5px;color:#2B80C3;}
+.contentFinance #cartao-suba{margin:15px 0px 0px 0px;}
+.contentFinance #sub-cartao-suba{margin:15px 0px 0px 2px;font-size: 0;line-height: 0;content: ".";display: block;clear: both;background:url(../img/cartaoSubTitle.png)no-repeat;width:513px;height:40px;}
+.contentFinance .lt-vt{padding-top:15px;}
+.contentFinance .lt-vt li{float:left;clear:none;min-width:315px;padding-left:0px;font-size: 0;line-height: 0;content: ".";display: block;height:25px;}
+.contentFinance .lt-vt li#vt-1{background:url(../img/vt-1.png)no-repeat;}
+.contentFinance .lt-vt li#vt-2{background:url(../img/vt-2.png)no-repeat;}
+.contentFinance .lt-vt li#vt-3{background:url(../img/vt-3.png)no-repeat;}
+.contentFinance .lt-vt li#vt-4{background:url(../img/vt-4.png)no-repeat;min-width:414px;}
+.contentFinance .login-card{clear:left;float:left;width:395px;border-right:1px solid #f1f1f1;margin-top:85px;padding-bottom: 30px}
+.contentFinance .client{float: left;}
+/* msg */
+.loginFinance .req .msg{display:none;}
+.loginFinance .erro .msg{background:#ff7d76;padding:5px;color:#fff;float:left;display:block;margin:0 5px 10px 0;white-space:nowrap;}
+.loginFinance .warn .msg{background:#ffe87f;padding:5px;color:#6c5a08;float:left;display:block;margin:0 5px 10px 0;}
+.loginFinance .erro .info,.warn .info{float:left;margin:5px;}
+.loginFinance .msgBox{padding:10px 25px;margin:0 auto 10px;width:465px;}
+.loginFinance .msgErro{background:#ff7d76;}
+.loginFinance .msgWarn{background:#ffe87f;}
+.loginFinance .msgBox .msg{font-size:1.25em;color:#fff;}
+
+/* form02 */
+.loginFinance .form02{padding:50px 0 0 0}
+.loginFinance .form02 .cardG{float:left;margin:65px 35px 0 -410px;}
+
+/* banners */
+.loginFinance .banner01{text-align:center;clear:both;}
+/* especificacoes das paginas */
+.loginFinance .identification .safeList{margin:20px auto;float:none;display: block;width:283px;}
+
+/* Header Finance Geral */
+.headerFinanceWrapHeader{background:url(../img/shadowHeader.png) repeat-x 0 bottom;padding:0 0 0px;position:relative;z-index:999;}
+.headerFinance{background:#0e60aa url(../img/bgHeaderFinance.png) no-repeat center 0;}
+.headerFinance .ico.logo{background:url(../img/spriteFinance.png) no-repeat -380px -130px transparent;height:37px;width:112px;margin:10px 30px 20px;}
+
+/* header */
+.headerFinanceCont{margin:0 auto;width:960px;position:relative;}
+.headerFinanceCont .logo{margin:10px 30px 20px;}
+.headerFinanceCont .chSteps{position:absolute;right:10px;top:10px;width:450px;}
+.headerFinanceCont .chSteps li{background:url(../img/bgStpsFinance.gif) repeat-x left bottom;color:#a9a8a8;float:left;font-weight:bold;margin-bottom:0;margin-top:5px;padding:0;position:relative;text-transform:uppercase;white-space:nowrap;width:24.9%;}
+.headerFinanceCont .chSteps li.completed{background:url(../img/bgStpsPas.gif) repeat-x left bottom;}
+.headerFinanceCont .chSteps li .tx{color:#fff;font-size:0.9em;left:33px;position:relative;top:-7px;}
+.headerFinanceCont .chSteps li .tx a{color:#fff;font-weight:bold;}
+.headerFinanceCont .chSteps .steps{background:url(../img/spriteFinance.png) no-repeat -100px -204px;color:#fff;float:left;font-size:1.25em;font-weight:bold;height:22px;padding:7px 5px 2px 11px;position:absolute;top:-5px;width:16px;}
+.headerFinanceCont .chSteps li.step02 .steps,.headerFinanceCont .chSteps li.step03 .steps{background-position:-455px -210px;}
+.headerFinanceCont .chSteps li.step01 .steps{background-position:-35px -204px;}
+.headerFinanceCont .chSteps li.step04 .steps{background-position:-455px -210px;}
+.headerFinanceCont .chSteps li.step04{background:none;}
+.headerFinanceCont .chSteps li.completed .steps{background-position:-520px -210px;}
+.headerFinanceCont .chSteps li.step01.completed .steps{background-position:-521px -210px;}
+.headerFinanceCont .chSteps li.step04.sel{background:none;}
+.headerFinanceCont .chSteps li.sel{background:url(../img/bgStpsSel.gif) repeat-x center bottom;}
+.headerFinanceCont .chSteps li.sel .steps{background-position:-487px -210px;}
+.headerFinanceCont .chSteps li.sel .tx{color:#ffe400;}
+
+.headerFinanceCont .chSteps li .tx{left:33px;position:relative;top:-10px;display:-moz-inline-box;display:inline-block;font-size:0;line-height:0;text-indent:-9999em;vertical-align:middle;color:#fff;background:url(../img/spriteFinance.png) no-repeat 1000px 1000px;overflow:hidden;}
+.headerFinanceCont .chSteps li.step01 .tx{width:75px;height:11px; background-position:-373px -254px;}
+.headerFinanceCont .chSteps li.step02 .tx{width:33px;height:10px; background-position:-373px -269px;}
+.headerFinanceCont .chSteps li.step03 .tx{width:33px;height:10px; background-position:-373px -269px;}
+.headerFinanceCont .chSteps li.step04 .tx{width:72px;height:14px; background-position:-373px -282px;}
+.headerFinanceCont .chSteps li.sel.step01 .tx{width:75px;height:11px; background-position:-449px -255px}
+.headerFinanceCont .chSteps li.sel.step02 .tx{width:33px;height:10px; background-position:-408px -269px;}
+.headerFinanceCont .chSteps li.sel.step03 .tx{width:33px;height:10px; background-position:-408px -269px;}
+.headerFinanceCont .chSteps li.sel.step04 .tx{width:72px;height:14px; background-position:-447px -282px;}
+
+/* Title sub Step */
+.titleInfo{position:absolute;font-size:13px;color:#fff;font-weight:bold;top:45px;right:189px;text-transform:uppercase;}
+.titleInfoFinance{position:absolute;top:45px;right:189px;background:url(../img/solicitar.png) no-repeat;width:269px;height:15px;}
+.loginFinance .client fieldset {padding:0;}
+.loginFinance .box01 {border: none; padding: 0;}
+.loginFinance .lbl{width:auto!important;}
+
+/* Box Date */
+.ui-datepicker{z-index: 1000;top:290px!important;}
+/* Tablea de Pedidos */
+#area2-1-inner .orderTable .box2-b, #area2-1-inner .orderTable .box2-c, .orderTable .box2-a, .orderTable .box2{background:none;padding:0;margin:0;}
+.orderTable .box2-c{border:3px solid #d8d8d8;border-top:none;border-radius:0 0 15px 15px;}
+
+/* Zerando a borda cinza do box login  CP */
+.loginPainel .boxR1, .loginPainel .boxR2, .loginPainel .boxR3, .loginPainel .boxR4 {background:none;}
+.loginCk .boxR1, .loginCk .boxR2, .loginCk .boxR3, .loginCk .boxR4 {background:none;}
+.loginMeusPedidos .boxR1, .loginMeusPedidos .boxR2, .loginMeusPedidos .boxR3, .loginMeusPedidos .boxR4 {background:none;}
+
+/* Cumprimento e Subtitulos home */
+.customerSalute{padding-left:20px;}
+.home .col-1 legend, .home .col-2 legend{left: 50px;top: -10px;position: relative;display:block;}
+.home-subtitle{left: 50px;top: -10px;position: relative;display:block;margin:0;}
+
+/* Ico help Login home */
+.login .topBox02 .icoHelp{right:10px;top:10px;}
+
+/* Espacamento lista formularios */
+.chData .box05{margin-bottom:10px;}
+
+/* Cheks Mail Marketing Frmularios */
+.chData .checksEmailMkt{border-top: 1px dotted #666; margin-right:90px; padding:5px 0pt 0pt 110px;}
+.chData .checksEmailMkt .lbl2{font-weight:normal;}
+.chData .checksEmailMkt .tx{font-weight:bold;display:block;margin-bottom:10px;}
+.chData .checksEmailMkt .txLink{font-weight:normal;font-size:1em;color:#43bde4;}
+.chData .checksEmailMkt .icoChecksEmailMkt{background-position:-106px 0;float: left;height:26px;width:31px;margin-top:7px;}
+.chData .checksEmailMkt .listChecksEmailMkt{overflow:hidden;}
+
+.blockedPostalCodeWarn{font-size:0.9em;padding-left:210px;}
+
+/* Toltip Form */
+.tP01{background: url(../img/bgTolTip.png) no-repeat left top;}
+.tP02{background: url(../img/bgTolTip.png) no-repeat right top;position:relative;left:10px;}
+.tP03{background: url(../img/bgTolTip.png) no-repeat left bottom;top:10px;left:-10px;position:relative;}
+.tP04{background: url(../img/bgTolTip.png) no-repeat right bottom;left:10px;position:relative;overflow:hidden;zoom:1;padding:0 10px 12px 0;}
+.tP04 p{color:#00adef;font-size:1.1em;margin:0;}
+.tP04 .tPalert{background: url(../img/bgTolTipAlert.png) no-repeat left;padding:5px 0 5px 30px;}
+
+.form .lForm li .tTipBox, .form01 .lForm01 li .tTipBox {position:absolute;width:300px;top:1px;z-index:100;display:none;}
+.form .lForm li.toolTip, .form01 .lForm01 li.toolTip{position:relative;z-index:1;overflow:visible;}
+.form .lForm li.toolTip  .tTipBox, .form01 .lForm01 li.toolTip  .tTipBox{display:block;}
+.form .lForm li.cpf .tTipBox{width:240px;left:390px;}
+.form .lForm li.date .tTipBox{width:190px;left:360px;}
+.form .lForm li.tel .tTipBox{width:260px;left:377px;}
+.form .lForm li.nome .tTipBox{width:260px;left:360px;}
+.form .lForm li.senha .tTipBox{width:230px;left:360px;}
+.form .lForm li.numeroEnd .tTipBox{width:300px;left:276px;}
+.form .lForm.col01 .req input{height:17px;}
+
+.helpForm{position:relative;z-index:1;overflow:visible;float:left;}
+.helpForm .tTipBox {position:absolute;width:300px;left:30px;top:1px;z-index:100;display:none;}
+.helpForm.toolTip  .tTipBox{display:block;}
+
+.form01 .lForm01 li.referencia .tTipBox{right:635px;top:25px;width:317px;}
+.form01 .lForm01 li.tipoEnd {right:328px;top:23px;width:235px;}
+
+.refundPanel .refundOptions{padding-bottom: 10px;}
+.refundPanel .refundOptions li, .reasonsToCancel .refundOptions li{overflow:visible;}
+.orderCancel .refundOptions .refundHelp {float:left;}
+
+/* Alteracao 1Click */
+.oneClickPage .info{border-bottom:1px dotted #CCC;padding:0 0 20px;clear:left;}
+.oneClickPage .info .tInfo{font-size:1.6em;color:#00adef;padding-top: 6px;}
+.oneClickPage .info .tInfoSub{font-size:1em;margin-bottom:10px;}
+.oneClickPage .tInfoSub{margin-bottom:20px;color:#666;display:block;}
+.oneClickPage .tInfoSub strong{font-size:1em;color:#666;}
+.oneClickPage .topBox03 h4{font-size:1.45em;color:#00adef;margin-bottom:20px;overflow:hidden;padding-left:10px;}
+.oneClickPage .infoBot{border-top: 1px dotted;margin-top: 20px;padding: 10px;clear:both;}
+.oneClickCustomerWeb{padding: 0 30px 20px;background: url(../img/bg_boxOneClick.png) repeat-x;}
+#fullBanner.bannerLoginOneClick{margin:0 0 -3px;}
+
+.box5{border:2px solid #ededed;padding:15px;background-color: #fff;}
+
+
+/* Espacamento tabela resultado pedido numero e data */
+.findOrderBox{margin-top:20px;}
+
+/* Alteracao Login */
+.textVerifique {margin: 0px 0px 5px 1px; color: #666; font-family: arial;}
+.textVerifique2 {margin: 0px 0px 5px 22px; color: #666; font-family: arial;}
+.titleClient {font-size: 16pt; color: #333; font-family: arial; font-weight: normal; margin:0px 0px 0px 19px;}
+.titleClient.textTit {font-size: 16pt; color: #333; font-family: arial; font-weight: normal; margin:0px 0px 0px 0px;}
+.nonclient .titleNoClient{background-position:-276px -431px;width:291px;height:20px;}
+.nonclient .titleNewUser{background-position:-323px -473px;width:117px;height:12px;display:block;margin:20px 0 15px;}
+.nonclient .subTitleNoClient{font-size:1.2em}
+.nonclient .box01 .listOptions{float:left;}
+.nonclient .box01 .listOptions li{background:url(../img/icoListOptions.png) no-repeat 0 5px; padding-left:10px;margin-bottom:6px;}
+.nonclient .box01 .userDataCep{display: inline-block;overflow: hidden;padding-left: 25px;}
+.nonclient .box01 .userDataCep .info{color:#666;}
+.nonclient .userDataCep .info .btChCep{color:#666;text-decoration:underline;margin:0 2px;}
+.nonclient .userDataCep .feedbacklabelERROR{display:block;}
+.nonclient .userDataCep li{padding:2px 5px;}
+
+/* Alteracao Login CRM */
+.login .tOperator{font-size: 1.1em;margin: 10px 0 0 15px;}
+.login .tOperator thead th{padding: 0 0 3px;text-align: left;}
+.login .tOperator tbody td{padding: 0 0 15px;vertical-align: center;}
+.login .tOperator .col01{padding: 0 10px 15px 0;}
+.login .tOperator .col02{padding: 0 0 15px 0;width: 160px;}
+.login .tOperator .radio{width:auto;}
+
+/* Alteracao Pagina Endereco */
+.postalCodeAddressesBox {float: left;max-width: 500px;min-width: 250px;padding: 2px;}
+.btnsPostalCode {color: #666;}
+.btnsPostalCode  #searchPostalCodeLink{color: ##43BDE4;}
+.boxAddAddressOneClick{padding: 10px;background:#ededed;overflow: hidden;}
+.friendlyAddressNameOptions{height:17px;float:left;margin-right:5px;}
+
+/* Alteracao Pagina Pagamento 1 Cartao */
+.payCard #content{padding:10px;}
+.payCard .buttons{margin:10px;}
+
+/* Pagina de Login */
+/* inputs */
+.loginPainel .client input, .loginMeusPedidos .client input, .loginCk .client input,#registerFormPanel .mail,.loginCrm .boxCadast .mail{font-size:1.4em;color:#666;padding:5px;width:255px;border:#999 1px solid;}
+.loginMeusPedidos .client input,.loginMeusPedidos .client #orderNumber{width:206px; height:22px;}
+.loginMeusPedidos .nonclient input{font-size:1.4em;color:#666;padding:5px;width:95%;border:#999 1px solid;}
+.loginPainel .nonclient .cep, .loginCk .nonclient .cep{width:95px;font-size:1.4em;color:#666;padding:5px;border:#999 1px solid;}
+.loginPainel .nonclient .cep01, .loginCk .nonclient .cep01{width:35px;font-size:1.4em;color:#666;padding:5px;border:#999 1px solid;}
+
+/* buttons */
+
+.login .client .btCont1, .login .clientCk .btCont1{background: url(../img/spriteButtonCP.png) no-repeat -329px -813px;height:32px;width:219px;float:none;border:none;}
+.login .nonclient .btCont1, .login .nonclientCk .btCont1{background: url(../img/spriteButtonCP.png) no-repeat 0 -613px;height:29px;width:176px;float:none;border:none;}
+.login .client .btCont2, .login .clientCk .btCont2{background: url(../img/spriteButtonCP.png) no-repeat -329px -813px;height:32px;width:219px;float:none;border:none; margin:33px 0px 0px 0px;}
+.login .nonclient .btCont2, .login .nonclientCk .btCont2{background: url(../img/spriteButtonCP.png) no-repeat 0 -613px;height:29px;width:176px;float:none;border:none;}
+
+/* login */
+.loginGeral {width: 765px; margin: 0 auto;}
+.login{overflow:hidden;width:300px;margin:auto;}
+.login.loginOrders{overflow:hidden;width:750px;margin:auto;}
+.login .obr{display:none;}
+.login .lbl,.loginFinance .lbl{width: 200px; display: block; text-align: left; font-family: arial; font-size: 1.2em; font-weight: bold; margin-bottom: 5px; color: #333;}
+.loginFinance .noticeToBuy{display: none;}
+.login .box01{border:0;padding:9px 0;position:relative;width:280px;}
+.login #registerForm .box01{padding-top:0px;}
+.login .client{float:left;padding:0 16px 0 0;margin-left:20px;width:328px;}
+.login .histPedidos {float:left;width:48%;padding:0 10px 0 0;margin:0 0 0 -10px; }
+.login .nonclient{overflow:hidden;}
+.login .userData{margin:4px 0 15px;}
+.login .userData li{padding-left:0px;}
+.login .userData .firstVisitante {margin-bottom: 33px;}
+.login .userData .info{margin-left:5px;padding-left:75px;}
+.login .client .usrAct, .login .clientCk .usrAct{clear:both;display:none;}
+.login .usrAct li{display:inline;border-right:1px solid #ccc;margin:0;padding:0 3px 0 5px;}
+.login .usrAct li a{font-size:0.9em;}
+.login .usrAct li.last{border:0}
+.login .nonclient .boxCrm {padding: 2px 0 30px 20px;}
+.box01 .btnCadastCrm {background-position: -385px -900px; display: block; width: 163px; height: 32px; margin-top: 20px;position:absolute;bottom:0px;}
+#loginCrmForm .lbl {width: 142px;}
+.userData li.it-pass{padding-top:31px;}
+.loginPainel .userData li.it-pass{padding-top:9px;}
+.loginMeusPedidos .userData li.it-pass{padding-top:15px;}
+.loginPainel.login{width:770px;overflow: visible;}
+.login #passwordRecoveryForm .userData .info{display: block;clear:left;padding:0px;margin:0px;}
+.login #passwordRecoveryForm .box01{width:310px;}
+ 
+.login .topBox02{background-color:#00adef;font-size:1.5em;zoom:1;color:#fff;}
+.login .topBox02-1{padding:10px 5px 0 0;position:relative;left:15px;margin-right:15px;display:block;overflow:hidden;}
+.login .topBox03{padding:8px 0 0 8px;border:2px solid #00adef;border-top:4px solid #00adef;}
+.login .topBox03-a{padding:20px 0 0 0;margin-left:7px;}
+.login .topBox03-b{margin-left:-15px;padding-left:15px;position:relative;}
+.login .topBox03-c{padding:0 15px 10px 0;overflow:hidden;position:relative;}
+.obsLbl{font-size: 0.7em;text-transform: lowercase;color: #666;padding-left: 4px;}
+.login .option{padding-right:15px; margin-bottom: 25px;}
+.login .option .tx{text-decoration:underline;}
+<<<<<<< HEAD
+.oneClickPage .msgAlert .tmsg{padding-top: 6px;}
+=======
+.oneClickPage .msgAlert .tmsg{padding-top: 7px;}
+>>>>>>> origin/develop
+
+.login .inpRad {-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; height: 20px;}
+
+.box01 .btnCadast {background-position: -374px -900px; display: block; width: 175px; height: 30px; margin-top: 52px;border:0px;}
+
+.login .box01 .btnCadast{margin-top:47px;}
+.login.loginCk .box01 .btnCadast{margin-top:49px;}
+.loginOneClick .box01 .btnCadast{margin-top:49px;}
+.box01 .btnVisitante {background-position: -305px -859px; display: block; width: 243px; height: 32px; margin-top: 60px;}
+.box01 .textCadast {font-family: arial; font-weight: normal; font-size: 8pt; color: #666; line-height: 1.7;} 
+.box01 .textCadast.titCadast {font-family: arial; font-size: 11pt; color: #000; line-height: 1.3; margin-bottom: 3px;} 
+.contentFinance .box01 .textCadast.titCadast{color:#666;font-weight: bold;}
+
+.boxCadast {float: left;}
+.boxVisitante {float: left;}
+
+#registerFormPanel.registerFormFinance {overflow: hidden;width:390px;float:left;margin-top:85px;padding-left:46px;}
+.loginCk #registerFormPanel,.loginPainel #registerFormPanel{float:left;overflow: hidden;min-height:240px;border-left:1px solid #f1f1f1;padding-left:53px;width:350px;}
+
+
+
+
+.loginMeusPedidos form ul li{padding-left:1px;}
+.loginMeusPedidos .btCont2{margin:33px 0px 0px 0px;}
+
+.login .nonclient .tx{font-size:1.2em;margin-bottom:21px;display:block;}
+.login .nonclient .cpf{margin:18px 0;}
+.login .nonclient fieldset{padding:30px 0 30px 20px;}
+.login .nonclient .buttons{margin-top:30px;}
+.login .topBox02 .tx{font-size:0.65em;font-weight:normal;display:block;margin:0 0 15px;}
+.login .nonclient .usrAct{display:none;}
+.login .cep{width:95px;}
+.login .cep01{width:35px;}
+form.loginCk ul li{margin:0;padding:0;}
+
+.loginMeusPedidos{width:680px;}
+.loginMeusPedidos .client{margin-left: 0px;}
+.loginMeusPedidos #registerFormPanel .titleClient{height: auto;}
+.loginMeusPedidos .client .boxVisitante{margin-left: 0px;}
+.loginMeusPedidos .userData .firstVisitante{margin-bottom: 24px;}
+.loginMeusPedidos #registerFormPanel{float:left;border-left:1px solid #ccc;padding-left: 47px;width:275px;}
+.loginMeusPedidos #registerFormPanel .titleClient{margin-left:0px;}
+.loginMeusPedidos #registerFormPanel .textVerifique2{margin-left:0px;}
+.loginMeusPedidos.login #registerFormPanel .client{width:280px;}
+.loginMeusPedidos .boxVisitante .lbl{width:200px;}
+.login .feedbacklabelERROR{display: block;color: #f00;margin: 0px 0 0;}
+.contentFinance .feedbacklabelERROR{display: block;color: #f00;margin: 0px 0 0;}
+
+/* Login Ck abas */
+.loginCkTabs .tabs-top{overflow:hidden;margin:-13px 0 0 -12px;padding-right: 2px;}
+.loginCkTabs .tabs-top-a ul li{clear:none;float:left;}
+.loginCkTabs .tabs-list{overflow:hidden;background:url(../img/bgTabs3.png) right no-repeat;}
+.loginCkTabs .tabs-top-a .tab-item-a1{width:39.9%;}
+.loginCkTabs .tabs-top-a .tab-item-b1{width:59.9%;}
+
+/* Login Ck abas Selecionadas */
+.loginCkTabs .tab-item-a1.selected .tab-item-a{background:url(../img/bgTabs1Selected.png) no-repeat 0 0;padding-left:15px;}
+.loginCkTabs .tab-item-a1.selected .tab-link-a{color:#00adef;background:url(../img/bgTabs1Selected.png) right no-repeat;}
+.loginCkTabs .tab-item-b1.selected .tab-item-b{background:url(../img/bgTabs2Selected.png) no-repeat 0 0;padding: 0 0 0 20px;}
+.loginCkTabs .tab-item-b1.selected .tab-link-b{color:#00adef;background:url(../img/bgTabs2Selected.png) no-repeat right;padding:10px 10px 28px 0;}
+
+/* Login Ck abas Normais */
+.loginCkTabs .tabs-top-a .tab-item-a{background:url(../img/bgTabs1.png) no-repeat 0 0;padding:0 0 0 15px;}
+.loginCkTabs .tabs-top-a .tab-link-a{font-size:1.2em;color:#fff;font-weight:bold;background:url(../img/bgTabs1.png) right no-repeat;padding:11px 15px 28px 0;display:block;}
+.loginCkTabs .tabs-top-a .tab-item-b{background:url(../img/bgTabs2.png) no-repeat 0 -1px;padding-left:20px;}
+.loginCkTabs .tabs-top-a .tab-link-b{font-size:1.2em;color:#fff;font-weight:bold;background:url(../img/bgTabs2.png) no-repeat right;padding:10px 10px 28px 0;display:block;}
+.loginCkTabs .tabs-top-a .tab-item-c{background:url(../img/bgTabs3Selected.png) no-repeat 0 0;padding:0 0 0 15px;}
+.loginCkTabs .tabs-top-a .tab-link-c{font-size:1.2em;color:#00adef;font-weight:bold;background:url(../img/bgTabs3Selected.png) right no-repeat;padding:11px 30px 28px 0;display:block;}
+
+/* Login Ck abas Conteudo */
+.tabs-content .tabs-content-a1{overflow:hidden;display:block;}
+.tabs-content .tabs-content-a2{overflow:hidden;display:none;}
+.tabs-content .tabs-content-a1-text{float:left;}
+.tabs-content .tabs-content-a1-text  li{font-size:1.1em;background:url(../img/icoListCk.png) no-repeat 0 5px; padding-left:10px;margin-bottom:6px;}
+.tabs-content .tabs-content-a1-userData{overflow:hidden;text-align:right;float:right;}
+.tabs-content .tabs-content-a2-text{float:left;width:48.9%;text-align:justify;}
+.tabs-content .tabs-content-a2-text p{font-size:1.1em;margin:0 0 5px;}
+.tabs-content .tabs-content-a2-userData{overflow:hidden;width:50.9%;text-align:right;}
+.nonclientCk form ul li {overflow: hidden;clear:none;}
+
+/* Desbloqueio de Vale */
+.giftCard{width:70%;margin:40px auto 0 auto;}
+.giftCard .topBox02{background:url(../img/boxe3.png) no-repeat 0 0;font-size:1.5em;zoom:1;color:#fff;}
+.giftCard .topBox02-1{background:url(../img/boxe3.png) no-repeat right 0;padding:10px 5px 0 0;position:relative;left:15px;margin-right:15px;display:block;overflow:hidden;}
+.giftCard .topBox03{background:url(../img/boxe3.png) no-repeat 0 -67px;padding:8px 0 0 8px;}
+.giftCard .topBox03-a{background:url(../img/boxe3.png) no-repeat right -75px;padding:12px 0 0 0;margin-left:7px;}
+.giftCard .topBox03-b{background:url(../img/boxe3.png) no-repeat bottom left;margin-left:-15px;padding-left:15px;position:relative;}
+.giftCard .topBox03-c{background:url(../img/boxe3.png) no-repeat bottom right;padding:0 15px 10px 0;overflow:hidden;position:relative;}
+.giftCard .giftForm{border:none;padding-top: 0;}
+.giftCard .giftForm .btOk{background-position:-683px -120px;width:30px;height:16px;border:none;display:inline;}
+.giftCard .giftForm .cpf{margin-right:15px;}
+.giftCard .giftForm .info{margin: 0 0 10px;}
+
+/* Ajustes Trocas e Devolucoes */
+.reasonsToCancel .boxInfoCliente p{margin:0;}
+.reasonsToCancel .boxInfoCliente, .reasonsToCancel .boxMotivo {border-bottom: 1px dotted #ccc;}
+.reasonsToCancel #refundPanel .box1{padding: 10px 0 10px 10px;}
+.reasonsToCancel .boxInfoCliente .boxR1, .reasonsToCancel .boxInfoCliente .boxR2, .reasonsToCancel .boxInfoCliente .boxR3, .reasonsToCancel .boxInfoCliente .boxR4{background:none;}
+.reasonsToCancel .boxMotivo .boxR1, .reasonsToCancel .boxMotivo .boxR2, .reasonsToCancel .boxMotivo .boxR3, .reasonsToCancel .boxMotivo .boxR4{background:none;overflow:visible;}
+.reasonsToCancel .boxMotivo.box1{overflow:visible;padding-bottom:30px;}
+.reasonsToCancel #refundPanel .boxR1, .reasonsToCancel #refundPanel .boxR2, .reasonsToCancel #refundPanel .boxR3, .reasonsToCancel #refundPanel .boxR4{background:none;}
+#refundPanel .usData  .boxWrap01 .bW01A{float:left; width: 49%;padding-right:0;border-right: 1px dotted;}
+.arwDw .boxWrap01 .vs{margin:0;}
+.cancel03 .boxR1, .cancel03 .boxR2, .cancel03 .boxR3, .cancel03 .boxR4{background:none;}
+.cancel03 .boxR1, .cancel03 .boxR2{padding:0;}
+.cancel03 .form02 .box1{background:none;padding:0;}
+#deliveryAddressInfo .addressBox .addPrin{color:#00ADEF;font-size:2em;overflow:hidden;vertical-align:middle;display: block;text-indent:0;width:auto;height:auto;line-height:32px;margin-bottom:15px;}
+#deliveryAddressInfo .addressBox .addPrin .houseOn{background:url("../img/spriteIconesCP.png") no-repeat -106px -36px transparent;width:33px;height:32px;margin-right:5px;}
+.userAdd .title03{color:#00ADEF;font-size:2em;line-height:46px;margin-bottom;15px;}
+.userAdd .title03 .dwAr{background-position:-279px -147px;width:46px;height:46px;margin-right:5px;}
+.userAdd .boxAddr{border:none;margin-top:15px;}
+.userAdd .boxAddr.box1{background:none;}
+.userAdd .boxAddr .topBox01{color: #01A8DD;padding:0;}
+.userAdd .boxAddr .topBox01 .house{background-position:-106px -36px;width:33px;height:32px;margin-right:5px;float:left;}
+.userAdd .boxAddr .box01{padding:0 10px;border:none;}
+.userAdd .boxAddr .box01 .buttons .btUseAdd{background:url(../img/spriteButtonCP.png) no-repeat -178px -652px;width:127px;height:18px;margin-top:5px;}
+
+.cRequest .box1, .cRequest .box1 .boxR1, .cRequest .box1 .boxR2, .cRequest .box1 .boxR3, .cRequest .box1 .boxR4{background:none;}
+
+.reasonsToCancel .box1 .boxR2{padding:0;}
+.reasonsToCancel .box1 .boxR1{padding: 0 10px 0 0;}
+.reasonsToCancel .boxMotivo .sl01{float:left;}
+.hContent .title01 .code{color:#008cba}
+.reasonsToCancel .usData .boxWrap01{padding:0;}
+.reasonsToCancel .crdList .userData{overflow: hidden;}
+.erro .vt, .erro #orderLinePanel, .erro .arwUP{color:#666;}
+.arwDw .erro{background:none;}
+.cancelSuccess .msgAlert{overflow:hidden;}
+.cancelSuccess #postingMessage{clear:both;display:block;}
+
+/* Banner Home Painel */
+.cpanel .home .infoBanPainel {background:#e5f7fd;padding:5px 20px; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; margin-bottom:20px;font-weight:normal;font-size:1.1em;overflow:hidden;}
+.cpanel .home .infoBanPainel *{vertical-align:middle;}
+.bt2Danfe{background-position:-562px -774px;height:31px;width:321px;margin-left:25px;}
+.ico.uKnow{background-position:-351px -287px;width:145px;height:21px;margin:10px 25px 10px 0;}
+/* Nova skin */
+.infoBanPainel .titleInfoBan{font-size:1.2em;font-weight:bold;color:#00adef;display:block;padding: 5px 0;}
+.infoBanPainel li{margin-bottom:5px;overflow:hidden;}
+.infoBanPainel .lblInfo strong {color: #01ADED;}
+.infoBanPainel .lblInfo {float:left;font-size:1.2em;width:580px;padding:1px 0;}
+.btInfoBanBillet{background-position:-354px -241px;width:144px;height:25px;}
+.btInfoBanDanfe{background-position:-354px -276px;width:208px;height:25px;}
+
+/* Clube de Compras */
+.clCompras #content{overflow:hidden;width:768px;margin:25px auto;}
+.clCompras .lg1{font-size:1.25em;margin:0;text-align:center;}
+/* Login */
+.clCompras .login {width:410px;margin:20px auto;}
+.clCompras .login .client{float:none;width:auto;padding:0;margin:0;}
+.clCompras .login .msgSuccess{font-size:0.9em;background:#91AF78;color:#fff;margin-top:3px;padding:8px;text-transform:uppercase;text-align:center;font-weight:bold;}
+.clCompras .login .client fieldset{margin:0;border:none;}
+.clCompras .login .client fieldset .passInfo{font-size:0.8em;font-weight:bold;padding-left:90px;margin-top:-23px;}
+.clCompras .login .buttons .btCont{border:none;}
+.clCompras .login .userData .mail, .clCompras .login .userData .pasw{width:150px;}
+.clCompras .login .erro .lbl{width:80px;margin:0px;}
+
+
+/* msg dos correios sobre entrega em área de risco */
+
+.lightboxEntrega {margin-top: 25px; width: 380px; margin-left: 30px; border: 0!important;}
+.lightboxEntrega .btFechar {background-position: -801px -256px; width: 95px; height: 31px; float: left; margin-left: 140px; margin-top: 10px;}
+
+.entregaRisco {border: 2px solid #e60014; padding: 10px; margin-bottom: 12px;}
+.entregaRisco .atencaoIco {background-position: 0px -379px; width: 36px; height: 32px; float: left;}
+.entregaRisco p.msgCorreios {color:#ff0000; font-size: 17px; margin:0px; font-family: arial;}
+.entregaRisco p.msgCorreios2 {color:#666666; margin:0px; font-size: 12px; margin-top: 3px; font-family: arial;}
+.entregaRisco .textCorreios {margin-left: 50px;}
+
+.form .lForm li.entregaRisco-t01 {padding: 0px; margin-left: 64px;}
+.entregaRisco.entrega01 {width: 395px;  margin-left: 0; overflow: visible;}
+.entregaRisco.entrega01 .setaBox {position: absolute; background-position: -95px -298px; display: block; width: 25px; height: 18px; z-index: 1; margin-left: 77px; margin-top: 8px;}
+.customerRegister .lblTab{margin-top:0px;}
+#typeCustomerBoxes label{float: left;margin-top:5px;}
+.registerPostCode{display: inline-block;padding-top: 5px;}
+.registerPostCode .lForm{padding-top:0px;}
+
+.entregaRisco.entrega02 {width: 395px; margin-left: 0px;}
+.entregaRisco.entrega02 p.msgCorreios2 {font-size: 13px;}
+.entregaRisco.entrega02 .setaBox {display: none;}
+.entregaRisco.entrega02 .btFechar {display: none;}
+
+.entregaRisco {margin-bottom: 20px;}
+.entregaRisco.entrega01 .setaBox {margin-left: 255px;}
+.customerRegister .btCont {width: 155px; height: 31px; border: 0px;}
+.oneClickPage .btActive {height: 28px; width: 257px; border: 0px;}
+.oneClickPage .buttons .btCad {width: 110px; height: 28px; border: 0px;}
+.configOneClick .entregaRisco.entrega02 {width: 468px;}
+#buttonsNewAddress .nextStep {height: 26px; width: 101px; border: 0px;}
+
+#oneClickNewAddressPanel .btCad {height: 28px; border: 0px;}
+#oneClickNewAddressPanel .entregaRisco .setaBox {margin-left: 249px!important;}
+.configOneClick .entregaRisco.entrega02 {width: 348px;}
+.configOneClickBuy .entregaRisco.entrega02{width:292px;}
+
+/* modificacao layout  */
+.form  .asterisk{color:#00adef;}
+.login .nonclient fieldset{padding:0 0 0px 20px;}
+.box01 .btnVisitante{margin-top:121px;}
+#simplifiedLoginFormMeusPedidos .userData{margin:0 0 51px;}
+
+.loginPainel .btCont2.forward,#forgotPasswordForm .btCont2 {background: url(../img/spriteButtonCP.png) no-repeat -562px -698px; height: 29px; width: 175px; float: none; border: none; margin: 27px 0px 0px 0px;}
+.loginCk .btCont2.forward {background: url(../img/spriteButtonCP.png) no-repeat -563px -699px; height: 28px; width: 174px; float: none; border: none; margin: 32px 0px 0px 0px;}
+.emailnoregister{padding-top:15px;}
+.loginOneClick #btProsseguir{margin-top:30px;}
+.contentFinance .emailnoregister{padding-top:1px;}
+.loginOneClick .emailnoregister{padding-top:17px;}
+.btSendPsw{background-position:-688px -148px;height:26px;width:160px;border:0px;}
+.btSend{background-position:-3px -903px;height:26px;width:110px;border:0px;}
+
+.msgBox .btFechar {background-position: -801px -256px; width: 95px; height: 31px; margin-top: 15px; margin-left: 115px;}
+.lt-type-ck{float:left;}
+.lt-type-ck li{float:left;clear:none;padding-left:0px;margin-right:3px; }
+.loginCk .userData li.it-pass{padding-top: 7px;}
+.loginFinance .userData li.it-pass{padding-top:0px;}
+.bannerLoginCk {padding-left: 16px;}
+.loginCk{width:810px;}
+
+
+/* Header LoginFinance */
+.headerFinanceWrapHeader .headerCh .chSteps li.step02 .steps,.headerFinanceWrapHeader .headerCh .chSteps li.step03 .steps,.headerFinanceWrapHeader  .headerCh .chSteps li.step04 .steps{background: #00adef;border: 2px solid #fff;border-radius: 100%;font-size: 1.45em;width: 12px;height: 18px;padding-top: 7px;padding-left: 10px;padding-right: 6px;}
+.headerFinanceWrapHeader .headerCh .chSteps li.step01.completed .steps{text-indent: 0px;background:#00ff00;border: 2px solid #00ff00;border-radius: 100%;font-size: 1.45em;width: 12px;height: 18px;padding-top: 7px;padding-left: 9px;padding-right: 6px;}
+.headerFinanceWrapHeader .headerCh .chSteps li.progress .steps{background: #00ff00;border-radius: 100%;font-size: 1.45em;width: 14px;height: 20px;text-indent:0px;padding-top: 7px;padding-left: 10px;padding-right: 6px;}
+.headerFinanceWrapHeader .headerCh .chSteps li.step02,.headerFinanceWrapHeader .headerCh .chSteps li.step03,.headerFinanceWrapHeader .headerCh .chSteps li.step01{background: url(../img/bgStps2.gif) repeat-x bottom left;}
+.headerFinanceWrapHeader .headerCh .chSteps li.step04{background: none;}
+.headerFinanceWrapHeader .headerCh .chSteps li.completed .tx a{color:#00ff00;font-size:1.1em;}
+.headerFinanceWrapHeader .headerCh .chSteps li.sel .tx a{color:#fff;}
+.headerFinanceWrapHeader .financeSolicitation{font-size:1.2em;font-weight: bold;}
+.loginFinance #recoverPasswordLink{text-decoration: underline;padding-top: 4px;display: block;}
+
+#forgotPasswordForm .tp1{color:#424242;font-size: 2.2em;margin:0px;}
+#forgotPasswordForm .message{width:260px;font-size:1.1em;color:#666;margin-bottom: 15px;}
+#forgotPasswordForm .lbl{color:#666;font-size:1.2em;font-weight: bold;text-transform: lowercase;margin:3px 0px;display: block;}
+#forgotPasswordForm .textType20{height:33px;float:left;}
+#forgotPasswordForm{margin-top: 0px;}
+#forgotPasswordForm .buttons .button{margin-top:0px;}
+#errorMessage{color:#ff0000;font-family: arial;}
+#forgotPasswordForm .feedbacklabelERROR,#forgotPasswordForm .erro {display: block;color:#ff0000;padding-top: 2px;clear:left;}
+#forgotPasswordForm .erro a{text-decoration: underline;}
+#forgotPasswordForm .ipt,.changePass .loginPainel .client .ipt{border:1px solid #ff0000;padding-left:5px;}
+#forgotPasswordForm .it-erro .icon-val,.changePass .it-erro .icon-val{background:url(../img/spriteIconesCP.png) no-repeat 0px -619px;width: 26px;height: 29px;float: left;margin-left: 5px;}
+#forgotPasswordForm .form .buttons{padding-top:0px;}
+#forgotPasswordForm li{min-height: 118px;padding-left:0px;}
+#forgotPasswordForm li#errorMessageContainer{min-height: 0px;}
+#forgotPasswordForm.form .buttons{padding-top: 0px;}
+#successForgotPassword .msg{width:273px;color:#666;font-size:1.2em;line-height:1.4em;margin-top: 10px;}
+#successForgotPassword.msgBox .btFechar{margin-left: 0px;background-position: -374px -947px;float: left;width:85px;margin-right:10px;}
+#successForgotPassword .goToHome,#successPasswordRecovery .goToHome,.goToHome{background-position: -469px -948px;height: 36px;margin-top: 15px;float: left;width:222px}
+#successForgotPassword .boxR8{padding-left:20px;margin-bottom: 10px;}
+#successForgotPassword .tit1{padding-left: 20px;font-size: 1.8em}
+.changePass .login .client{margin:0px;}
+.changePass .login{width:315px;}
+.changePass .lbl{color:#424242;}
+.changePass .cumpliment{display: block;font-size:1.3em;margin-top:15px;color:#333;font-family: arial;}
+.changePass .cumpliment strong{display: block;}
+.changePAss input{border-color:#a9a9a9;}
+.changePass .box01 li{color:#333;margin-bottom: 0px;}
+.changePass .box01 .titCadast {font-weight: bold;color:#333;}
+.changePass .box01 li.noticeToBuy{padding:0px;font-size:1.2em;line-height:1.2em;}
+.changePass .box01{height:auto;}
+.btSaveGr{background-position: -698px -947px;border:transparent 0px solid;height: 30px;width:174px;}
+.login.boxChangePass .userData .infoPass{clear:left;display: block;padding-left: 0px;margin-left: 0px;}
+.login.boxChangePass .userData .erro .infoPass{display: none;}
+.form.clientChangePass .buttons .btSaveGr{float:left;}
+.login.boxChangePass{padding: 0px;width:300px;}
+.login .clientChangePass{margin-left: 0px;}
+#statusSentMail{float: left;padding-top: 22px;font-size: 16px;text-transform: lowercase;}
+.changePass .loginPainel .client .btSaveGr{border:0px;width:177px;}
+.changePass .buttons{margin-top:15px;}
+.changePass #confirmPassword{float: left;}
+#content .hmLogin.myAccount.myAccountChange{width:304px;padding-top:50px;}
+#content .hmLogin.myAccount.myAccountChange .titleClient.textTit{font-size: 22px;color:#333;}
+#content .hmLogin.myAccount.myAccountChange .lbl{color:#333;font-size:14px;font-weight: normal;font-family: Arial;}
+#content .hmLogin.myAccount.myAccountChange ul.userData.userInfo li{color:#666;font-size:12px;}
+.icon-val{display: none;}
+.msgRequestEmail{font-size:13px;clear:left;padding-top:10px;}
+.emailRegister{font-size:18px;padding-top:10px;padding-bottom:10px;font-weight: bold;color:#4e4e4e;}
+.it-erro .icon-val{display: block;}
+#errorMessageContainer{background:url(../img/linkErro.png)no-repeat;padding-left:25px;margin-top:8px;margin-bottom:8px;height:15px;padding-top:5px;color:#00adef;}
+#errorMessageContainer #errorMessage{color:#00adef;}
+.meusPedidos.exclamBox{width:940px;}
+.meusPedidos.exclamBox .att2{width:35px;height:28px;float:Left;background-position:0px -655px;margin-top:10px;margin-right:5px;}
+.meusPedidos.exclamBox p{font-size:1.2em;}
+.cumpliment{font-size:14px;font-weight: normal;display: block;margin-top:15px;font-family: arial;}
+.changePasswordInvite{font-size:12px;color:#666;padding-top:5px;display: block;}
+.titleStats{font-size:16px;font-weight: bold;clear:left;padding-top: 20px;padding-bottom: 20px;}
+.btnNew{background-color:#00aff2;font-size:16px;height:38px;border-bottom:2px solid #0095ce;padding:8px 32px;color:#fff;text-decoration: none;}
+
+.popUp .box04{padding-left:35px;}
+.popUp .box04 .lForm{padding-top:10px;}
+#passwordRecoveryForm #newPassword{float: left;}
+.messageSuc .title6{color:#666;font-size:1.5em;font-weight: normal;}
+.messageSuc .title6 p{display: block;margin:0px;}
+.msgName{font-size:1.5em;}
+.msgNewEmail{font-size:1em;margin-top:25px;color:#666;margin-bottom: 20px;}
+.infoMsgNewEmail{font-weight: normal;color:#333;font-size:1.2em;margin-bottom: 10px;font-weight: bold;}
+
+
+.contentFinance .login{width:850px;}
+.contentFinance .titleClient.textTit,#loginForm .titleClient.textTit{width:350px;overflow: hidden;}
+#registerFormPanel .titleClient{width:350px;overflow: hidden;height:38px;}
+#registerFormPanel .btnCadast{background-position: -187px -948px;width:176px;}
+.contentFinance #loginForm .mail,.contentFinance #loginForm .pasw {width:289px;height:20px;}
+.contentFinance .login .client{margin:0px;margin-left:35px;}
+.contentFinance .login .box01{width:362px;}
+.contentFinance #registerFormPanel{padding-left:23px;border-color:#bcbec0;height:220px;}
+.contentFinance .login .box01{height:200px;}
+.banner01{clear:left;padding-top:50px;}
+
+.changePass .senha .tTipBox{display: none;position: absolute;width: 242px;z-index: 100;top: 43px;left: 268px;}
+.changePass .confPass .tTipBox{display: none;position: absolute;width: 242px;z-index: 100;top: 99px;left: 268px;}
+#successRecoveryPassword{padding-left:15px;}
+#customerNickName{color:#333;}
+
+.changePass .senha.toolTip .tTipBox,.changePass .confPass.toolTip .tTipBox{display: block;}
+.confPass{margin-top:10px;}
+.tit-page{font-size:2.9em;font-weight: normal;margin:20px 15px 10px 15px;}
+.loginCrm .loginCk{width:auto;}
+.loginCrm .loginCk .boxCrm li{list-style-type: none;}
+.loginCrm .loginCk .box01 .btnCadast{margin-top:25px;}
+.login.loginCrm .nonclient .boxCrm{padding:13px 0 30px 20px;}
+.bxChangeEmailPass a{color:#00adef;}
+.login .userInfo .lbl{width:300px;}
+.header {padding:0!important;}
+
+
+/* Salvar Cartão */
+
+.titleHeader{border-bottom:1px solid #f2f2f2;font-weight: normal;font-size:21px;padding:5px 0px;color:#333;}
+.titleHeader1Click{margin-left: 10px;}
+.saveCardAddress{padding:15px 10px;}
+.saveCardAddress .ico{float:left;}
+.saveCardAddress .topBox03 h4{padding-top:5px; display: inline-block;}
+.saveCardAddress #generalMessageInfo{color:#00cf00;}
+.boxCardAddress{width:370px;padding-right:25px;background:url(../img/div4.png) no-repeat right center;float:left;margin-bottom: 15px;clear:left;margin-top:15px;}
+.boxCard{width:370px;padding-left:20px;float:left;margin-bottom: 15px;margin-top:15px;}
+.btNewRegister{background-position: -120px -900px;width:115px;height:22px;border:0px;}
+.saveCardAddress .btNewRegister{float:right;margin-top: 2px;}
+.saveCardAddress .boxCard .topBox03 h4{margin-bottom: 0px;}
+.saveCardAddress .boxCard .infoCard{color:#6e6e70;font-size: 12px;clear:left;display: block;padding-left:44px;margin-bottom: 16px;}
+.saveCardAddress .boxCard .topBox03{margin-bottom: 0px;}
+.saveCardAddress .listAddressCard li.itAddressCard{border:1px solid #949599;padding:15px;display: block;height:85px;margin-bottom: 15px;position: relative;}
+.saveCardAddress .listAddressCard .titList{height:36px;color:#6e6e70;font-size:16px;font-weight: bold;font-family: arial;float:left;}
+.saveCardAddress .listAddressCard .itemPrefer{font-size:11px;color:#6e6e70;clear:left;font-weight: normal;display: block;text-decoration: underline;}
+.saveCardAddress .listAddressCard .txtPrefer,.saveCardAddress .listAddressCard .txtPrefer a{color:#00adef;}
+.saveCardAddress .listAddressCard p{width:225px; float:left;font-size:12px;color:#333;clear:left;margin-bottom: 0px;}
+.saveCardAddress .boxCard .listAddressCard p{width:275px;margin-bottom:0px;margin-top:5px;}
+.saveCardAddress .listAddressCard .flagCard{float:right;background:url(../img/spriteFooter.png) no-repeat;display: inline-block;text-indent: -9999999px;position: absolute;bottom:6px;right:19px;}
+.saveCardAddress .listAddressCard .editItem{float:right;width:75px;}
+.saveCardAddress .listAddressCard .editItem li{float: left;}
+.saveCardAddress .listAddressCard .editItem li:last-child{border-left:1px solid #b8b8b8;padding-left:6px;float:right;}
+.saveCardAddress .listAddressCard .editItem li:first-child{padding-right:6px;border:0px;}
+.saveCardAddress .listAddressCard .editItem a{color:#999999;font-size:11px;text-decoration: underline;}
+.saveCardAddress .listAddressCard li.boxPrefer{border-color:#00adef;}
+.saveCardAddress .listAddressCard li.boxOverCard{border-color:#fc0000;}
+.saveCardAddress .statsOverCard{color:#fc0000;clear:left;font-weight: bold;display: block;}
+.saveCardAddress .statsOverCard a{text-decoration: underline;color:#fc0000;}
+.deliveryIssue{background:url(../img/spriteIconesCP.png) -25px -618px no-repeat;border:1px solid #00adef;background-color: #f1f1f1;padding:11px 42px;color:#666;}
+.deliveryIssue .strDeliveryIssue{font-weight: bold;color:#f00;}
+.saveCardAddress .listAddressCard li.boxPrefer .titList,.saveCardAddress .listAddressCard li.boxPrefer span{color:#00adef;}
+.saveCardAddress .listAddressCard .flagSuba{background-position: 2px 0px;width:42px;height:30px;}
+.saveCardAddress .listAddressCard .flagVisa{background-position: -113px -8px;width:59px;height:31px;}
+.saveCardAddress .listAddressCard .flagMaster{background-position: -173px -3px;width:45px;height:38px;}
+.saveCardAddress .listAddressCard .flagAmex{background-position: -223px -1px;width:42px;height:30px;}
+.saveCardAddress .listAddressCard .flagDiners{background-position: -273px -1px;width:40px;height:28px;}
+.saveCardAddress .listAddressCard .flagAura{background-position: -328px -1px;width:41px;height:28px;}
+.saveCardAddress .listAddressCard .flagHiperCard{background-position: -380px -1px;width:49px;height:28px;}
+.saveCardAddress .boxCard .infoBoxCard{padding-top:11px;clear:left;}
+.infoSaveCard{font-size:14px;margin-top:15px;margin-left:10px;}
+.sucSaveCard{color:#00cf00;}
+.icoSuc{background:url(../img/spriteIconesCP.png) no-repeat -45px -684px;width:20px;height: 20px;margin-right:10px;float:left;}
+.tipAlter{color:#6e6e70;font-size:13px;border:1px solid #949599;margin-top: 10px;padding:10px;clear:left;margin-left: 10px;margin-right: 23px;height:28px;line-height:26px;}
+.tipAlter .icotipAlter{background:url(../img/spriteIconesCP.png) no-repeat -85px -685px;width:32px;height:32px;float:left;margin-right:9px;}
+.tipAlter a{color:#00adef;text-decoration: underline;}
